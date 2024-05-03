@@ -2,12 +2,11 @@ package nure.abittour.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToMany;
 import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
 import lombok.AllArgsConstructor;
@@ -44,9 +43,11 @@ public class CompetitiveOffer {
 //    @JoinColumn(name = "speciality_id")
 //    private Speciality speciality;
 //
-//    @ManyToOne
-//    @JoinColumn(name = "year_of_enrolment_id")
-//    private YearOfEnrolment yearOfEnrolment;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "enrolled_course", nullable = false)
+    private EnrolledCourse enrolledCourse;
+
 //
 //    @ManyToOne
 //    @JoinColumn(name = "enrolment_base_id")
