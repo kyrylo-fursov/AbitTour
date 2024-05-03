@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abittour</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap">
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="header_nav">
+            <li>
+                <a href="index.html">Калькулятор</a>
+            </li>
+            <li>
+                <a href="card.html">Картка КП</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="form-container">
+        <h1>Розрахунок конкурсного балу</h1>
+
+        <form class="calc-form" id="calculatorForm">
+            <div class="form_line">
+                <label for="subj1">Бал ЗНО/НМТ 1:</label>
+                <div class="form_line_inputs">
+                    <input class="calc_num-input" type="number" id="subj1" name="subj1" required placeholder="150">
+                    <p>x</p>
+                    <input class="calc_num-input" type="number" id="subj1_coeff" name="subj1" step="0.1" min="0" max="1" required placeholder="0.5">
+                </div>
+            </div>
+
+            <div class="form_line">
+                <label for="subj2">Бал ЗНО/НМТ 2:</label>
+                <div class="form_line_inputs">
+                    <input class="calc_num-input" type="number" id="subj2" name="subj2" required placeholder="150">
+                    <p>x</p>
+                    <input class="calc_num-input" type="number" id="subj2_coeff" name="subj2" step="0.1" min="0" max="1" required placeholder="0.3">
+                </div>
+            </div>
+
+            <div class="form_line">
+                <label for="subj3">Бал ЗНО/НМТ 3:</label>
+                <div class="form_line_inputs">
+                    <input class="calc_num-input" type="number" id="subj3" name="subj3" required placeholder="150">
+                    <p>x</p>
+                    <input class="calc_num-input" type="number" id="subj3_coeff" name="subj3" step="0.1" min="0" max="1" required placeholder="0.2">
+                </div>
+            </div>
+
+            <div class="form_line">
+                <label for="subj4">Бал ЗНО/НМТ 4:</label>
+                <div class="form_line_inputs">
+                    <input class="calc_num-input" type="number" id="subj4" name="subj4" required placeholder="150">
+                    <p>x</p>
+                    <input class="calc_num-input" type="number" id="subj4_coeff" name="subj4" step="0.1" min="0" max="1" required  placeholder="0.1">
+                </div>
+            </div>
+
+            <div class="form_line">
+                <label for="creative">Бал за творчий конкурс:</label>
+                <div class="form_line_inputs">
+                    <input class="calc_num-input" type="number" id="creative" name="creative" required placeholder="150">
+                    <p>x</p>
+                    <input class="calc_num-input" type="number" id="creative_coeff" name="creative" step="0.1" min="0" max="1" required placeholder="0">
+                </div>
+            </div>
+
+            <div class="form_line">
+                <label for="efvv">Бал ЄФВВ:</label>
+                <div class="form_line_inputs">
+                    <input class="calc_num-input" type="number" id="efvv" name="efvv" required placeholder="150">
+                    <p>x</p>
+                    <input class="calc_num-input" type="number" id="efvv_coeff" name="efvv" step="0.1" min="0" max="1" required placeholder="0.1">
+                </div>
+            </div>
+
+            <div class="form_line">
+                <label for="regional">Регіональний коефіцієнт:</label>
+                <div class="form_line_inputs">
+                    <input class="calc_num-input" type="number" id="regional" name="regional" step="0.1" min="0" max="1" value="1.0" required>
+                </div>
+            </div>
+
+            <div class="form_line">
+                <label for="industry">Галузевий коефіцієнт:</label>
+                <div class="form_line_inputs">
+                    <input class="calc_num-input" type="number" id="industry" name="industry" step="0.1" min="0" max="1" value="1.0" required>
+                </div>
+            </div>
+
+            <div class="submit_container">
+                <button type="submit">Розрахувати</button>
+            </div>
+        </form>
+
+    </div>
+    <div class="score_calc_result" id="score_calc_result">
+    </div>
+
+</main>
+<footer>
+</footer>
+
+
+
+<script>
+    document.getElementById('calculatorForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const s1 = parseFloat(document.getElementById('subj1').value);
+        const s2 = parseFloat(document.getElementById('subj2').value);
+        const s3 = parseFloat(document.getElementById('subj3').value);
+        const s4 = parseFloat(document.getElementById('subj4').value);
+
+        const s1_c = parseFloat(document.getElementById('subj1_coeff').value);
+        const s2_c = parseFloat(document.getElementById('subj2_coeff').value);
+        const s3_c = parseFloat(document.getElementById('subj3_coeff').value);
+        const s4_c = parseFloat(document.getElementById('subj4_coeff').value);
+
+        const creative = parseFloat(document.getElementById('creative').value);
+        const creative_c = parseFloat(document.getElementById('creative_coeff').value);
+
+        const efvv = parseFloat(document.getElementById('efvv').value);
+        const efvv_c = parseFloat(document.getElementById('efvv_coeff').value);
+
+        const regional_c = parseFloat(document.getElementById('regional').value);
+        const industry_c = parseFloat(document.getElementById('industry').value);
+
+
+        const total = (s1_c*s1 + s2_c*s2 + s3_c*s3 + s4_c*s4 + creative*creative_c + efvv_c*efvv)
+            / (s1_c + s2_c + s3_c + s4_c + creative_c + efvv_c) * regional_c * industry_c;
+
+        let resultParagraph = document.createElement("p");
+        resultParagraph.innerHTML = 'Результат: ' + Math.min(total, 200).toFixed(2);
+        let resultContainer = document.getElementById('score_calc_result');
+        resultContainer.innerHTML = ''
+        resultContainer.appendChild(resultParagraph);
+    });
+</script>
+</body>
+</html>
