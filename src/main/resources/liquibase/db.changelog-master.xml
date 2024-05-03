@@ -3,4 +3,22 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <!--
+    <changeSet author="kyrylo" id="add-competitive_offer">
+        <createTable tableName="competitive_offer">
+            <column autoIncrement="true" name="id" type="INT">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="end_of_studies" type="date"/>
+            <column name="faculty" type="VARCHAR(255)"/>
+            <column name="licence_amount" type="INT"/>
+            <column name="offer_name" type="VARCHAR(255)"/>
+            <column name="price" type="INT"/>
+            <column name="program_name" type="VARCHAR(255)"/>
+            <column name="regional_coefficient" type="DOUBLE"/>
+            <column name="start_of_studies" type="date"/>
+        </createTable>
+    </changeSet>
+    -->
 </databaseChangeLog>
