@@ -25,9 +25,8 @@ public class UniversityController {
     }
 
     @PostMapping
-    public String saveUniversity(@RequestBody University university) {
-         universityService.saveUniversity(university);
-        return "POSTED";
+    public University saveUniversity(@RequestBody University university) {
+        return universityService.saveUniversity(university);
     }
 
     @DeleteMapping("/{id}")
