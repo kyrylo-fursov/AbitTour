@@ -4,73 +4,95 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
 import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
 import lombok.AllArgsConstructor;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
+import nure.abittour.model.enums.EducationalLevel;
+import nure.abittour.model.enums.EnrolledCourse;
+import nure.abittour.model.enums.EnrolmentBase;
+import nure.abittour.model.enums.FormOfEducation;
+import nure.abittour.model.enums.TypeOfOffer;
 
-import java.util.Date;
+import java.math.BigDecimal;
+import java.time.LocalDate;
 
-@Getter
-@Setter
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class CompetitiveOffer {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+public class CompetitiveOffer extends BaseEntity {
+    @Column(nullable = false)
+    String programName;
 
-    @Column(name = "offer_name")
-    private String offerName;
+    @Column(nullable = false)
+    Long offerCode;
 
-    @Column(name = "program_name")
-    private String programName;
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    EnrolmentBase enrolmentBase;
 
-    @Column(name = "faculty")
-    private String faculty;
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    EducationalLevel educationalLevel;
 
-//    @ManyToOne
-//    @JoinColumn(name = "form_of_education_id")
-//    private FormOfEducation formOfEducation;
-//
 //    @ManyToOne
 //    @JoinColumn(name = "speciality_id")
 //    private Speciality speciality;
-//
 
-    @Enumerated(EnumType.STRING)
-    @Column(name = "enrolled_course", nullable = false)
-    private EnrolledCourse enrolledCourse;
-
-//
-//    @ManyToOne
-//    @JoinColumn(name = "enrolment_base_id")
-//    private EnrolmentBase enrolmentBase;
-//
 //    @ManyToOne
 //    @JoinColumn(name = "university_id")
 //    private University university;
 
-    @Temporal(TemporalType.DATE)
-    @Column(name = "start_of_studies")
-    private Date startOfStudies;
+    @Column(nullable = false)
+    String faculty;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    TypeOfOffer typeOfOffer;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    FormOfEducation formOfEducation;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    EnrolledCourse enrolledCourse;
 
     @Temporal(TemporalType.DATE)
-    private Date endOfStudies;
+    @Column(nullable = false)
+    LocalDate startOfStudies;
 
-    private Integer licenceAmount;
+    @Temporal(TemporalType.DATE)
+    @Column(nullable = false)
+    LocalDate endOfStudies;
+
+    @Temporal(TemporalType.DATE)
+    @Column(nullable = false)
+    LocalDate startOfApplication;
+
+    @Temporal(TemporalType.DATE)
+    @Column(nullable = false)
+    LocalDate endOfApplication;
+
+    @Column(nullable = false)
+    Integer licenceAmount;
+
+    @Column(nullable = false)
+    Integer maxVolumeOfTheStateOrder;
+
+    @Column(nullable = false)
+    Integer priceForYear;
+
+    @Column(nullable = false)
+    Integer totalPrice;
+
+    @Column(nullable = false)
+    BigDecimal regionalCoefficient;
+
+    @Column(nullable = false)
+    BigDecimal domainCoefficient;
 
 //    @OneToMany(mappedBy = "competitiveOffer")
 //    private Set<SubjectOption> subjectOptions;
-
-    @Column(name = "regional_coefficient")
-    private Double regionalCoefficient;
-
-    private Integer price;
 }

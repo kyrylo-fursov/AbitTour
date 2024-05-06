@@ -1,4 +1,4 @@
-package nure.abittour.model;
+package nure.abittour.model.enums;
 
 public enum EnrolledCourse {
     COURSE_1,
