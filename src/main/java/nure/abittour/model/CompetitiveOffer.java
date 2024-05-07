@@ -1,9 +1,11 @@
 package nure.abittour.model;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
 import lombok.AllArgsConstructor;
@@ -16,6 +18,8 @@ import nure.abittour.model.enums.TypeOfOffer;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.HashSet;
+import java.util.Set;
 
 
 @NoArgsConstructor
@@ -93,6 +97,6 @@ public class CompetitiveOffer extends BaseEntity {
     @Column(nullable = false)
     BigDecimal domainCoefficient;
 
-//    @OneToMany(mappedBy = "competitiveOffer")
-//    private Set<SubjectOption> subjectOptions;
+    @OneToMany(mappedBy = "competitiveOffer", cascade = CascadeType.ALL)
+    private Set<ZnoSubjectOption> znoSubjectOptions;
 }
