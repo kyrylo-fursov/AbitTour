@@ -4,7 +4,7 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 
 @Entity
-public class Subject extends BaseEntity {
-    @Column(nullable = false, unique = true)
+public class Student extends BaseEntity {
+    @Column(nullable = false)
     String name;
 }

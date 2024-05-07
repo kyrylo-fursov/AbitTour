@@ -15,10 +15,8 @@ import nure.abittour.model.enums.EnrolledCourse;
 import nure.abittour.model.enums.EnrolmentBase;
 import nure.abittour.model.enums.FormOfEducation;
 import nure.abittour.model.enums.TypeOfOffer;
-
 import java.math.BigDecimal;
 import java.time.LocalDate;
-import java.util.HashSet;
 import java.util.Set;
 
 
@@ -98,5 +96,5 @@ public class CompetitiveOffer extends BaseEntity {
     BigDecimal domainCoefficient;
 
     @OneToMany(mappedBy = "competitiveOffer", cascade = CascadeType.ALL)
-    private Set<ZnoSubjectOption> znoSubjectOptions;
+    Set<ZnoSubjectOption> znoSubjectOptions;
 }
