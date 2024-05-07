@@ -6,10 +6,16 @@ import jakarta.persistence.FetchType;
 import jakarta.persistence.ManyToOne;
 
 @Entity
-public class ZnoSubjectOption extends BaseEntity {
-    @Column(nullable = false)
-    Double coefficient;
+public class ChosenSubject extends BaseEntity {
+    @ManyToOne(fetch = FetchType.LAZY)
+    Application application;
 
     @ManyToOne(fetch = FetchType.LAZY)
     Subject subject;
+
+    @Column(nullable = false)
+    Integer score;
+
+    @Column(nullable = false)
+    Double coefficient;
 }
