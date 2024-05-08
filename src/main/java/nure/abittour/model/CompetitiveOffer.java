@@ -12,8 +12,8 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.JoinColumn;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import nure.abittour.model.enums.EnrolledCourse;
-import nure.abittour.model.enums.TypeOfOffer;
+import nure.abittour.model.enums.*;
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.Set;
@@ -29,6 +29,14 @@ public class CompetitiveOffer extends BaseEntity {
     @Column(nullable = false)
     Long offerCode;
 
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    EnrolmentBase enrolmentBase;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    EducationalLevel educationalLevel;
+
     @ManyToOne
     @JoinColumn(name = "speciality_id")
     private Speciality speciality;
@@ -43,6 +51,10 @@ public class CompetitiveOffer extends BaseEntity {
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
     TypeOfOffer typeOfOffer;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    FormOfEducation formOfEducation;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
