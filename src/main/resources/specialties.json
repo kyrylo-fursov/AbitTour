@@ -1,1 +1,2062 @@
-[{"id":0,"competitionIdentifier":"Б01д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"012","name":"Дошкільна освіта"},{"id":1,"competitionIdentifier":"Б01д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"013","name":"Початкова освіта"},{"id":2,"competitionIdentifier":"Б02д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"014.01","name":"Середня освіта (Українська мова і література)"},{"id":3,"competitionIdentifier":"Б03д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"014.021","name":"Середня освіта. Мова та зарубіжна література (англійська мова та література)"},{"id":4,"competitionIdentifier":"Б04д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"014.022","name":"Середня освіта. Мова та зарубіжна література (німецька мова і література)"},{"id":5,"competitionIdentifier":"Б04д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"014.023","name":"Середня освіта. Мова та зарубіжна література (французька мова і література)"},{"id":6,"competitionIdentifier":"Б04д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"014.024","name":"Середня освіта. Мова та зарубіжна література (іспанська мова і література)"},{"id":7,"competitionIdentifier":"Б04д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"014.029","name":"Середня освіта. Мова та зарубіжна література (інші мови (із зазначенням мови) і література)"},{"id":8,"competitionIdentifier":"Б05д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"014.03","name":"Середня освіта (Історія)"},{"id":9,"competitionIdentifier":"Б06д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"014.04","name":"Середня освіта (Математика)"},{"id":10,"competitionIdentifier":"Б06д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"014.06","name":"Середня освіта (Хімія)"},{"id":11,"competitionIdentifier":"Б06д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"014.08","name":"Середня освіта (Фізика та астрономія)"},{"id":12,"competitionIdentifier":"Б06д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"014.09","name":"Середня освіта (Інформатика)"},{"id":13,"competitionIdentifier":"Б06д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"014.10","name":"Середня освіта (Трудове навчання та технології)"},{"id":14,"competitionIdentifier":"Б06д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"014.15","name":"Середня освіта (Природничі науки)"},{"id":15,"competitionIdentifier":"Б07д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"014.05","name":"Середня освіта (Біологія та здоров'я людини)"},{"id":16,"competitionIdentifier":"Б07д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"014.07","name":"Середня освіта (Географія)"},{"id":17,"competitionIdentifier":"Б09д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"014.12","name":"Середня освіта (Образотворче мистецтво)"},{"id":18,"competitionIdentifier":"Б09д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"014.13","name":"Середня освіта (Музичне мистецтво)"},{"id":19,"competitionIdentifier":"Б10д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"015.31","name":"Професійна освіта (Будівництво та зварювання)"},{"id":20,"competitionIdentifier":"Б10д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"015.32","name":"Професійна освіта (Електроніка, метрологія та радіотелекомунікації)"},{"id":21,"competitionIdentifier":"Б10д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"015.33","name":"Професійна освіта (Енергетика, електротехніка та електромеханіка)"},{"id":22,"competitionIdentifier":"Б10д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"015.34","name":"Професійна освіта (Машинобудування)"},{"id":23,"competitionIdentifier":"Б10д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"015.35","name":"Професійна освіта (Видобуток, переробка та транспортування корисних копалин)"},{"id":24,"competitionIdentifier":"Б10д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"015.36","name":"Професійна освіта (Технологія виробів легкої промисловості)"},{"id":25,"competitionIdentifier":"Б10д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"015.37","name":"Професійна освіта (Аграрне виробництво, переробка сільськогосподарської продукції та харчові технології)"},{"id":26,"competitionIdentifier":"Б10д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"015.38","name":"Професійна освіта (Транспорт)"},{"id":27,"competitionIdentifier":"Б11д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"015.39","name":"Професійна освіта (Цифрові технології)"},{"id":28,"competitionIdentifier":"Б12д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"016.01","name":"Спеціальна освіта (Логопедія)"},{"id":29,"competitionIdentifier":"Б13д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"027","name":"Музеєзнавство, пам'яткознавство"},{"id":30,"competitionIdentifier":"Б14д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"028","name":"Менеджмент соціокультурної діяльності"},{"id":31,"competitionIdentifier":"Б14д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"051","name":"Економіка"},{"id":32,"competitionIdentifier":"Б15д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"031","name":"Релігієзнавство"},{"id":33,"competitionIdentifier":"Б15д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"033","name":"Філософія"},{"id":34,"competitionIdentifier":"Б16д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"032","name":"Історія та археологія"},{"id":35,"competitionIdentifier":"Б16д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"034","name":"Культурологія"},{"id":36,"competitionIdentifier":"Б17д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"035.01","name":"Філологія (Українська мова та література)"},{"id":37,"competitionIdentifier":"Б18д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.02","name":"Філологія (Кримськотатарська мова та література)"},{"id":38,"competitionIdentifier":"Б19д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.031","name":"Філологія (Слов'янські мови та літератури (переклад включно), перша - білоруська)"},{"id":39,"competitionIdentifier":"Б19д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.034","name":"Філологія (Слов'янські мови та літератури (переклад включно), перша - російська)"},{"id":40,"competitionIdentifier":"Б20д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.033","name":"Філологія (Слов'янські мови та літератури (переклад включно), перша - польська)"},{"id":41,"competitionIdentifier":"Б21д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.036","name":"Філологія (Слов'янські мови та літератури (переклад включно), перша - словацька)"},{"id":42,"competitionIdentifier":"Б22д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.038","name":"Філологія (Слов'янські мови та літератури (переклад включно), перша - чеська)"},{"id":43,"competitionIdentifier":"Б24д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"035.041","name":"Філологія (Германські мови та літератури (переклад включно), перша - англійська)"},{"id":44,"competitionIdentifier":"Б25д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.043","name":"Філологія (Германські мови та літератури (переклад включно), перша - німецька)"},{"id":45,"competitionIdentifier":"Б25д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.044","name":"Філологія (Германські мови та літератури (переклад включно), перша - шведська)"},{"id":46,"competitionIdentifier":"Б25д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.051","name":"Філологія (Романські мови та літератури (переклад включно), перша - іспанська)"},{"id":47,"competitionIdentifier":"Б25д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.052","name":"Філологія (Романські мови та літератури (переклад включно), перша - італійська)"},{"id":48,"competitionIdentifier":"Б25д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.053","name":"Філологія (Романські мови та літератури (переклад включно), перша - португальська)"},{"id":49,"competitionIdentifier":"Б25д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.055","name":"Філологія (Романські мови та літератури (переклад включно), перша - французька)"},{"id":50,"competitionIdentifier":"Б25д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.065","name":"Філологія (Східні мови та літератури (переклад включно), перша - китайська)"},{"id":51,"competitionIdentifier":"Б25д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.066","name":"Філологія (Східні мови та літератури (переклад включно), перша - корейська)"},{"id":52,"competitionIdentifier":"Б25д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.068","name":"Філологія (Східні мови та літератури (переклад включно), перша - турецька)"},{"id":53,"competitionIdentifier":"Б25д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.069","name":"Філологія (Східні мови та літератури (переклад включно), перша - японська)"},{"id":54,"competitionIdentifier":"Б25д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.08","name":"Філологія (Класичні мови та літератури (переклад включно))"},{"id":55,"competitionIdentifier":"Б26д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.081","name":"Філологія (Новогрецька мова і література)"},{"id":56,"competitionIdentifier":"Б27д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"035.09","name":"Філологія (Фольклористика)"},{"id":57,"competitionIdentifier":"Б28д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"035.10","name":"Філологія (Прикладна лінгвістика)"},{"id":58,"competitionIdentifier":"Б29д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"052","name":"Політологія"},{"id":59,"competitionIdentifier":"Б30д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"053","name":"Психологія"},{"id":60,"competitionIdentifier":"Б31д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"054","name":"Соціологія"},{"id":61,"competitionIdentifier":"Б32д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"101","name":"Екологія"},{"id":62,"competitionIdentifier":"Б33д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"102","name":"Хімія"},{"id":63,"competitionIdentifier":"Б33д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"104","name":"Фізика та астрономія"},{"id":64,"competitionIdentifier":"Б33д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"105","name":"Прикладна фізика та наноматеріали"},{"id":65,"competitionIdentifier":"Б34д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"103","name":"Науки про Землю"},{"id":66,"competitionIdentifier":"Б35д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"106","name":"Географія"},{"id":67,"competitionIdentifier":"Б36д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"111","name":"Математика"},{"id":68,"competitionIdentifier":"Б36д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"112","name":"Статистика"},{"id":69,"competitionIdentifier":"Б37д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"113","name":"Прикладна математика"},{"id":70,"competitionIdentifier":"Б38д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"161","name":"Хімічні технології та інженерія"},{"id":71,"competitionIdentifier":"Б38д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"182","name":"Технології легкої промисловості"},{"id":72,"competitionIdentifier":"Б38д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"183","name":"Технології захисту навколишнього середовища"},{"id":73,"competitionIdentifier":"Б38д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"184","name":"Гірництво"},{"id":74,"competitionIdentifier":"Б38д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"185","name":"Нафтогазова інженерія та технології"},{"id":75,"competitionIdentifier":"Б38д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"187","name":"Деревообробні та меблеві технології"},{"id":76,"competitionIdentifier":"Б38д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"192","name":"Будівництво та цивільна інженерія"},{"id":77,"competitionIdentifier":"Б38д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"194","name":"Гідротехнічне будівництво, водна інженерія та водні технології"},{"id":78,"competitionIdentifier":"Б38д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"273","name":"Залізничний транспорт"},{"id":79,"competitionIdentifier":"Б38д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"275.02","name":"Транспортні технології (на залізничному транспорті)"},{"id":80,"competitionIdentifier":"Б39д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"162","name":"Біотехнології та біоінженерія"},{"id":81,"competitionIdentifier":"Б39д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"163","name":"Біомедична інженерія"},{"id":82,"competitionIdentifier":"Б41д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"181","name":"Харчові технології"},{"id":83,"competitionIdentifier":"Б42д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"186","name":"Видавництво та поліграфія"},{"id":84,"competitionIdentifier":"Б43д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"193","name":"Геодезія та землеустрій"},{"id":85,"competitionIdentifier":"Б45д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"223","name":"Медсестринство"},{"id":86,"competitionIdentifier":"Б45д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"224","name":"Технології медичної діагностики та лікування"},{"id":87,"competitionIdentifier":"Б45д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"227","name":"Терапія та реабілітація"},{"id":88,"competitionIdentifier":"Б45д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"229","name":"Громадське здоров'я"},{"id":89,"competitionIdentifier":"Б47д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"261","name":"Пожежна безпека"},{"id":90,"competitionIdentifier":"Б47д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"263","name":"Цивільна безпека"},{"id":91,"competitionIdentifier":"Б48д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"271.01","name":"Морський та внутрішній водний транспорт (Навігація і управління морськими суднами)"},{"id":92,"competitionIdentifier":"Б48д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"271.02","name":"Морський та внутрішній водний транспорт (Управління судновими технічними системами і комплексами)"},{"id":93,"competitionIdentifier":"Б48д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"271.04","name":"Морський та внутрішній водний транспорт (Судноводіння на внутрішніх водних шляхах)"},{"id":94,"competitionIdentifier":"Б48д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"275.01","name":"Транспортні технології (на морському та річковому транспорті)"},{"id":95,"competitionIdentifier":"Б49д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"271.03","name":"Морський та внутрішній водний транспорт (Експлуатація суднового електрообладнання і засобів автоматики)"},{"id":96,"competitionIdentifier":"Б50д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"274","name":"Автомобільний транспорт"},{"id":97,"competitionIdentifier":"Б50д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"275.03","name":"Транспортні технології (на автомобільному транспорті)"},{"id":98,"competitionIdentifier":"Б51д","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"272","name":"Авіаційний транспорт"},{"id":99,"competitionIdentifier":"БМ2д","degreeOfHigherEducation":"магістр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"221","name":"Стоматологія"},{"id":100,"competitionIdentifier":"БМ3д","degreeOfHigherEducation":"магістр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"222","name":"Медицина"},{"id":101,"competitionIdentifier":"БМ4д","degreeOfHigherEducation":"магістр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"225","name":"Медична психологія"},{"id":102,"competitionIdentifier":"БМ5д","degreeOfHigherEducation":"магістр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"денна","code":"226","name":"Фармація, промислова фармація"},{"id":103,"competitionIdentifier":"БМ6д","degreeOfHigherEducation":"магістр","basisOfAdmission":"ПЗСО","formOfEducation":"денна","code":"228","name":"Педіатрія"},{"id":104,"competitionIdentifier":"М1д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"051","name":"Економіка"},{"id":105,"competitionIdentifier":"М2д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"052","name":"Політологія"},{"id":106,"competitionIdentifier":"М3д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"053","name":"Психологія"},{"id":107,"competitionIdentifier":"М4д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"054","name":"Соціологія"},{"id":108,"competitionIdentifier":"М6д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"012","name":"Дошкільна освіта"},{"id":109,"competitionIdentifier":"М6д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"013","name":"Початкова освіта"},{"id":110,"competitionIdentifier":"М6д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"016.01","name":"Спеціальна освіта (Логопедія)"},{"id":111,"competitionIdentifier":"М7д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.01","name":"Середня освіта (Українська мова і література)"},{"id":112,"competitionIdentifier":"М7д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.021","name":"Середня освіта. Мова та зарубіжна література (англійська мова та література)"},{"id":113,"competitionIdentifier":"М7д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.022","name":"Середня освіта. Мова та зарубіжна література (німецька мова і література)"},{"id":114,"competitionIdentifier":"М7д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.023","name":"Середня освіта. Мова та зарубіжна література (французька мова і література)"},{"id":115,"competitionIdentifier":"М7д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.024","name":"Середня освіта. Мова та зарубіжна література (іспанська мова і література)"},{"id":116,"competitionIdentifier":"М7д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.029","name":"Середня освіта. Мова та зарубіжна література (інші мови (із зазначенням мови) і література)"},{"id":117,"competitionIdentifier":"М7д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.03","name":"Середня освіта (Історія)"},{"id":118,"competitionIdentifier":"М7д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.05","name":"Середня освіта (Біологія та здоров'я людини)"},{"id":119,"competitionIdentifier":"М7д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.07","name":"Середня освіта (Географія)"},{"id":120,"competitionIdentifier":"М7д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.12","name":"Середня освіта (Образотворче мистецтво)"},{"id":121,"competitionIdentifier":"М7д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.13","name":"Середня освіта (Музичне мистецтво)"},{"id":122,"competitionIdentifier":"М8д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.04","name":"Середня освіта (Математика)"},{"id":123,"competitionIdentifier":"М8д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.06","name":"Середня освіта (Хімія)"},{"id":124,"competitionIdentifier":"М8д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.08","name":"Середня освіта (Фізика та астрономія)"},{"id":125,"competitionIdentifier":"М8д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.09","name":"Середня освіта (Інформатика)"},{"id":126,"competitionIdentifier":"М8д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.10","name":"Середня освіта (Трудове навчання та технології)"},{"id":127,"competitionIdentifier":"М8д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.11","name":"Середня освіта (Фізична культура)"},{"id":128,"competitionIdentifier":"М8д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.15","name":"Середня освіта (Природничі науки)"},{"id":129,"competitionIdentifier":"М8д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"014.16","name":"Середня освіта (Захист України)"},{"id":130,"competitionIdentifier":"М8д","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"денна","code":"015","name":"Професійна освіта"},{"id":131,"competitionIdentifier":"Б01з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"012","name":"Дошкільна освіта"},{"id":132,"competitionIdentifier":"Б01з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"013","name":"Початкова освіта"},{"id":133,"competitionIdentifier":"Б02з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"014.01","name":"Середня освіта (Українська мова і література)"},{"id":134,"competitionIdentifier":"Б03з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"014.021","name":"Середня освіта. Мова та зарубіжна література (англійська мова та література)"},{"id":135,"competitionIdentifier":"Б04з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"014.022","name":"Середня освіта. Мова та зарубіжна література (німецька мова і література)"},{"id":136,"competitionIdentifier":"Б04з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"014.023","name":"Середня освіта. Мова та зарубіжна література (французька мова і література)"},{"id":137,"competitionIdentifier":"Б04з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"014.024","name":"Середня освіта. Мова та зарубіжна література (іспанська мова і література)"},{"id":138,"competitionIdentifier":"Б04з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"014.029","name":"Середня освіта. Мова та зарубіжна література (інші мови (із зазначенням мови) і література)"},{"id":139,"competitionIdentifier":"Б05з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"014.03","name":"Середня освіта (Історія)"},{"id":140,"competitionIdentifier":"Б06з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"014.04","name":"Середня освіта (Математика)"},{"id":141,"competitionIdentifier":"Б06з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"014.06","name":"Середня освіта (Хімія)"},{"id":142,"competitionIdentifier":"Б06з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"014.08","name":"Середня освіта (Фізика та астрономія)"},{"id":143,"competitionIdentifier":"Б06з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"014.09","name":"Середня освіта (Інформатика)"},{"id":144,"competitionIdentifier":"Б06з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"014.10","name":"Середня освіта (Трудове навчання та технології)"},{"id":145,"competitionIdentifier":"Б06з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"014.15","name":"Середня освіта (Природничі науки)"},{"id":146,"competitionIdentifier":"Б07з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"014.05","name":"Середня освіта (Біологія та здоров'я людини)"},{"id":147,"competitionIdentifier":"Б07з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"014.07","name":"Середня освіта (Географія)"},{"id":148,"competitionIdentifier":"Б08з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"014.11","name":"Середня освіта (Фізична культура)"},{"id":149,"competitionIdentifier":"Б08з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"014.16","name":"Середня освіта (Захист України)"},{"id":150,"competitionIdentifier":"Б09з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"014.12","name":"Середня освіта (Образотворче мистецтво)"},{"id":151,"competitionIdentifier":"Б09з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"014.13","name":"Середня освіта (Музичне мистецтво)"},{"id":152,"competitionIdentifier":"Б10з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"015.31","name":"Професійна освіта (Будівництво та зварювання)"},{"id":153,"competitionIdentifier":"Б10з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"015.32","name":"Професійна освіта (Електроніка, метрологія та радіотелекомунікації)"},{"id":154,"competitionIdentifier":"Б10з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"015.33","name":"Професійна освіта (Енергетика, електротехніка та електромеханіка)"},{"id":155,"competitionIdentifier":"Б10з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"015.34","name":"Професійна освіта (Машинобудування)"},{"id":156,"competitionIdentifier":"Б10з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"015.35","name":"Професійна освіта (Видобуток, переробка та транспортування корисних копалин)"},{"id":157,"competitionIdentifier":"Б10з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"015.36","name":"Професійна освіта (Технологія виробів легкої промисловості)"},{"id":158,"competitionIdentifier":"Б10з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"015.37","name":"Професійна освіта (Аграрне виробництво, переробка сільськогосподарської продукції та харчові технології)"},{"id":159,"competitionIdentifier":"Б10з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"015.38","name":"Професійна освіта (Транспорт)"},{"id":160,"competitionIdentifier":"Б11з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"015.39","name":"Професійна освіта (Цифрові технології)"},{"id":161,"competitionIdentifier":"Б12з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"016.01","name":"Спеціальна освіта (Логопедія)"},{"id":162,"competitionIdentifier":"Б17з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"035.01","name":"Філологія (Українська мова та література)"},{"id":163,"competitionIdentifier":"Б18з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.02","name":"Філологія (Кримськотатарська мова та література)"},{"id":164,"competitionIdentifier":"Б19з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.031","name":"Філологія (Слов'янські мови та літератури (переклад включно), перша - білоруська)"},{"id":165,"competitionIdentifier":"Б19з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.034","name":"Філологія (Слов'янські мови та літератури (переклад включно), перша - російська)"},{"id":166,"competitionIdentifier":"Б21з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.036","name":"Філологія (Слов'янські мови та літератури (переклад включно), перша - словацька)"},{"id":167,"competitionIdentifier":"Б22з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.038","name":"Філологія (Слов'янські мови та літератури (переклад включно), перша - чеська)"},{"id":168,"competitionIdentifier":"Б24з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"035.041","name":"Філологія (Германські мови та літератури (переклад включно), перша - англійська)"},{"id":169,"competitionIdentifier":"Б25з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.043","name":"Філологія (Германські мови та літератури (переклад включно), перша - німецька)"},{"id":170,"competitionIdentifier":"Б25з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.044","name":"Філологія (Германські мови та літератури (переклад включно), перша - шведська)"},{"id":171,"competitionIdentifier":"Б25з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.051","name":"Філологія (Романські мови та літератури (переклад включно), перша - іспанська)"},{"id":172,"competitionIdentifier":"Б25з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.052","name":"Філологія (Романські мови та літератури (переклад включно), перша - італійська)"},{"id":173,"competitionIdentifier":"Б25з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.053","name":"Філологія (Романські мови та літератури (переклад включно), перша - португальська)"},{"id":174,"competitionIdentifier":"Б25з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.055","name":"Філологія (Романські мови та літератури (переклад включно), перша - французька)"},{"id":175,"competitionIdentifier":"Б25з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.065","name":"Філологія (Східні мови та літератури (переклад включно), перша - китайська)"},{"id":176,"competitionIdentifier":"Б25з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.066","name":"Філологія (Східні мови та літератури (переклад включно), перша - корейська)"},{"id":177,"competitionIdentifier":"Б25з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.068","name":"Філологія (Східні мови та літератури (переклад включно), перша - турецька)"},{"id":178,"competitionIdentifier":"Б25з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.069","name":"Філологія (Східні мови та літератури (переклад включно), перша - японська)"},{"id":179,"competitionIdentifier":"Б25з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.08","name":"Філологія (Класичні мови та літератури (переклад включно))"},{"id":180,"competitionIdentifier":"Б26з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.081","name":"Філологія (Новогрецька мова і література)"},{"id":181,"competitionIdentifier":"Б28з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО","formOfEducation":"заочна","code":"035.10","name":"Філологія (Прикладна лінгвістика)"},{"id":182,"competitionIdentifier":"Б34з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"103","name":"Науки про Землю"},{"id":183,"competitionIdentifier":"Б37з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"113","name":"Прикладна математика"},{"id":184,"competitionIdentifier":"Б38з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"161","name":"Хімічні технології та інженерія"},{"id":185,"competitionIdentifier":"Б38з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"182","name":"Технології легкої промисловості"},{"id":186,"competitionIdentifier":"Б38з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"183","name":"Технології захисту навколишнього середовища"},{"id":187,"competitionIdentifier":"Б38з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"184","name":"Гірництво"},{"id":188,"competitionIdentifier":"Б38з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"185","name":"Нафтогазова інженерія та технології"},{"id":189,"competitionIdentifier":"Б38з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"187","name":"Деревообробні та меблеві технології"},{"id":190,"competitionIdentifier":"Б38з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"192","name":"Будівництво та цивільна інженерія"},{"id":191,"competitionIdentifier":"Б38з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"194","name":"Гідротехнічне будівництво, водна інженерія та водні технології"},{"id":192,"competitionIdentifier":"Б38з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"273","name":"Залізничний транспорт"},{"id":193,"competitionIdentifier":"Б38з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"275.02","name":"Транспортні технології (на залізничному транспорті)"},{"id":194,"competitionIdentifier":"Б41з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"181","name":"Харчові технології"},{"id":195,"competitionIdentifier":"Б42з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"186","name":"Видавництво та поліграфія"},{"id":196,"competitionIdentifier":"Б43з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"193","name":"Геодезія та землеустрій"},{"id":197,"competitionIdentifier":"Б48з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"271.01","name":"Морський та внутрішній водний транспорт (Навігація і управління морськими суднами)"},{"id":198,"competitionIdentifier":"Б48з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"271.02","name":"Морський та внутрішній водний транспорт (Управління судновими технічними системами і комплексами)"},{"id":199,"competitionIdentifier":"Б48з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"271.04","name":"Морський та внутрішній водний транспорт (Судноводіння на внутрішніх водних шляхах)"},{"id":200,"competitionIdentifier":"Б48з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"275.01","name":"Транспортні технології (на морському та річковому транспорті)"},{"id":201,"competitionIdentifier":"Б49з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"271.03","name":"Морський та внутрішній водний транспорт (Експлуатація суднового електрообладнання і засобів автоматики)"},{"id":202,"competitionIdentifier":"Б50з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"274","name":"Автомобільний транспорт"},{"id":203,"competitionIdentifier":"Б50з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"275.03","name":"Транспортні технології (на автомобільному транспорті)"},{"id":204,"competitionIdentifier":"Б51з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"272","name":"Авіаційний транспорт"},{"id":205,"competitionIdentifier":"Б51з","degreeOfHigherEducation":"бакалавр","basisOfAdmission":"ПЗСО, НРК5","formOfEducation":"заочна","code":"275.04","name":"Транспортні технології (на повітряному транспорті)"},{"id":206,"competitionIdentifier":"М6з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"012","name":"Дошкільна освіта"},{"id":207,"competitionIdentifier":"М6з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"013","name":"Початкова освіта"},{"id":208,"competitionIdentifier":"М6з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"016.01","name":"Спеціальна освіта (Логопедія)"},{"id":209,"competitionIdentifier":"М7з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.01","name":"Середня освіта (Українська мова і література)"},{"id":210,"competitionIdentifier":"М7з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.021","name":"Середня освіта. Мова та зарубіжна література (англійська мова та література)"},{"id":211,"competitionIdentifier":"М7з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.022","name":"Середня освіта. Мова та зарубіжна література (німецька мова і література)"},{"id":212,"competitionIdentifier":"М7з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.023","name":"Середня освіта. Мова та зарубіжна література (французька мова і література)"},{"id":213,"competitionIdentifier":"М7з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.024","name":"Середня освіта. Мова та зарубіжна література (іспанська мова і література)"},{"id":214,"competitionIdentifier":"М7з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.029","name":"Середня освіта. Мова та зарубіжна література (інші мови (із зазначенням мови) і література)"},{"id":215,"competitionIdentifier":"М7з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.03","name":"Середня освіта (Історія)"},{"id":216,"competitionIdentifier":"М7з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.05","name":"Середня освіта (Біологія та здоров'я людини)"},{"id":217,"competitionIdentifier":"М7з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.07","name":"Середня освіта (Географія)"},{"id":218,"competitionIdentifier":"М7з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.12","name":"Середня освіта (Образотворче мистецтво)"},{"id":219,"competitionIdentifier":"М7з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.13","name":"Середня освіта (Музичне мистецтво)"},{"id":220,"competitionIdentifier":"М8з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.04","name":"Середня освіта (Математика)"},{"id":221,"competitionIdentifier":"М8з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.06","name":"Середня освіта (Хімія)"},{"id":222,"competitionIdentifier":"М8з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.08","name":"Середня освіта (Фізика та астрономія)"},{"id":223,"competitionIdentifier":"М8з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.09","name":"Середня освіта (Інформатика)"},{"id":224,"competitionIdentifier":"М8з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.10","name":"Середня освіта (Трудове навчання та технології)"},{"id":225,"competitionIdentifier":"М8з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.11","name":"Середня освіта (Фізична культура)"},{"id":226,"competitionIdentifier":"М8з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.15","name":"Середня освіта (Природничі науки)"},{"id":227,"competitionIdentifier":"М8з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"014.16","name":"Середня освіта (Захист України)"},{"id":228,"competitionIdentifier":"М8з","degreeOfHigherEducation":"магістр","basisOfAdmission":"НРК6","formOfEducation":"заочна","code":"015","name":"Професійна освіта"}]
+[ {
+  "id" : 0,
+  "competitionIdentifier" : "Б01д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "012",
+  "name" : "Дошкільна освіта",
+  "specialization" : ""
+}, {
+  "id" : 1,
+  "competitionIdentifier" : "Б01д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "013",
+  "name" : "Початкова освіта",
+  "specialization" : ""
+}, {
+  "id" : 2,
+  "competitionIdentifier" : "Б02д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "014.01",
+  "name" : "Середня освіта",
+  "specialization" : "Українська мова і література"
+}, {
+  "id" : 3,
+  "competitionIdentifier" : "Б03д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "014.021",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "англійська мова та література"
+}, {
+  "id" : 4,
+  "competitionIdentifier" : "Б04д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "014.022",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "німецька мова і література"
+}, {
+  "id" : 5,
+  "competitionIdentifier" : "Б04д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "014.023",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "французька мова і література"
+}, {
+  "id" : 6,
+  "competitionIdentifier" : "Б04д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "014.024",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "іспанська мова і література"
+}, {
+  "id" : 7,
+  "competitionIdentifier" : "Б04д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "014.029",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "інші мови"
+}, {
+  "id" : 8,
+  "competitionIdentifier" : "Б05д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "014.03",
+  "name" : "Середня освіта",
+  "specialization" : "Історія"
+}, {
+  "id" : 9,
+  "competitionIdentifier" : "Б06д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "014.04",
+  "name" : "Середня освіта",
+  "specialization" : "Математика"
+}, {
+  "id" : 10,
+  "competitionIdentifier" : "Б06д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "014.06",
+  "name" : "Середня освіта",
+  "specialization" : "Хімія"
+}, {
+  "id" : 11,
+  "competitionIdentifier" : "Б06д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "014.08",
+  "name" : "Середня освіта",
+  "specialization" : "Фізика та астрономія"
+}, {
+  "id" : 12,
+  "competitionIdentifier" : "Б06д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "014.09",
+  "name" : "Середня освіта",
+  "specialization" : "Інформатика"
+}, {
+  "id" : 13,
+  "competitionIdentifier" : "Б06д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "014.10",
+  "name" : "Середня освіта",
+  "specialization" : "Трудове навчання та технології"
+}, {
+  "id" : 14,
+  "competitionIdentifier" : "Б06д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "014.15",
+  "name" : "Середня освіта",
+  "specialization" : "Природничі науки"
+}, {
+  "id" : 15,
+  "competitionIdentifier" : "Б07д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "014.05",
+  "name" : "Середня освіта",
+  "specialization" : "Біологія та здоров'я людини"
+}, {
+  "id" : 16,
+  "competitionIdentifier" : "Б07д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "014.07",
+  "name" : "Середня освіта",
+  "specialization" : "Географія"
+}, {
+  "id" : 17,
+  "competitionIdentifier" : "Б09д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "014.12",
+  "name" : "Середня освіта",
+  "specialization" : "Образотворче мистецтво"
+}, {
+  "id" : 18,
+  "competitionIdentifier" : "Б09д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "014.13",
+  "name" : "Середня освіта",
+  "specialization" : "Музичне мистецтво"
+}, {
+  "id" : 19,
+  "competitionIdentifier" : "Б10д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "015.31",
+  "name" : "Професійна освіта",
+  "specialization" : "Будівництво та зварювання"
+}, {
+  "id" : 20,
+  "competitionIdentifier" : "Б10д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "015.32",
+  "name" : "Професійна освіта",
+  "specialization" : "Електроніка, метрологія та радіотелекомунікації"
+}, {
+  "id" : 21,
+  "competitionIdentifier" : "Б10д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "015.33",
+  "name" : "Професійна освіта",
+  "specialization" : "Енергетика, електротехніка та електромеханіка"
+}, {
+  "id" : 22,
+  "competitionIdentifier" : "Б10д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "015.34",
+  "name" : "Професійна освіта",
+  "specialization" : "Машинобудування"
+}, {
+  "id" : 23,
+  "competitionIdentifier" : "Б10д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "015.35",
+  "name" : "Професійна освіта",
+  "specialization" : "Видобуток, переробка та транспортування корисних копалин"
+}, {
+  "id" : 24,
+  "competitionIdentifier" : "Б10д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "015.36",
+  "name" : "Професійна освіта",
+  "specialization" : "Технологія виробів легкої промисловості"
+}, {
+  "id" : 25,
+  "competitionIdentifier" : "Б10д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "015.37",
+  "name" : "Професійна освіта",
+  "specialization" : "Аграрне виробництво, переробка сільськогосподарської продукції та харчові технології"
+}, {
+  "id" : 26,
+  "competitionIdentifier" : "Б10д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "015.38",
+  "name" : "Професійна освіта",
+  "specialization" : "Транспорт"
+}, {
+  "id" : 27,
+  "competitionIdentifier" : "Б11д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "015.39",
+  "name" : "Професійна освіта",
+  "specialization" : "Цифрові технології"
+}, {
+  "id" : 28,
+  "competitionIdentifier" : "Б12д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "016.01",
+  "name" : "Спеціальна освіта",
+  "specialization" : "Логопедія"
+}, {
+  "id" : 29,
+  "competitionIdentifier" : "Б13д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "027",
+  "name" : "Музеєзнавство, пам'яткознавство",
+  "specialization" : ""
+}, {
+  "id" : 30,
+  "competitionIdentifier" : "Б14д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "028",
+  "name" : "Менеджмент соціокультурної діяльності",
+  "specialization" : ""
+}, {
+  "id" : 31,
+  "competitionIdentifier" : "Б14д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "051",
+  "name" : "Економіка",
+  "specialization" : ""
+}, {
+  "id" : 32,
+  "competitionIdentifier" : "Б15д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "031",
+  "name" : "Релігієзнавство",
+  "specialization" : ""
+}, {
+  "id" : 33,
+  "competitionIdentifier" : "Б15д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "033",
+  "name" : "Філософія",
+  "specialization" : ""
+}, {
+  "id" : 34,
+  "competitionIdentifier" : "Б16д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "032",
+  "name" : "Історія та археологія",
+  "specialization" : ""
+}, {
+  "id" : 35,
+  "competitionIdentifier" : "Б16д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "034",
+  "name" : "Культурологія",
+  "specialization" : ""
+}, {
+  "id" : 36,
+  "competitionIdentifier" : "Б17д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "035.01",
+  "name" : "Філологія",
+  "specialization" : "Українська мова та література"
+}, {
+  "id" : 37,
+  "competitionIdentifier" : "Б18д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.02",
+  "name" : "Філологія",
+  "specialization" : "Кримськотатарська мова та література"
+}, {
+  "id" : 38,
+  "competitionIdentifier" : "Б19д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.031",
+  "name" : "Філологія",
+  "specialization" : "Слов'янські мови та літератури"
+}, {
+  "id" : 39,
+  "competitionIdentifier" : "Б19д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.034",
+  "name" : "Філологія",
+  "specialization" : "Слов'янські мови та літератури"
+}, {
+  "id" : 40,
+  "competitionIdentifier" : "Б20д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.033",
+  "name" : "Філологія",
+  "specialization" : "Слов'янські мови та літератури"
+}, {
+  "id" : 41,
+  "competitionIdentifier" : "Б21д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.036",
+  "name" : "Філологія",
+  "specialization" : "Слов'янські мови та літератури"
+}, {
+  "id" : 42,
+  "competitionIdentifier" : "Б22д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.038",
+  "name" : "Філологія",
+  "specialization" : "Слов'янські мови та літератури"
+}, {
+  "id" : 43,
+  "competitionIdentifier" : "Б24д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "035.041",
+  "name" : "Філологія",
+  "specialization" : "Германські мови та літератури"
+}, {
+  "id" : 44,
+  "competitionIdentifier" : "Б25д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.043",
+  "name" : "Філологія",
+  "specialization" : "Германські мови та літератури"
+}, {
+  "id" : 45,
+  "competitionIdentifier" : "Б25д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.044",
+  "name" : "Філологія",
+  "specialization" : "Германські мови та літератури"
+}, {
+  "id" : 46,
+  "competitionIdentifier" : "Б25д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.051",
+  "name" : "Філологія",
+  "specialization" : "Романські мови та літератури"
+}, {
+  "id" : 47,
+  "competitionIdentifier" : "Б25д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.052",
+  "name" : "Філологія",
+  "specialization" : "Романські мови та літератури"
+}, {
+  "id" : 48,
+  "competitionIdentifier" : "Б25д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.053",
+  "name" : "Філологія",
+  "specialization" : "Романські мови та літератури"
+}, {
+  "id" : 49,
+  "competitionIdentifier" : "Б25д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.055",
+  "name" : "Філологія",
+  "specialization" : "Романські мови та літератури"
+}, {
+  "id" : 50,
+  "competitionIdentifier" : "Б25д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.065",
+  "name" : "Філологія",
+  "specialization" : "Східні мови та літератури"
+}, {
+  "id" : 51,
+  "competitionIdentifier" : "Б25д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.066",
+  "name" : "Філологія",
+  "specialization" : "Східні мови та літератури"
+}, {
+  "id" : 52,
+  "competitionIdentifier" : "Б25д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.068",
+  "name" : "Філологія",
+  "specialization" : "Східні мови та літератури"
+}, {
+  "id" : 53,
+  "competitionIdentifier" : "Б25д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.069",
+  "name" : "Філологія",
+  "specialization" : "Східні мови та літератури"
+}, {
+  "id" : 54,
+  "competitionIdentifier" : "Б25д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.08",
+  "name" : "Філологія",
+  "specialization" : "Класичні мови та літератури"
+}, {
+  "id" : 55,
+  "competitionIdentifier" : "Б26д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.081",
+  "name" : "Філологія",
+  "specialization" : "Новогрецька мова і література"
+}, {
+  "id" : 56,
+  "competitionIdentifier" : "Б27д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "035.09",
+  "name" : "Філологія",
+  "specialization" : "Фольклористика"
+}, {
+  "id" : 57,
+  "competitionIdentifier" : "Б28д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "035.10",
+  "name" : "Філологія",
+  "specialization" : "Прикладна лінгвістика"
+}, {
+  "id" : 58,
+  "competitionIdentifier" : "Б29д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "052",
+  "name" : "Політологія",
+  "specialization" : ""
+}, {
+  "id" : 59,
+  "competitionIdentifier" : "Б30д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "053",
+  "name" : "Психологія",
+  "specialization" : ""
+}, {
+  "id" : 60,
+  "competitionIdentifier" : "Б31д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "054",
+  "name" : "Соціологія",
+  "specialization" : ""
+}, {
+  "id" : 61,
+  "competitionIdentifier" : "Б32д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "101",
+  "name" : "Екологія",
+  "specialization" : ""
+}, {
+  "id" : 62,
+  "competitionIdentifier" : "Б33д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "102",
+  "name" : "Хімія",
+  "specialization" : ""
+}, {
+  "id" : 63,
+  "competitionIdentifier" : "Б33д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "104",
+  "name" : "Фізика та астрономія",
+  "specialization" : ""
+}, {
+  "id" : 64,
+  "competitionIdentifier" : "Б33д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "105",
+  "name" : "Прикладна фізика та наноматеріали",
+  "specialization" : ""
+}, {
+  "id" : 65,
+  "competitionIdentifier" : "Б34д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "103",
+  "name" : "Науки про Землю",
+  "specialization" : ""
+}, {
+  "id" : 66,
+  "competitionIdentifier" : "Б35д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "106",
+  "name" : "Географія",
+  "specialization" : ""
+}, {
+  "id" : 67,
+  "competitionIdentifier" : "Б36д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "111",
+  "name" : "Математика",
+  "specialization" : ""
+}, {
+  "id" : 68,
+  "competitionIdentifier" : "Б36д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "112",
+  "name" : "Статистика",
+  "specialization" : ""
+}, {
+  "id" : 69,
+  "competitionIdentifier" : "Б37д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "113",
+  "name" : "Прикладна математика",
+  "specialization" : ""
+}, {
+  "id" : 70,
+  "competitionIdentifier" : "Б38д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "161",
+  "name" : "Хімічні технології та інженерія",
+  "specialization" : ""
+}, {
+  "id" : 71,
+  "competitionIdentifier" : "Б38д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "182",
+  "name" : "Технології легкої промисловості",
+  "specialization" : ""
+}, {
+  "id" : 72,
+  "competitionIdentifier" : "Б38д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "183",
+  "name" : "Технології захисту навколишнього середовища",
+  "specialization" : ""
+}, {
+  "id" : 73,
+  "competitionIdentifier" : "Б38д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "184",
+  "name" : "Гірництво",
+  "specialization" : ""
+}, {
+  "id" : 74,
+  "competitionIdentifier" : "Б38д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "185",
+  "name" : "Нафтогазова інженерія та технології",
+  "specialization" : ""
+}, {
+  "id" : 75,
+  "competitionIdentifier" : "Б38д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "187",
+  "name" : "Деревообробні та меблеві технології",
+  "specialization" : ""
+}, {
+  "id" : 76,
+  "competitionIdentifier" : "Б38д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "192",
+  "name" : "Будівництво та цивільна інженерія",
+  "specialization" : ""
+}, {
+  "id" : 77,
+  "competitionIdentifier" : "Б38д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "194",
+  "name" : "Гідротехнічне будівництво, водна інженерія та водні технології",
+  "specialization" : ""
+}, {
+  "id" : 78,
+  "competitionIdentifier" : "Б38д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "273",
+  "name" : "Залізничний транспорт",
+  "specialization" : ""
+}, {
+  "id" : 79,
+  "competitionIdentifier" : "Б38д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "275.02",
+  "name" : "Транспортні технології",
+  "specialization" : "на залізничному транспорті"
+}, {
+  "id" : 80,
+  "competitionIdentifier" : "Б39д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "162",
+  "name" : "Біотехнології та біоінженерія",
+  "specialization" : ""
+}, {
+  "id" : 81,
+  "competitionIdentifier" : "Б39д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "163",
+  "name" : "Біомедична інженерія",
+  "specialization" : ""
+}, {
+  "id" : 82,
+  "competitionIdentifier" : "Б41д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "181",
+  "name" : "Харчові технології",
+  "specialization" : ""
+}, {
+  "id" : 83,
+  "competitionIdentifier" : "Б42д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "186",
+  "name" : "Видавництво та поліграфія",
+  "specialization" : ""
+}, {
+  "id" : 84,
+  "competitionIdentifier" : "Б43д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "193",
+  "name" : "Геодезія та землеустрій",
+  "specialization" : ""
+}, {
+  "id" : 85,
+  "competitionIdentifier" : "Б45д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "223",
+  "name" : "Медсестринство",
+  "specialization" : ""
+}, {
+  "id" : 86,
+  "competitionIdentifier" : "Б45д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "224",
+  "name" : "Технології медичної діагностики та лікування",
+  "specialization" : ""
+}, {
+  "id" : 87,
+  "competitionIdentifier" : "Б45д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "227",
+  "name" : "Терапія та реабілітація",
+  "specialization" : ""
+}, {
+  "id" : 88,
+  "competitionIdentifier" : "Б45д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "229",
+  "name" : "Громадське здоров'я",
+  "specialization" : ""
+}, {
+  "id" : 89,
+  "competitionIdentifier" : "Б47д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "261",
+  "name" : "Пожежна безпека",
+  "specialization" : ""
+}, {
+  "id" : 90,
+  "competitionIdentifier" : "Б47д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "263",
+  "name" : "Цивільна безпека",
+  "specialization" : ""
+}, {
+  "id" : 91,
+  "competitionIdentifier" : "Б48д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "271.01",
+  "name" : "Морський та внутрішній водний транспорт",
+  "specialization" : "Навігація і управління морськими суднами"
+}, {
+  "id" : 92,
+  "competitionIdentifier" : "Б48д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "271.02",
+  "name" : "Морський та внутрішній водний транспорт",
+  "specialization" : "Управління судновими технічними системами і комплексами"
+}, {
+  "id" : 93,
+  "competitionIdentifier" : "Б48д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "271.04",
+  "name" : "Морський та внутрішній водний транспорт",
+  "specialization" : "Судноводіння на внутрішніх водних шляхах"
+}, {
+  "id" : 94,
+  "competitionIdentifier" : "Б48д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "275.01",
+  "name" : "Транспортні технології",
+  "specialization" : "на морському та річковому транспорті"
+}, {
+  "id" : 95,
+  "competitionIdentifier" : "Б49д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "271.03",
+  "name" : "Морський та внутрішній водний транспорт",
+  "specialization" : "Експлуатація суднового електрообладнання і засобів автоматики"
+}, {
+  "id" : 96,
+  "competitionIdentifier" : "Б50д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "274",
+  "name" : "Автомобільний транспорт",
+  "specialization" : ""
+}, {
+  "id" : 97,
+  "competitionIdentifier" : "Б50д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "275.03",
+  "name" : "Транспортні технології",
+  "specialization" : "на автомобільному транспорті"
+}, {
+  "id" : 98,
+  "competitionIdentifier" : "Б51д",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "272",
+  "name" : "Авіаційний транспорт",
+  "specialization" : ""
+}, {
+  "id" : 99,
+  "competitionIdentifier" : "БМ2д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "221",
+  "name" : "Стоматологія",
+  "specialization" : ""
+}, {
+  "id" : 100,
+  "competitionIdentifier" : "БМ3д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "222",
+  "name" : "Медицина",
+  "specialization" : ""
+}, {
+  "id" : 101,
+  "competitionIdentifier" : "БМ4д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "225",
+  "name" : "Медична психологія",
+  "specialization" : ""
+}, {
+  "id" : 102,
+  "competitionIdentifier" : "БМ5д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "денна",
+  "code" : "226",
+  "name" : "Фармація, промислова фармація",
+  "specialization" : ""
+}, {
+  "id" : 103,
+  "competitionIdentifier" : "БМ6д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "денна",
+  "code" : "228",
+  "name" : "Педіатрія",
+  "specialization" : ""
+}, {
+  "id" : 104,
+  "competitionIdentifier" : "М1д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "051",
+  "name" : "Економіка",
+  "specialization" : ""
+}, {
+  "id" : 105,
+  "competitionIdentifier" : "М2д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "052",
+  "name" : "Політологія",
+  "specialization" : ""
+}, {
+  "id" : 106,
+  "competitionIdentifier" : "М3д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "053",
+  "name" : "Психологія",
+  "specialization" : ""
+}, {
+  "id" : 107,
+  "competitionIdentifier" : "М4д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "054",
+  "name" : "Соціологія",
+  "specialization" : ""
+}, {
+  "id" : 108,
+  "competitionIdentifier" : "М6д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "012",
+  "name" : "Дошкільна освіта",
+  "specialization" : ""
+}, {
+  "id" : 109,
+  "competitionIdentifier" : "М6д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "013",
+  "name" : "Початкова освіта",
+  "specialization" : ""
+}, {
+  "id" : 110,
+  "competitionIdentifier" : "М6д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "016.01",
+  "name" : "Спеціальна освіта",
+  "specialization" : "Логопедія"
+}, {
+  "id" : 111,
+  "competitionIdentifier" : "М7д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.01",
+  "name" : "Середня освіта",
+  "specialization" : "Українська мова і література"
+}, {
+  "id" : 112,
+  "competitionIdentifier" : "М7д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.021",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "англійська мова та література"
+}, {
+  "id" : 113,
+  "competitionIdentifier" : "М7д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.022",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "німецька мова і література"
+}, {
+  "id" : 114,
+  "competitionIdentifier" : "М7д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.023",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "французька мова і література"
+}, {
+  "id" : 115,
+  "competitionIdentifier" : "М7д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.024",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "іспанська мова і література"
+}, {
+  "id" : 116,
+  "competitionIdentifier" : "М7д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.029",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "інші мови"
+}, {
+  "id" : 117,
+  "competitionIdentifier" : "М7д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.03",
+  "name" : "Середня освіта",
+  "specialization" : "Історія"
+}, {
+  "id" : 118,
+  "competitionIdentifier" : "М7д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.05",
+  "name" : "Середня освіта",
+  "specialization" : "Біологія та здоров'я людини"
+}, {
+  "id" : 119,
+  "competitionIdentifier" : "М7д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.07",
+  "name" : "Середня освіта",
+  "specialization" : "Географія"
+}, {
+  "id" : 120,
+  "competitionIdentifier" : "М7д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.12",
+  "name" : "Середня освіта",
+  "specialization" : "Образотворче мистецтво"
+}, {
+  "id" : 121,
+  "competitionIdentifier" : "М7д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.13",
+  "name" : "Середня освіта",
+  "specialization" : "Музичне мистецтво"
+}, {
+  "id" : 122,
+  "competitionIdentifier" : "М8д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.04",
+  "name" : "Середня освіта",
+  "specialization" : "Математика"
+}, {
+  "id" : 123,
+  "competitionIdentifier" : "М8д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.06",
+  "name" : "Середня освіта",
+  "specialization" : "Хімія"
+}, {
+  "id" : 124,
+  "competitionIdentifier" : "М8д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.08",
+  "name" : "Середня освіта",
+  "specialization" : "Фізика та астрономія"
+}, {
+  "id" : 125,
+  "competitionIdentifier" : "М8д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.09",
+  "name" : "Середня освіта",
+  "specialization" : "Інформатика"
+}, {
+  "id" : 126,
+  "competitionIdentifier" : "М8д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.10",
+  "name" : "Середня освіта",
+  "specialization" : "Трудове навчання та технології"
+}, {
+  "id" : 127,
+  "competitionIdentifier" : "М8д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.11",
+  "name" : "Середня освіта",
+  "specialization" : "Фізична культура"
+}, {
+  "id" : 128,
+  "competitionIdentifier" : "М8д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.15",
+  "name" : "Середня освіта",
+  "specialization" : "Природничі науки"
+}, {
+  "id" : 129,
+  "competitionIdentifier" : "М8д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "014.16",
+  "name" : "Середня освіта",
+  "specialization" : "Захист України"
+}, {
+  "id" : 130,
+  "competitionIdentifier" : "М8д",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "денна",
+  "code" : "015",
+  "name" : "Професійна освіта",
+  "specialization" : ""
+}, {
+  "id" : 131,
+  "competitionIdentifier" : "Б01з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "012",
+  "name" : "Дошкільна освіта",
+  "specialization" : ""
+}, {
+  "id" : 132,
+  "competitionIdentifier" : "Б01з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "013",
+  "name" : "Початкова освіта",
+  "specialization" : ""
+}, {
+  "id" : 133,
+  "competitionIdentifier" : "Б02з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.01",
+  "name" : "Середня освіта",
+  "specialization" : "Українська мова і література"
+}, {
+  "id" : 134,
+  "competitionIdentifier" : "Б03з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.021",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "англійська мова та література"
+}, {
+  "id" : 135,
+  "competitionIdentifier" : "Б04з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.022",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "німецька мова і література"
+}, {
+  "id" : 136,
+  "competitionIdentifier" : "Б04з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.023",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "французька мова і література"
+}, {
+  "id" : 137,
+  "competitionIdentifier" : "Б04з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.024",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "іспанська мова і література"
+}, {
+  "id" : 138,
+  "competitionIdentifier" : "Б04з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.029",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "інші мови"
+}, {
+  "id" : 139,
+  "competitionIdentifier" : "Б05з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.03",
+  "name" : "Середня освіта",
+  "specialization" : "Історія"
+}, {
+  "id" : 140,
+  "competitionIdentifier" : "Б06з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.04",
+  "name" : "Середня освіта",
+  "specialization" : "Математика"
+}, {
+  "id" : 141,
+  "competitionIdentifier" : "Б06з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.06",
+  "name" : "Середня освіта",
+  "specialization" : "Хімія"
+}, {
+  "id" : 142,
+  "competitionIdentifier" : "Б06з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.08",
+  "name" : "Середня освіта",
+  "specialization" : "Фізика та астрономія"
+}, {
+  "id" : 143,
+  "competitionIdentifier" : "Б06з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.09",
+  "name" : "Середня освіта",
+  "specialization" : "Інформатика"
+}, {
+  "id" : 144,
+  "competitionIdentifier" : "Б06з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.10",
+  "name" : "Середня освіта",
+  "specialization" : "Трудове навчання та технології"
+}, {
+  "id" : 145,
+  "competitionIdentifier" : "Б06з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.15",
+  "name" : "Середня освіта",
+  "specialization" : "Природничі науки"
+}, {
+  "id" : 146,
+  "competitionIdentifier" : "Б07з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.05",
+  "name" : "Середня освіта",
+  "specialization" : "Біологія та здоров'я людини"
+}, {
+  "id" : 147,
+  "competitionIdentifier" : "Б07з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.07",
+  "name" : "Середня освіта",
+  "specialization" : "Географія"
+}, {
+  "id" : 148,
+  "competitionIdentifier" : "Б08з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.11",
+  "name" : "Середня освіта",
+  "specialization" : "Фізична культура"
+}, {
+  "id" : 149,
+  "competitionIdentifier" : "Б08з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.16",
+  "name" : "Середня освіта",
+  "specialization" : "Захист України"
+}, {
+  "id" : 150,
+  "competitionIdentifier" : "Б09з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.12",
+  "name" : "Середня освіта",
+  "specialization" : "Образотворче мистецтво"
+}, {
+  "id" : 151,
+  "competitionIdentifier" : "Б09з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.13",
+  "name" : "Середня освіта",
+  "specialization" : "Музичне мистецтво"
+}, {
+  "id" : 152,
+  "competitionIdentifier" : "Б10з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "015.31",
+  "name" : "Професійна освіта",
+  "specialization" : "Будівництво та зварювання"
+}, {
+  "id" : 153,
+  "competitionIdentifier" : "Б10з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "015.32",
+  "name" : "Професійна освіта",
+  "specialization" : "Електроніка, метрологія та радіотелекомунікації"
+}, {
+  "id" : 154,
+  "competitionIdentifier" : "Б10з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "015.33",
+  "name" : "Професійна освіта",
+  "specialization" : "Енергетика, електротехніка та електромеханіка"
+}, {
+  "id" : 155,
+  "competitionIdentifier" : "Б10з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "015.34",
+  "name" : "Професійна освіта",
+  "specialization" : "Машинобудування"
+}, {
+  "id" : 156,
+  "competitionIdentifier" : "Б10з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "015.35",
+  "name" : "Професійна освіта",
+  "specialization" : "Видобуток, переробка та транспортування корисних копалин"
+}, {
+  "id" : 157,
+  "competitionIdentifier" : "Б10з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "015.36",
+  "name" : "Професійна освіта",
+  "specialization" : "Технологія виробів легкої промисловості"
+}, {
+  "id" : 158,
+  "competitionIdentifier" : "Б10з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "015.37",
+  "name" : "Професійна освіта",
+  "specialization" : "Аграрне виробництво, переробка сільськогосподарської продукції та харчові технології"
+}, {
+  "id" : 159,
+  "competitionIdentifier" : "Б10з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "015.38",
+  "name" : "Професійна освіта",
+  "specialization" : "Транспорт"
+}, {
+  "id" : 160,
+  "competitionIdentifier" : "Б11з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "015.39",
+  "name" : "Професійна освіта",
+  "specialization" : "Цифрові технології"
+}, {
+  "id" : 161,
+  "competitionIdentifier" : "Б12з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "016.01",
+  "name" : "Спеціальна освіта",
+  "specialization" : "Логопедія"
+}, {
+  "id" : 162,
+  "competitionIdentifier" : "Б17з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.01",
+  "name" : "Філологія",
+  "specialization" : "Українська мова та література"
+}, {
+  "id" : 163,
+  "competitionIdentifier" : "Б18з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.02",
+  "name" : "Філологія",
+  "specialization" : "Кримськотатарська мова та література"
+}, {
+  "id" : 164,
+  "competitionIdentifier" : "Б19з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.031",
+  "name" : "Філологія",
+  "specialization" : "Слов'янські мови та літератури"
+}, {
+  "id" : 165,
+  "competitionIdentifier" : "Б19з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.034",
+  "name" : "Філологія",
+  "specialization" : "Слов'янські мови та літератури"
+}, {
+  "id" : 166,
+  "competitionIdentifier" : "Б21з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.036",
+  "name" : "Філологія",
+  "specialization" : "Слов'янські мови та літератури"
+}, {
+  "id" : 167,
+  "competitionIdentifier" : "Б22з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.038",
+  "name" : "Філологія",
+  "specialization" : "Слов'янські мови та літератури"
+}, {
+  "id" : 168,
+  "competitionIdentifier" : "Б24з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.041",
+  "name" : "Філологія",
+  "specialization" : "Германські мови та літератури"
+}, {
+  "id" : 169,
+  "competitionIdentifier" : "Б25з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.043",
+  "name" : "Філологія",
+  "specialization" : "Германські мови та літератури"
+}, {
+  "id" : 170,
+  "competitionIdentifier" : "Б25з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.044",
+  "name" : "Філологія",
+  "specialization" : "Германські мови та літератури"
+}, {
+  "id" : 171,
+  "competitionIdentifier" : "Б25з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.051",
+  "name" : "Філологія",
+  "specialization" : "Романські мови та літератури"
+}, {
+  "id" : 172,
+  "competitionIdentifier" : "Б25з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.052",
+  "name" : "Філологія",
+  "specialization" : "Романські мови та літератури"
+}, {
+  "id" : 173,
+  "competitionIdentifier" : "Б25з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.053",
+  "name" : "Філологія",
+  "specialization" : "Романські мови та літератури"
+}, {
+  "id" : 174,
+  "competitionIdentifier" : "Б25з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.055",
+  "name" : "Філологія",
+  "specialization" : "Романські мови та літератури"
+}, {
+  "id" : 175,
+  "competitionIdentifier" : "Б25з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.065",
+  "name" : "Філологія",
+  "specialization" : "Східні мови та літератури"
+}, {
+  "id" : 176,
+  "competitionIdentifier" : "Б25з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.066",
+  "name" : "Філологія",
+  "specialization" : "Східні мови та літератури"
+}, {
+  "id" : 177,
+  "competitionIdentifier" : "Б25з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.068",
+  "name" : "Філологія",
+  "specialization" : "Східні мови та літератури"
+}, {
+  "id" : 178,
+  "competitionIdentifier" : "Б25з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.069",
+  "name" : "Філологія",
+  "specialization" : "Східні мови та літератури"
+}, {
+  "id" : 179,
+  "competitionIdentifier" : "Б25з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.08",
+  "name" : "Філологія",
+  "specialization" : "Класичні мови та літератури"
+}, {
+  "id" : 180,
+  "competitionIdentifier" : "Б26з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.081",
+  "name" : "Філологія",
+  "specialization" : "Новогрецька мова і література"
+}, {
+  "id" : 181,
+  "competitionIdentifier" : "Б28з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО" ],
+  "formOfEducation" : "заочна",
+  "code" : "035.10",
+  "name" : "Філологія",
+  "specialization" : "Прикладна лінгвістика"
+}, {
+  "id" : 182,
+  "competitionIdentifier" : "Б34з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "103",
+  "name" : "Науки про Землю",
+  "specialization" : ""
+}, {
+  "id" : 183,
+  "competitionIdentifier" : "Б37з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "113",
+  "name" : "Прикладна математика",
+  "specialization" : ""
+}, {
+  "id" : 184,
+  "competitionIdentifier" : "Б38з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "161",
+  "name" : "Хімічні технології та інженерія",
+  "specialization" : ""
+}, {
+  "id" : 185,
+  "competitionIdentifier" : "Б38з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "182",
+  "name" : "Технології легкої промисловості",
+  "specialization" : ""
+}, {
+  "id" : 186,
+  "competitionIdentifier" : "Б38з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "183",
+  "name" : "Технології захисту навколишнього середовища",
+  "specialization" : ""
+}, {
+  "id" : 187,
+  "competitionIdentifier" : "Б38з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "184",
+  "name" : "Гірництво",
+  "specialization" : ""
+}, {
+  "id" : 188,
+  "competitionIdentifier" : "Б38з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "185",
+  "name" : "Нафтогазова інженерія та технології",
+  "specialization" : ""
+}, {
+  "id" : 189,
+  "competitionIdentifier" : "Б38з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "187",
+  "name" : "Деревообробні та меблеві технології",
+  "specialization" : ""
+}, {
+  "id" : 190,
+  "competitionIdentifier" : "Б38з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "192",
+  "name" : "Будівництво та цивільна інженерія",
+  "specialization" : ""
+}, {
+  "id" : 191,
+  "competitionIdentifier" : "Б38з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "194",
+  "name" : "Гідротехнічне будівництво, водна інженерія та водні технології",
+  "specialization" : ""
+}, {
+  "id" : 192,
+  "competitionIdentifier" : "Б38з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "273",
+  "name" : "Залізничний транспорт",
+  "specialization" : ""
+}, {
+  "id" : 193,
+  "competitionIdentifier" : "Б38з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "275.02",
+  "name" : "Транспортні технології",
+  "specialization" : "на залізничному транспорті"
+}, {
+  "id" : 194,
+  "competitionIdentifier" : "Б41з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "181",
+  "name" : "Харчові технології",
+  "specialization" : ""
+}, {
+  "id" : 195,
+  "competitionIdentifier" : "Б42з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "186",
+  "name" : "Видавництво та поліграфія",
+  "specialization" : ""
+}, {
+  "id" : 196,
+  "competitionIdentifier" : "Б43з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "193",
+  "name" : "Геодезія та землеустрій",
+  "specialization" : ""
+}, {
+  "id" : 197,
+  "competitionIdentifier" : "Б48з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "271.01",
+  "name" : "Морський та внутрішній водний транспорт",
+  "specialization" : "Навігація і управління морськими суднами"
+}, {
+  "id" : 198,
+  "competitionIdentifier" : "Б48з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "271.02",
+  "name" : "Морський та внутрішній водний транспорт",
+  "specialization" : "Управління судновими технічними системами і комплексами"
+}, {
+  "id" : 199,
+  "competitionIdentifier" : "Б48з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "271.04",
+  "name" : "Морський та внутрішній водний транспорт",
+  "specialization" : "Судноводіння на внутрішніх водних шляхах"
+}, {
+  "id" : 200,
+  "competitionIdentifier" : "Б48з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "275.01",
+  "name" : "Транспортні технології",
+  "specialization" : "на морському та річковому транспорті"
+}, {
+  "id" : 201,
+  "competitionIdentifier" : "Б49з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "271.03",
+  "name" : "Морський та внутрішній водний транспорт",
+  "specialization" : "Експлуатація суднового електрообладнання і засобів автоматики"
+}, {
+  "id" : 202,
+  "competitionIdentifier" : "Б50з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "274",
+  "name" : "Автомобільний транспорт",
+  "specialization" : ""
+}, {
+  "id" : 203,
+  "competitionIdentifier" : "Б50з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "275.03",
+  "name" : "Транспортні технології",
+  "specialization" : "на автомобільному транспорті"
+}, {
+  "id" : 204,
+  "competitionIdentifier" : "Б51з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "272",
+  "name" : "Авіаційний транспорт",
+  "specialization" : ""
+}, {
+  "id" : 205,
+  "competitionIdentifier" : "Б51з",
+  "degreeOfHigherEducation" : "бакалавр",
+  "basisOfAdmission" : [ "ПЗСО", "НРК5" ],
+  "formOfEducation" : "заочна",
+  "code" : "275.04",
+  "name" : "Транспортні технології",
+  "specialization" : "на повітряному транспорті"
+}, {
+  "id" : 206,
+  "competitionIdentifier" : "М6з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "012",
+  "name" : "Дошкільна освіта",
+  "specialization" : ""
+}, {
+  "id" : 207,
+  "competitionIdentifier" : "М6з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "013",
+  "name" : "Початкова освіта",
+  "specialization" : ""
+}, {
+  "id" : 208,
+  "competitionIdentifier" : "М6з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "016.01",
+  "name" : "Спеціальна освіта",
+  "specialization" : "Логопедія"
+}, {
+  "id" : 209,
+  "competitionIdentifier" : "М7з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.01",
+  "name" : "Середня освіта",
+  "specialization" : "Українська мова і література"
+}, {
+  "id" : 210,
+  "competitionIdentifier" : "М7з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.021",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "англійська мова та література"
+}, {
+  "id" : 211,
+  "competitionIdentifier" : "М7з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.022",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "німецька мова і література"
+}, {
+  "id" : 212,
+  "competitionIdentifier" : "М7з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.023",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "французька мова і література"
+}, {
+  "id" : 213,
+  "competitionIdentifier" : "М7з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.024",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "іспанська мова і література"
+}, {
+  "id" : 214,
+  "competitionIdentifier" : "М7з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.029",
+  "name" : "Середня освіта. Мова та зарубіжна література",
+  "specialization" : "інші мови"
+}, {
+  "id" : 215,
+  "competitionIdentifier" : "М7з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.03",
+  "name" : "Середня освіта",
+  "specialization" : "Історія"
+}, {
+  "id" : 216,
+  "competitionIdentifier" : "М7з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.05",
+  "name" : "Середня освіта",
+  "specialization" : "Біологія та здоров'я людини"
+}, {
+  "id" : 217,
+  "competitionIdentifier" : "М7з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.07",
+  "name" : "Середня освіта",
+  "specialization" : "Географія"
+}, {
+  "id" : 218,
+  "competitionIdentifier" : "М7з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.12",
+  "name" : "Середня освіта",
+  "specialization" : "Образотворче мистецтво"
+}, {
+  "id" : 219,
+  "competitionIdentifier" : "М7з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.13",
+  "name" : "Середня освіта",
+  "specialization" : "Музичне мистецтво"
+}, {
+  "id" : 220,
+  "competitionIdentifier" : "М8з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.04",
+  "name" : "Середня освіта",
+  "specialization" : "Математика"
+}, {
+  "id" : 221,
+  "competitionIdentifier" : "М8з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.06",
+  "name" : "Середня освіта",
+  "specialization" : "Хімія"
+}, {
+  "id" : 222,
+  "competitionIdentifier" : "М8з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.08",
+  "name" : "Середня освіта",
+  "specialization" : "Фізика та астрономія"
+}, {
+  "id" : 223,
+  "competitionIdentifier" : "М8з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.09",
+  "name" : "Середня освіта",
+  "specialization" : "Інформатика"
+}, {
+  "id" : 224,
+  "competitionIdentifier" : "М8з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.10",
+  "name" : "Середня освіта",
+  "specialization" : "Трудове навчання та технології"
+}, {
+  "id" : 225,
+  "competitionIdentifier" : "М8з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.11",
+  "name" : "Середня освіта",
+  "specialization" : "Фізична культура"
+}, {
+  "id" : 226,
+  "competitionIdentifier" : "М8з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.15",
+  "name" : "Середня освіта",
+  "specialization" : "Природничі науки"
+}, {
+  "id" : 227,
+  "competitionIdentifier" : "М8з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "014.16",
+  "name" : "Середня освіта",
+  "specialization" : "Захист України"
+}, {
+  "id" : 228,
+  "competitionIdentifier" : "М8з",
+  "degreeOfHigherEducation" : "магістр",
+  "basisOfAdmission" : [ "НРК6" ],
+  "formOfEducation" : "заочна",
+  "code" : "015",
+  "name" : "Професійна освіта",
+  "specialization" : ""
+} ]

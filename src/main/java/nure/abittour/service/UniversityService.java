@@ -1,6 +1,6 @@
 package nure.abittour.service;
 
-import nure.abittour.entity.University;
+import nure.abittour.model.University;
 import nure.abittour.repository.UniversityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -10,6 +10,9 @@ public class ZnoSubjectOption extends BaseEntity {
     @Column(nullable = false)
     Double coefficient;
 
+    @ManyToOne
+    private CompetitiveOffer competitiveOffer;
+
     @ManyToOne(fetch = FetchType.LAZY)
     Subject subject;
 }

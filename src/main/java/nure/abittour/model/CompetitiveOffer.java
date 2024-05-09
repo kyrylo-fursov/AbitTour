@@ -8,13 +8,12 @@ import jakarta.persistence.Enumerated;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.JoinColumn;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import nure.abittour.model.enums.EducationalLevel;
-import nure.abittour.model.enums.EnrolledCourse;
-import nure.abittour.model.enums.EnrolmentBase;
-import nure.abittour.model.enums.FormOfEducation;
-import nure.abittour.model.enums.TypeOfOffer;
+import nure.abittour.model.enums.*;
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.Set;
@@ -38,13 +37,13 @@ public class CompetitiveOffer extends BaseEntity {
     @Column(nullable = false)
     EducationalLevel educationalLevel;
 
-//    @ManyToOne
-//    @JoinColumn(name = "speciality_id")
-//    private Speciality speciality;
+    @ManyToOne
+    @JoinColumn(name = "speciality_id")
+    private Speciality speciality;
 
-//    @ManyToOne
-//    @JoinColumn(name = "university_id")
-//    private University university;
+    @ManyToOne
+    @JoinColumn(name = "university_id")
+    private University university;
 
     @Column(nullable = false)
     String faculty;
