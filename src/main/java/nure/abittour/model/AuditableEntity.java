@@ -20,14 +20,13 @@ import java.time.ZonedDateTime;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public abstract class AuditableEntity extends BaseEntity {
     @CreatedDate
-    @Column(name = "created_at", updatable = false)
+    @Column(updatable = false)
     ZonedDateTime createdAt;
 
     @LastModifiedDate
     ZonedDateTime updatedAt;
 
     @LastModifiedBy
-    @Column(name = "updated_by")
     Long updatedBy;
 }
 
