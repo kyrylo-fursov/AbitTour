@@ -13,19 +13,23 @@ public class UniversityService {
     @Autowired
     private UniversityRepository universityRepository;
 
-    public List<University> getAllUniversities() {
+    public List<University> getAll() {
         return universityRepository.findAll();
     }
 
-    public University getUniversityById(Long id) {
+    public University getById(Long id) {
         return universityRepository.findById(id).orElse(null);
     }
 
-    public University saveUniversity(University university) {
+    public University create(University university) {
         return universityRepository.save(university);
     }
 
-    public void deleteUniversity(Long id) {
+    public University update(University university) {
+        return universityRepository.save(university);
+    }
+
+    public void delete(Long id) {
         universityRepository.deleteById(id);
     }
 }
