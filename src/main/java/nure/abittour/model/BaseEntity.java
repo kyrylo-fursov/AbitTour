@@ -21,7 +21,7 @@ import java.io.Serializable;
 public abstract class BaseEntity implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", nullable = false)
+    @Column(nullable = false)
     Long id;
 }
 

@@ -2,21 +2,22 @@ package nure.abittour.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
-import jakarta.persistence.FetchType;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import lombok.Getter;
-import lombok.Setter;
+import nure.abittour.model.enums.Subject;
 
 @Entity
-@Getter
-@Setter
 public class ZnoSubjectOption extends BaseEntity {
     @Column(nullable = false)
     Double coefficient;
 
-    @ManyToOne
-    private CompetitiveOffer competitiveOffer;
-
-    @ManyToOne(fetch = FetchType.LAZY)
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
     Subject subject;
+
+    @ManyToOne
+    @JoinColumn(name = "competitive_offer_id")
+    private CompetitiveOffer competitiveOffer;
 }
