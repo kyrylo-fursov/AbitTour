@@ -11,7 +11,9 @@ import jakarta.persistence.TemporalType;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.JoinColumn;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 import nure.abittour.model.enums.*;
 
 import java.math.BigDecimal;
@@ -22,6 +24,8 @@ import java.util.Set;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
+@Getter
+@Setter
 public class CompetitiveOffer extends BaseEntity {
     @Column(nullable = false)
     String programName;

@@ -15,22 +15,27 @@ public class UniversityController {
     private UniversityService universityService;
 
     @GetMapping
-    public List<University> getAllUniversities() {
-        return universityService.getAllUniversities();
+    public List<University> getAll() {
+        return universityService.getAll();
     }
 
     @GetMapping("/{id}")
-    public University getUniversityById(@PathVariable Long id) {
-        return universityService.getUniversityById(id);
+    public University getById(@PathVariable Long id) {
+        return universityService.getById(id);
     }
 
     @PostMapping
-    public University saveUniversity(@RequestBody University university) {
-        return universityService.saveUniversity(university);
+    public University create(@RequestBody University university) {
+        return universityService.create(university);
+    }
+
+    @PutMapping
+    public University update(@RequestBody University university) {
+        return universityService.update(university);
     }
 
     @DeleteMapping("/{id}")
-    public void deleteUniversity(@PathVariable Long id) {
-        universityService.deleteUniversity(id);
+    public void delete(@PathVariable Long id) {
+        universityService.delete(id);
     }
 }
