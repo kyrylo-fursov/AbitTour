@@ -1,6 +1,6 @@
 package nure.abittour.service;
 
-import nure.abittour.dto.CompetitiveOfferDTO;
+import nure.abittour.dto.CompetitiveOfferRequest;
 import nure.abittour.mapper.CompetitiveOfferMapper;
 import nure.abittour.model.CompetitiveOffer;
 import nure.abittour.repository.CompetitiveOfferRepository;
@@ -19,26 +19,31 @@ public class CompetitiveOfferService {
     @Autowired
     private CompetitiveOfferMapper competitiveOfferMapper;
 
-    public List<CompetitiveOfferDTO> getAll() {
-        return competitiveOfferRepository.findAll().stream()
-                .map(competitiveOfferMapper::toDTO)
+    public List<CompetitiveOfferRequest> getAll() {
+        List<CompetitiveOffer> competitiveOffers = competitiveOfferRepository.findAll();
+        return competitiveOffers.stream()
+                .map(competitiveOfferMapper::competitiveOfferToDTO)
                 .collect(Collectors.toList());
     }
 
-    public CompetitiveOfferDTO getById(Long id) {
-        return competitiveOfferRepository.findById(id)
-                .map(competitiveOfferMapper::toDTO)
-                .orElse(null);
+    public CompetitiveOfferRequest getById(Long id) {
+        CompetitiveOffer competitiveOffer = competitiveOfferRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("Competitive offer with id " + id + " not found"));
+        return competitiveOfferMapper.competitiveOfferToDTO(competitiveOffer);
     }
 
-    public CompetitiveOfferDTO create(CompetitiveOfferDTO competitiveOfferDTO) {
-        CompetitiveOffer competitiveOffer = competitiveOfferMapper.toEntity(competitiveOfferDTO);
-        return competitiveOfferMapper.toDTO(competitiveOfferRepository.save(competitiveOffer));
+    public CompetitiveOfferRequest create(CompetitiveOfferRequest competitiveOfferDTO) {
+        CompetitiveOffer competitiveOffer = competitiveOfferMapper.dtoToCompetitiveOffer(competitiveOfferDTO);
+        CompetitiveOffer savedCompetitiveOffer = competitiveOfferRepository.save(competitiveOffer);
+        return competitiveOfferMapper.competitiveOfferToDTO(savedCompetitiveOffer);
     }
 
-    public CompetitiveOfferDTO update(CompetitiveOfferDTO competitiveOfferDTO) {
-        CompetitiveOffer competitiveOffer = competitiveOfferMapper.toEntity(competitiveOfferDTO);
-        return competitiveOfferMapper.toDTO(competitiveOfferRepository.save(competitiveOffer));
+    public CompetitiveOfferRequest update(CompetitiveOfferRequest competitiveOfferDTO) {
+        CompetitiveOffer competitiveOffer = competitiveOfferRepository.findById(competitiveOfferDTO.getId())
+                .orElseThrow(() -> new IllegalArgumentException("Competitive offer with id " + competitiveOfferDTO.getId() + " not found"));
+        competitiveOfferMapper.updateCompetitiveOfferFromDTO(competitiveOfferDTO, competitiveOffer);
+        CompetitiveOffer updatedCompetitiveOffer = competitiveOfferRepository.save(competitiveOffer);
+        return competitiveOfferMapper.competitiveOfferToDTO(updatedCompetitiveOffer);
     }
 
     public void delete(Long id) {
