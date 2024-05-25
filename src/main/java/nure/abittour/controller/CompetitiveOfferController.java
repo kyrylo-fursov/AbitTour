@@ -25,14 +25,13 @@ public class CompetitiveOfferController {
 
     @PostMapping
     public CompetitiveOfferDto createOffer(@RequestBody CompetitiveOfferDto offerDto) {
-        System.out.println(offerDto.toString());
         return competitiveOfferService.createOffer(offerDto);
     }
 
-//    @PutMapping("/{id}")
-//    public CompetitiveOfferDto updateOffer(@PathVariable Long id, @RequestBody CompetitiveOfferDto offerDto) {
-//        return competitiveOfferService.updateOffer(id, offerDto);
-//    }
+    @PutMapping("/{id}")
+    public CompetitiveOfferDto updateOffer(@PathVariable Long id, @RequestBody CompetitiveOfferDto offerDto) {
+        return competitiveOfferService.updateOffer(id, offerDto);
+    }
 
     @DeleteMapping("/{id}")
     public void deleteOffer(@PathVariable Long id) {

@@ -12,5 +12,4 @@ import nure.abittour.model.enums.Subject;
 public class ZnoSubjectOptionDTO {
     private Double coefficient;
     private Subject subject;
-    //private Long competitiveOfferId;
 }
