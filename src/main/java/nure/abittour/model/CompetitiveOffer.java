@@ -10,17 +10,14 @@ import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.JoinColumn;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import nure.abittour.model.enums.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.Set;
 
-
+@ToString
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity

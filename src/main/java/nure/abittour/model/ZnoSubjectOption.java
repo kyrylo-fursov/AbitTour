@@ -6,15 +6,20 @@ import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import lombok.*;
 import nure.abittour.model.enums.Subject;
-
+@ToString
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
+@Getter
+@Setter
 public class ZnoSubjectOption extends BaseEntity {
-    @Column(nullable = false)
+    @Column(nullable = true)
     Double coefficient;
 
     @Enumerated(EnumType.STRING)
-    @Column(nullable = false)
+    @Column(nullable = true)
     Subject subject;
 
     @ManyToOne

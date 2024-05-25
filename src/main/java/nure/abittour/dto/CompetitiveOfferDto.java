@@ -1,21 +1,17 @@
 package nure.abittour.dto;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-import nure.abittour.model.Speciality;
-import nure.abittour.model.University;
+import lombok.ToString;
+import nure.abittour.model.ZnoSubjectOption;
 import nure.abittour.model.enums.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.Set;
 
+@ToString
 @Data
-@Getter
-@Setter
-public class CompetitiveOfferRequest {
-    private Long id;
+public class CompetitiveOfferDto {
     private String programName;
     private Long offerCode;
     private EnrolmentBase enrolmentBase;
