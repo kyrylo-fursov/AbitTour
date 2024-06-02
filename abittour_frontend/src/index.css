@@ -1,0 +1,287 @@
+:root {
+  --background-white: #f9f9f9;
+  --white: #ffffff;
+  --text-black: #2f2f2f;
+  --gray: #acacac;
+  --gray-light: #c7c7c7;
+  --highlight-blue: #3d8df5;
+  --red: #ff5151;
+  --green: #47ce5d;
+  --orange: #fdca18;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  padding: 2rem 0;
+  color: var(--text-black);
+  background-color: var(--background-white);
+}
+
+body > * {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img,
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 40px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.section-wrapper {
+  background-color: var(--white);
+  border-radius: 18px;
+  padding: 2rem 6.375rem;
+  margin: 3.5rem auto;
+  box-shadow: 0 0 21.4px rgba(0, 0, 0, 0.25);
+}
+
+.button-default {
+  background-color: var(--highlight-blue);
+  color: var(--white);
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 0.75rem 4rem;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
+
+.button_smaller {
+  height: 2rem;
+  padding: 0.5rem 1.5rem;
+}
+
+input,
+select {
+  padding: 1rem;
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+}
+
+input::placeholder,
+select::placeholder {
+  color: var(--gray);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.abit_logo {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+nav li > * {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+nav ul {
+  display: flex;
+  gap: 4rem;
+}
+
+::selection {
+  background: var(--highlight-blue);
+  color: white;
+}
+
+select option {
+  background-color: white;
+  color: black;
+}
+
+/* Index page */
+
+.search-form-wrapper {
+  max-width: 794px;
+}
+
+.search-page form {
+  margin: 0 auto;
+  width: 590px;
+}
+
+.search-page select {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.search-page form label {
+  margin-bottom: 1rem;
+}
+
+.search-form_twocolumns_wrapper label {
+  max-width: 17.8125rem;
+}
+
+.search-form_twocolumns_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.competitive-offer {
+  position: relative;
+  display: flex;
+  background-color: var(--white);
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 18px;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.cometitive_offers hr {
+  margin: 1.5rem 0;
+}
+
+.competitive-offer_left {
+  max-width: 590px;
+}
+
+.competitive-offer_specs * {
+  margin-right: 0.5rem;
+}
+
+.competitive-offer_left * {
+  margin-bottom: 0.5rem;
+}
+
+.competitive-offer_num {
+  background-color: var(--highlight-blue);
+  border-radius: 5px;
+  color: var(--white);
+  padding: 0 0.25rem;
+  margin-right: 0.5rem;
+}
+
+.competitive-offer_fac {
+  font-weight: 600;
+}
+
+.competitive-offer_special {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.competitive-offer_inst {
+  font-size: 1rem;
+}
+
+.subject-list {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: var(--white);
+  border-radius: 5px;
+  border: 1px solid var(--gray-light);
+  padding: 1rem 2rem;
+}
+
+.subject-list-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+}
+
+.subject-item {
+  display: flex;
+  align-items: center;
+}
+
+.subject-item * {
+  margin-right: 0.5rem;
+}
+
+.subject-item_indicator {
+  width: 0.2rem;
+  height: 1.2rem;
+  background-color: var(--red);
+}
+
+/* Calculator page */
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form {
+  width: 40%;
+}
+
+.form_line {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  align-items: center;
+}
+
+.form_line_inputs {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+form label {
+  display: block;
+  width: 100%;
+}
+
+/* Offer page */
+
+.applicants-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 0.5rem solid white;
+}
+
+td {
+  padding: 0.5rem;
+}
