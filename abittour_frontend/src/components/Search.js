@@ -5,7 +5,7 @@ export function SearchPage() {
   return (
     <div className="search-page">
       <SearchForm></SearchForm>
-      <CompetitiveOffers></CompetitiveOffers>
+      {/* <CompetitiveOffers></CompetitiveOffers> */}
     </div>
   );
 }
