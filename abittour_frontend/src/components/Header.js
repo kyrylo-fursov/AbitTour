@@ -5,8 +5,8 @@ import { OfferPage } from "./OfferPage";
 
 export function Header() {
   return (
-    <>
-      <nav>
+    <header>
+      <nav className="header">
         <Link className="abit_logo" to="/">
           AbitTour
         </Link>
@@ -24,6 +24,6 @@ export function Header() {
         <Route path="/calculator" element={<CalculatorPage />} />
         <Route path="/offer" element={<OfferPage />} />
       </Routes>
-    </>
+    </header>
   );
 }

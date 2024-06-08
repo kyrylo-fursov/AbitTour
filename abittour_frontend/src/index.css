@@ -19,7 +19,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  padding: 2rem 0;
+  padding: 0.5rem 0;
   color: var(--text-black);
   background-color: var(--background-white);
 }
@@ -43,7 +43,15 @@ ol {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: var(--highlight-blue);
+}
+
+nav a {
+  color: var(--text-black);
+}
+
+details > summary {
+  cursor: pointer;
 }
 
 p {
@@ -87,8 +95,8 @@ h1 {
 
 input,
 select {
-  padding: 1rem;
-  border: 1px solid var(--gray);
+  padding: 0.75rem;
+  border: 1px solid var(--gray-light);
   border-radius: 5px;
 }
 
@@ -123,11 +131,6 @@ nav ul {
 ::selection {
   background: var(--highlight-blue);
   color: white;
-}
-
-select option {
-  background-color: white;
-  color: black;
 }
 
 /* Index page */
@@ -260,7 +263,7 @@ select option {
   gap: 1rem;
 }
 
-.form_line_inputs input {
+.calc_num-input {
   width: 5.5rem;
 }
 
@@ -286,6 +289,27 @@ select option {
   display: flex;
   width: 12rem;
   justify-content: space-between;
+}
+
+.calc_num-input_ou {
+  width: calc(5.5rem * 2 + 1rem);
+}
+
+.calc-wrapper ul {
+  padding-left: 1rem;
+  list-style: circle;
+}
+
+.calc_details-summary {
+  color: var(--highlight-blue);
+}
+
+.calc_details p {
+  margin: 0.5rem 0;
+}
+
+.calc_button {
+  margin: 1rem auto;
 }
 
 /* Offer page */
