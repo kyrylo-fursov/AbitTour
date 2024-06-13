@@ -10,7 +10,7 @@ import org.mapstruct.factory.Mappers;
 public interface SpecialityMapper {
     SpecialityMapper INSTANCE = Mappers.getMapper(SpecialityMapper.class);
 
-    SpecialityDTO specialityToDTO(Speciality speciality);
+    SpecialityDTO toDto(Speciality speciality);
 
-    Speciality dtoToSpeciality(SpecialityDTO dto);
+    Speciality toEntity(SpecialityDTO specialityDTO);
 }

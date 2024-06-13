@@ -4,9 +4,8 @@ import lombok.Data;
 import nure.abittour.model.enums.Subject;
 
 @Data
-public class SubjectCoefDto {
+public class SubjectCoefDTO {
     private Long id;
-    private Long specialityId;
-    private Subject subject;
+    private String subject;
     private Double coefficient;
 }

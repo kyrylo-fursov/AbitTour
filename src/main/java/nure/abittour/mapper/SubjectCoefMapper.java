@@ -1,13 +1,15 @@
 package nure.abittour.mapper;
 
-import nure.abittour.dto.SubjectCoefDto;
+import nure.abittour.dto.SubjectCoefDTO;
 import nure.abittour.model.SubjectCoef;
 import org.mapstruct.Mapper;
+import org.mapstruct.factory.Mappers;
 
-@Mapper(componentModel = "spring")
+@Mapper
 public interface SubjectCoefMapper {
+    SubjectCoefMapper INSTANCE = Mappers.getMapper(SubjectCoefMapper.class);
 
-    SubjectCoefDto toDto(SubjectCoef subjectCoef);
+    SubjectCoefDTO toDto(SubjectCoef subjectCoef);
 
-    SubjectCoef toEntity(SubjectCoefDto subjectCoefDto);
+    SubjectCoef toEntity(SubjectCoefDTO subjectCoefDTO);
 }
