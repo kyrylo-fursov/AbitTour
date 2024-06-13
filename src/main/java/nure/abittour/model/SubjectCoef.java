@@ -12,12 +12,12 @@ public class SubjectCoef extends BaseEntity {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "speciality_id", nullable = false)
-    private Speciality speciality;
+    Speciality speciality;
 
     @Enumerated(EnumType.STRING)
-    @Column(nullable = false)
-    private Subject subject;
+    @Column(nullable = false, length = 50)
+    Subject subject;
 
     @Column(nullable = false)
-    private Double coefficient;
+    Double coefficient;
 }

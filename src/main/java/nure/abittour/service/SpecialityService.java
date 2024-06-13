@@ -36,7 +36,6 @@ public class SpecialityService {
     public SpecialityDTO createSpeciality(SpecialityDTO specialityDTO) {
         Speciality speciality = SpecialityMapper.INSTANCE.toEntity(specialityDTO);
 
-        // Set the speciality reference in each SubjectCoef
         speciality.getSubjectCoefs().forEach(subjectCoef -> subjectCoef.setSpeciality(speciality));
 
         Speciality savedSpeciality = specialityRepository.save(speciality);
