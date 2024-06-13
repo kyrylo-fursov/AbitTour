@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 export function CalculatorPage() {
   const [result, setResult] = useState(null);
@@ -39,10 +39,14 @@ function Calculator({ setResult, setIsSubmitted, setFormula }) {
   const handleChange = (e) => {
     const { name, value } = e.target;
     const updatedFormValues = { ...formValues, [name]: value };
-    if (name === "efvv" && (value === "" || value === "0")) {
-      updatedFormValues.efvv_coeff = "0";
+
+    if (name === "efvv") {
+      updatedFormValues.efvv_coeff =
+        value !== "" && parseFloat(value) !== 0 ? "1" : "0";
+    } else if (name === "industry" || name === "regional" || name === "ou") {
+      updatedFormValues[name] = value;
     } else {
-      updatedFormValues.efvv_coeff = "1";
+      updatedFormValues[name] = value.replace(/[^\d.-]/g, "");
     }
     setFormValues(updatedFormValues);
   };
@@ -99,72 +103,6 @@ function Calculator({ setResult, setIsSubmitted, setFormula }) {
     setIsSubmitted(true);
   };
 
-  const inputs = [
-    {
-      label: "Бал ЗНО/НМТ 1",
-      subj: "subj1",
-      coeff: "subj1_coeff",
-      min: "0",
-      max: "200",
-      required: true,
-      classNames: "calc_num-input",
-    },
-    {
-      label: "Бал ЗНО/НМТ 2",
-      subj: "subj2",
-      coeff: "subj2_coeff",
-      min: "0",
-      max: "200",
-      required: true,
-      classNames: "calc_num-input",
-    },
-    {
-      label: "Бал ЗНО/НМТ 3",
-      subj: "subj3",
-      coeff: "subj3_coeff",
-      min: "0",
-      max: "200",
-      required: true,
-      classNames: "calc_num-input",
-    },
-    {
-      label: "Бал ЗНО/НМТ 4",
-      subj: "subj4",
-      coeff: "subj4_coeff",
-      min: "0",
-      max: "200",
-      required: true,
-      classNames: "calc_num-input",
-    },
-    {
-      label: "Бал за творчий конкурс",
-      subj: "creative",
-      coeff: "creative_coeff",
-      min: "0",
-      max: "200",
-      required: false,
-      classNames: "calc_num-input",
-    },
-    {
-      label: "Бал ЄФВВ",
-      subj: "efvv",
-      coeff: "efvv_coeff",
-      min: "0",
-      max: "200",
-      required: false,
-      classNames: "calc_num-input",
-    },
-    {
-      label: "Бал ОУ",
-      subj: "ou",
-      coeff: "none",
-      min: "0",
-      max: "10",
-      required: false,
-      classNames: "calc_num-input calc_num-input_ou",
-    },
-  ];
-
   return (
     <>
       <div className="section-wrapper search-form-wrapper calc-wrapper">
@@ -178,43 +116,204 @@ function Calculator({ setResult, setIsSubmitted, setFormula }) {
         </div>
         <hr></hr>
         <form className="calc-form" id="calculatorForm" onSubmit={handleSubmit}>
-          {inputs.map(
-            ({ label, subj, coeff, min, max, required, classNames }) => (
-              <div className="form_line" key={subj}>
-                <label htmlFor={subj}>{label}</label>
-                <div className="form_line_inputs">
-                  <input
-                    className={classNames}
-                    type="number"
-                    id={subj}
-                    name={subj}
-                    min={min}
-                    max={max}
-                    required={required}
-                    placeholder="150"
-                    value={formValues[subj]}
-                    onChange={handleChange}
-                  />
-                  {coeff !== "none" && (
-                    <input
-                      className={classNames}
-                      type="number"
-                      id={coeff}
-                      name={coeff}
-                      step="0.1"
-                      min="0"
-                      max="1"
-                      required={required}
-                      placeholder="0.5"
-                      value={formValues[coeff]}
-                      readOnly={coeff === "efvv_coeff"}
-                      onChange={handleChange}
-                    />
-                  )}
-                </div>
-              </div>
-            )
-          )}
+          {/* Hardcoded inputs */}
+          <div className="form_line">
+            <label htmlFor="subj1">Бал ЗНО/НМТ 1</label>
+            <div className="form_line_inputs">
+              <input
+                className="calc_num-input"
+                type="number"
+                id="subj1"
+                name="subj1"
+                min="0"
+                max="200"
+                required
+                placeholder="150"
+                value={formValues.subj1}
+                onChange={handleChange}
+              />
+              <input
+                className="calc_num-input"
+                type="number"
+                id="subj1_coeff"
+                name="subj1_coeff"
+                step="0.1"
+                min="0"
+                max="1"
+                required
+                placeholder="0.5"
+                value={formValues.subj1_coeff}
+                onChange={handleChange}
+              />
+            </div>
+          </div>
+          <div className="form_line">
+            <label htmlFor="subj2">Бал ЗНО/НМТ 2</label>
+            <div className="form_line_inputs">
+              <input
+                className="calc_num-input"
+                type="number"
+                id="subj2"
+                name="subj2"
+                min="0"
+                max="200"
+                required
+                placeholder="150"
+                value={formValues.subj2}
+                onChange={handleChange}
+              />
+              <input
+                className="calc_num-input"
+                type="number"
+                id="subj2_coeff"
+                name="subj2_coeff"
+                step="0.1"
+                min="0"
+                max="1"
+                required
+                placeholder="0.5"
+                value={formValues.subj2_coeff}
+                onChange={handleChange}
+              />
+            </div>
+          </div>
+          <div className="form_line">
+            <label htmlFor="subj3">Бал ЗНО/НМТ 3</label>
+            <div className="form_line_inputs">
+              <input
+                className="calc_num-input"
+                type="number"
+                id="subj3"
+                name="subj3"
+                min="0"
+                max="200"
+                required
+                placeholder="150"
+                value={formValues.subj3}
+                onChange={handleChange}
+              />
+              <input
+                className="calc_num-input"
+                type="number"
+                id="subj3_coeff"
+                name="subj3_coeff"
+                step="0.1"
+                min="0"
+                max="1"
+                required
+                placeholder="0.5"
+                value={formValues.subj3_coeff}
+                onChange={handleChange}
+              />
+            </div>
+          </div>
+          <div className="form_line">
+            <label htmlFor="subj4">Бал ЗНО/НМТ 4</label>
+            <div className="form_line_inputs">
+              <input
+                className="calc_num-input"
+                type="number"
+                id="subj4"
+                name="subj4"
+                min="0"
+                max="200"
+                required
+                placeholder="150"
+                value={formValues.subj4}
+                onChange={handleChange}
+              />
+              <input
+                className="calc_num-input"
+                type="number"
+                id="subj4_coeff"
+                name="subj4_coeff"
+                step="0.1"
+                min="0"
+                max="1"
+                required
+                placeholder="0.5"
+                value={formValues.subj4_coeff}
+                onChange={handleChange}
+              />
+            </div>
+          </div>
+          <div className="form_line">
+            <label htmlFor="creative">Бал за творчий конкурс</label>
+            <div className="form_line_inputs">
+              <input
+                className="calc_num-input"
+                type="number"
+                id="creative"
+                name="creative"
+                min="0"
+                max="200"
+                required
+                placeholder="150"
+                value={formValues.creative}
+                onChange={handleChange}
+              />
+              <input
+                className="calc_num-input"
+                type="number"
+                id="creative_coeff"
+                name="creative_coeff"
+                step="0.1"
+                min="0"
+                max="1"
+                required
+                placeholder="0.5"
+                value={formValues.creative_coeff}
+                onChange={handleChange}
+              />
+            </div>
+          </div>
+          <div className="form_line">
+            <label htmlFor="efvv">Бал ЄФВВ</label>
+            <div className="form_line_inputs">
+              <input
+                className="calc_num-input"
+                type="number"
+                id="efvv"
+                name="efvv"
+                min="0"
+                max="200"
+                placeholder="150"
+                value={formValues.efvv}
+                onChange={handleChange}
+              />
+              <input
+                className="calc_num-input"
+                type="number"
+                id="efvv_coeff"
+                name="efvv_coeff"
+                step="0.1"
+                min="0"
+                max="1"
+                required
+                placeholder="0.5"
+                value={formValues.efvv_coeff}
+                readOnly
+                onChange={handleChange}
+              />
+            </div>
+          </div>
+          <div className="form_line">
+            <label htmlFor="efvv">Бал ОУ</label>
+            <div className="form_line_inputs">
+              <input
+                className="calc_num-input calc_num-input_ou"
+                type="number"
+                id="ou"
+                name="ou"
+                min="0"
+                max="200"
+                required
+                placeholder="150"
+                value={formValues.ou}
+                onChange={handleChange}
+              />
+            </div>
+          </div>
           <div className="form_line">
             <label htmlFor="regional">Регіональний коефіцієнт</label>
             <div className="form_line_inputs">
@@ -251,8 +350,9 @@ function Calculator({ setResult, setIsSubmitted, setFormula }) {
           <button className="button-default calc_button" type="submit">
             Розрахувати
           </button>
+
+          <ClaculatorDetails></ClaculatorDetails>
         </form>
-        <ClaculatorDetails></ClaculatorDetails>
       </div>
     </>
   );
@@ -288,6 +388,10 @@ function ClaculatorDetails() {
           <strong>ТК</strong> – оцінка творчого конкурсу (у передбачених
           випадках); · БЄФВВ – оцінка єдиного фахового вступного випробування (у
           передбачених випадках);
+        </li>
+        <li>
+          <strong>БЄФВВ</strong> – оцінка єдиного фахового вступного
+          випробування (у передбачених випадках);
         </li>
         <li>
           <strong>ОУ </strong>– бал за успішне закінчення у рік вступу
