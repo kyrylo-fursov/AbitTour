@@ -67,6 +67,26 @@ const Calc = () => {
             subject: subject.subject,
           }));
           setSubjects(processedSubjects);
+
+          // Find the coefficients for the specific subjects
+          const ukrCoeff = processedSubjects.find(
+            (subject) => subject.subject === "UKRAINIAN_LANGUAGE"
+          )?.coefficient;
+          const mathCoeff = processedSubjects.find(
+            (subject) => subject.subject === "MATHEMATICS"
+          )?.coefficient;
+          const historyCoeff = processedSubjects.find(
+            (subject) => subject.subject === "HISTORY_OF_UKRAINE"
+          )?.coefficient;
+
+          // Set the coefficients in formData state
+          setFormData((prevFormData) => ({
+            ...prevFormData,
+            ukr_coeff: ukrCoeff || prevFormData.ukr_coeff,
+            math_coeff: mathCoeff || prevFormData.math_coeff,
+            history_coeff: historyCoeff || prevFormData.history_coeff,
+            optional_subj_coeff: prevFormData.optional_subj_coeff,
+          }));
         } else {
           throw new Error("Invalid response structure");
         }

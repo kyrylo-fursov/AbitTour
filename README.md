@@ -9,6 +9,7 @@ Make sure you have Node.js installed on your machine. You can download it from [
 **Install the dependencies:**
 
 ```bash
+cd abittour_frontend
 npm install
 ```
 

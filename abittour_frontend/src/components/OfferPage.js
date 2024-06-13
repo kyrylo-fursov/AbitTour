@@ -73,7 +73,7 @@ export function OfferPage() {
       <InlineCalculator></InlineCalculator>
       {/* <h1>Конкурсні заявки</h1> */}
       {/* <ApplicantsTable data={data}></ApplicantsTable> */}
-      <SpecialityComponent></SpecialityComponent>
+      {/* <SpecialityComponent></SpecialityComponent> */}
     </div>
   );
 }
