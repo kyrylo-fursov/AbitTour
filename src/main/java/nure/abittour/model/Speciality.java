@@ -15,14 +15,14 @@ import java.util.Map;
 @Setter
 public class Speciality extends BaseEntity {
     @Column(nullable = false)
-    private String code;
+    String code;
 
     @Column(nullable = false)
-    private String name;
+    String name;
 
     @Column
-    private String specialization;
+    String specialization;
 
     @OneToMany(mappedBy = "speciality", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<SubjectCoef> subjectCoefs = new ArrayList<>();
+    List<SubjectCoef> subjectCoefs = new ArrayList<>();
 }
