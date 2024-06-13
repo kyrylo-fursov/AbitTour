@@ -24,7 +24,7 @@ public class ZnoSubjectOption extends BaseEntity {
     Double coefficient;
 
     @Enumerated(EnumType.STRING)
-    @Column
+    @Column(nullable = false, length = 50)
     Subject subject;
 
     @ManyToOne(fetch = FetchType.LAZY)

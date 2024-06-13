@@ -1,0 +1,6801 @@
+[ {
+  "programName" : "Program Name 13",
+  "offerCode" : -8082909996760413859,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 30,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 2,
+  "maxVolumeOfTheStateOrder" : 12,
+  "priceForYear" : 5918,
+  "totalPrice" : 29720,
+  "regionalCoefficient" : 1.0,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 404",
+  "offerCode" : -3327006220184142133,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 52,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 2,
+  "maxVolumeOfTheStateOrder" : 42,
+  "priceForYear" : 10398,
+  "totalPrice" : 43684,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.9,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 161",
+  "offerCode" : 2721601783391888238,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 45,
+  "universityId" : 1,
+  "faculty" : "Faculty 6",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 18,
+  "maxVolumeOfTheStateOrder" : 7,
+  "priceForYear" : 3917,
+  "totalPrice" : 40072,
+  "regionalCoefficient" : 2.0,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 433",
+  "offerCode" : 393592038328582839,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 97,
+  "universityId" : 1,
+  "faculty" : "Faculty 0",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 93,
+  "maxVolumeOfTheStateOrder" : 13,
+  "priceForYear" : 1462,
+  "totalPrice" : 18104,
+  "regionalCoefficient" : 1.5,
+  "domainCoefficient" : 1.0,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 277",
+  "offerCode" : -2482153090574152353,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 25,
+  "universityId" : 1,
+  "faculty" : "Faculty 6",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 83,
+  "maxVolumeOfTheStateOrder" : 6,
+  "priceForYear" : 7309,
+  "totalPrice" : 12336,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 434",
+  "offerCode" : -8752409801332209909,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 13,
+  "universityId" : 1,
+  "faculty" : "Faculty 4",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 99,
+  "maxVolumeOfTheStateOrder" : 3,
+  "priceForYear" : 8187,
+  "totalPrice" : 22068,
+  "regionalCoefficient" : 1.5,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 760",
+  "offerCode" : 7613539094394429108,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 89,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 74,
+  "maxVolumeOfTheStateOrder" : 16,
+  "priceForYear" : 8447,
+  "totalPrice" : 21012,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.2,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 967",
+  "offerCode" : 1760862294630541856,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 30,
+  "universityId" : 1,
+  "faculty" : "Faculty 0",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 9,
+  "maxVolumeOfTheStateOrder" : 50,
+  "priceForYear" : 8622,
+  "totalPrice" : 23460,
+  "regionalCoefficient" : 1.0,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.2,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "BIOLOGY"
+  } ]
+}, {
+  "programName" : "Program Name 443",
+  "offerCode" : -7845257744837661928,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 32,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 45,
+  "maxVolumeOfTheStateOrder" : 13,
+  "priceForYear" : 2256,
+  "totalPrice" : 27624,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 375",
+  "offerCode" : 8668478351471991067,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 90,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 24,
+  "maxVolumeOfTheStateOrder" : 18,
+  "priceForYear" : 4214,
+  "totalPrice" : 19780,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.9,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 167",
+  "offerCode" : -2906507115791698759,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 44,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 55,
+  "maxVolumeOfTheStateOrder" : 7,
+  "priceForYear" : 10950,
+  "totalPrice" : 28700,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 274",
+  "offerCode" : 1290469834671143400,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 90,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 11,
+  "maxVolumeOfTheStateOrder" : 47,
+  "priceForYear" : 3843,
+  "totalPrice" : 36032,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 294",
+  "offerCode" : -8555322556124451613,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 99,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 9,
+  "maxVolumeOfTheStateOrder" : 16,
+  "priceForYear" : 5939,
+  "totalPrice" : 29108,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.9,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 227",
+  "offerCode" : 6455561059337292153,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 65,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 70,
+  "maxVolumeOfTheStateOrder" : 33,
+  "priceForYear" : 4291,
+  "totalPrice" : 8092,
+  "regionalCoefficient" : 1.4000000000000001,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "BIOLOGY"
+  } ]
+}, {
+  "programName" : "Program Name 17",
+  "offerCode" : 8730160150329007835,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 85,
+  "universityId" : 1,
+  "faculty" : "Faculty 6",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 77,
+  "maxVolumeOfTheStateOrder" : 17,
+  "priceForYear" : 4857,
+  "totalPrice" : 37988,
+  "regionalCoefficient" : 1.4000000000000001,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.9,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 240",
+  "offerCode" : 6714158329236220479,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 13,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 85,
+  "maxVolumeOfTheStateOrder" : 19,
+  "priceForYear" : 3385,
+  "totalPrice" : 11968,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 863",
+  "offerCode" : 2683015529054675197,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 52,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 2,
+  "maxVolumeOfTheStateOrder" : 6,
+  "priceForYear" : 8708,
+  "totalPrice" : 29732,
+  "regionalCoefficient" : 2.0,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.0,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 555",
+  "offerCode" : -3271340099234849047,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 62,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 24,
+  "maxVolumeOfTheStateOrder" : 16,
+  "priceForYear" : 10261,
+  "totalPrice" : 23580,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.0,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "MATHEMATICS"
+  } ]
+}, {
+  "programName" : "Program Name 710",
+  "offerCode" : 3900376459200702488,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 64,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 82,
+  "maxVolumeOfTheStateOrder" : 34,
+  "priceForYear" : 1263,
+  "totalPrice" : 22868,
+  "regionalCoefficient" : 1.4000000000000001,
+  "domainCoefficient" : 2.0,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 715",
+  "offerCode" : -9053112362906833573,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 49,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 48,
+  "maxVolumeOfTheStateOrder" : 4,
+  "priceForYear" : 2582,
+  "totalPrice" : 23292,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.9,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 923",
+  "offerCode" : -8442016238128948984,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 30,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 76,
+  "maxVolumeOfTheStateOrder" : 40,
+  "priceForYear" : 4597,
+  "totalPrice" : 41536,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 2.0,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "BIOLOGY"
+  } ]
+}, {
+  "programName" : "Program Name 332",
+  "offerCode" : -3115501652863588879,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 95,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 80,
+  "maxVolumeOfTheStateOrder" : 31,
+  "priceForYear" : 5925,
+  "totalPrice" : 8664,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.9,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "UKRAINIAN_LITERATURE"
+  } ]
+}, {
+  "programName" : "Program Name 36",
+  "offerCode" : -7899864696993090411,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 39,
+  "universityId" : 1,
+  "faculty" : "Faculty 4",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 70,
+  "maxVolumeOfTheStateOrder" : 6,
+  "priceForYear" : 5088,
+  "totalPrice" : 12676,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.0,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 493",
+  "offerCode" : -2660989044473558284,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 99,
+  "universityId" : 1,
+  "faculty" : "Faculty 6",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 99,
+  "maxVolumeOfTheStateOrder" : 10,
+  "priceForYear" : 4035,
+  "totalPrice" : 15100,
+  "regionalCoefficient" : 1.5,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.2,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 853",
+  "offerCode" : -3350199205673649781,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 98,
+  "universityId" : 1,
+  "faculty" : "Faculty 4",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 35,
+  "maxVolumeOfTheStateOrder" : 13,
+  "priceForYear" : 8486,
+  "totalPrice" : 30436,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 48",
+  "offerCode" : -1192788713079172004,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 17,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 41,
+  "maxVolumeOfTheStateOrder" : 34,
+  "priceForYear" : 6954,
+  "totalPrice" : 14348,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 336",
+  "offerCode" : -24056810252543718,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 57,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 31,
+  "maxVolumeOfTheStateOrder" : 36,
+  "priceForYear" : 6169,
+  "totalPrice" : 35944,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 1.0,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 356",
+  "offerCode" : -1697864263828517945,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 90,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 1,
+  "maxVolumeOfTheStateOrder" : 43,
+  "priceForYear" : 8537,
+  "totalPrice" : 4332,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.2000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 367",
+  "offerCode" : 9166954043904743791,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 10,
+  "universityId" : 1,
+  "faculty" : "Faculty 6",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 39,
+  "maxVolumeOfTheStateOrder" : 21,
+  "priceForYear" : 2126,
+  "totalPrice" : 18152,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 485",
+  "offerCode" : 8972918891068390586,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 86,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 33,
+  "maxVolumeOfTheStateOrder" : 29,
+  "priceForYear" : 3984,
+  "totalPrice" : 6868,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.2000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 524",
+  "offerCode" : 5247748034413298322,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 74,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 60,
+  "maxVolumeOfTheStateOrder" : 23,
+  "priceForYear" : 6614,
+  "totalPrice" : 15272,
+  "regionalCoefficient" : 1.4000000000000001,
+  "domainCoefficient" : 2.0,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "BIOLOGY"
+  } ]
+}, {
+  "programName" : "Program Name 237",
+  "offerCode" : 6399267796514092310,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 32,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 45,
+  "maxVolumeOfTheStateOrder" : 15,
+  "priceForYear" : 5956,
+  "totalPrice" : 22692,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.2,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 993",
+  "offerCode" : -2024414765878857343,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 62,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 21,
+  "maxVolumeOfTheStateOrder" : 38,
+  "priceForYear" : 5523,
+  "totalPrice" : 25788,
+  "regionalCoefficient" : 1.4000000000000001,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 548",
+  "offerCode" : 5814256186761433564,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 1,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 2,
+  "maxVolumeOfTheStateOrder" : 48,
+  "priceForYear" : 6564,
+  "totalPrice" : 12284,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 922",
+  "offerCode" : 4351569102457154957,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 65,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 64,
+  "maxVolumeOfTheStateOrder" : 28,
+  "priceForYear" : 2248,
+  "totalPrice" : 26188,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.9,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 475",
+  "offerCode" : 907648469336020004,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 55,
+  "universityId" : 1,
+  "faculty" : "Faculty 0",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 91,
+  "maxVolumeOfTheStateOrder" : 42,
+  "priceForYear" : 9778,
+  "totalPrice" : 6364,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 894",
+  "offerCode" : 2214061234198780916,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 10,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 7,
+  "maxVolumeOfTheStateOrder" : 16,
+  "priceForYear" : 5292,
+  "totalPrice" : 8256,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 967",
+  "offerCode" : -8598937234765989286,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 25,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 36,
+  "maxVolumeOfTheStateOrder" : 28,
+  "priceForYear" : 7317,
+  "totalPrice" : 29488,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.0,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 573",
+  "offerCode" : -5093942734434013760,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 43,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 83,
+  "maxVolumeOfTheStateOrder" : 11,
+  "priceForYear" : 10240,
+  "totalPrice" : 39496,
+  "regionalCoefficient" : 1.5,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 792",
+  "offerCode" : 4833714010762664379,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 26,
+  "universityId" : 1,
+  "faculty" : "Faculty 0",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 71,
+  "maxVolumeOfTheStateOrder" : 33,
+  "priceForYear" : 7458,
+  "totalPrice" : 29944,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 1.0,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 717",
+  "offerCode" : -7053703780771175458,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 59,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 90,
+  "maxVolumeOfTheStateOrder" : 40,
+  "priceForYear" : 8468,
+  "totalPrice" : 41600,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "MATHEMATICS"
+  } ]
+}, {
+  "programName" : "Program Name 568",
+  "offerCode" : 1277090477397701647,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 47,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 16,
+  "maxVolumeOfTheStateOrder" : 1,
+  "priceForYear" : 1731,
+  "totalPrice" : 35984,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 622",
+  "offerCode" : -7852597249217886846,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 14,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 11,
+  "maxVolumeOfTheStateOrder" : 31,
+  "priceForYear" : 4657,
+  "totalPrice" : 20152,
+  "regionalCoefficient" : 1.5,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.9,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 153",
+  "offerCode" : -8562657874311641688,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 70,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 16,
+  "maxVolumeOfTheStateOrder" : 14,
+  "priceForYear" : 2904,
+  "totalPrice" : 39116,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 596",
+  "offerCode" : -3842499929399647047,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 47,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 14,
+  "maxVolumeOfTheStateOrder" : 27,
+  "priceForYear" : 5384,
+  "totalPrice" : 14308,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "MATHEMATICS"
+  } ]
+}, {
+  "programName" : "Program Name 479",
+  "offerCode" : -6259496457323968614,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 76,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 72,
+  "maxVolumeOfTheStateOrder" : 44,
+  "priceForYear" : 8466,
+  "totalPrice" : 7448,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.2000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 459",
+  "offerCode" : 7902685454819577166,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 71,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 47,
+  "maxVolumeOfTheStateOrder" : 21,
+  "priceForYear" : 9808,
+  "totalPrice" : 17372,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.9,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 332",
+  "offerCode" : 965358304814506555,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 66,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 5,
+  "maxVolumeOfTheStateOrder" : 47,
+  "priceForYear" : 5270,
+  "totalPrice" : 7304,
+  "regionalCoefficient" : 2.0,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "MATHEMATICS"
+  } ]
+}, {
+  "programName" : "Program Name 397",
+  "offerCode" : 4923146096635787746,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 21,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 87,
+  "maxVolumeOfTheStateOrder" : 28,
+  "priceForYear" : 2038,
+  "totalPrice" : 31752,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 211",
+  "offerCode" : 4861614480148564957,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 4,
+  "universityId" : 1,
+  "faculty" : "Faculty 6",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 53,
+  "maxVolumeOfTheStateOrder" : 13,
+  "priceForYear" : 2583,
+  "totalPrice" : 33840,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "MATHEMATICS"
+  } ]
+}, {
+  "programName" : "Program Name 816",
+  "offerCode" : -5307073569485771962,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 85,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 74,
+  "maxVolumeOfTheStateOrder" : 6,
+  "priceForYear" : 5222,
+  "totalPrice" : 21220,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 748",
+  "offerCode" : -7083410058169610294,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 31,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 34,
+  "maxVolumeOfTheStateOrder" : 31,
+  "priceForYear" : 7555,
+  "totalPrice" : 18568,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 459",
+  "offerCode" : -6332547334061212133,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 34,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 36,
+  "maxVolumeOfTheStateOrder" : 50,
+  "priceForYear" : 9694,
+  "totalPrice" : 18856,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 222",
+  "offerCode" : 1867056420407114112,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 35,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 42,
+  "maxVolumeOfTheStateOrder" : 13,
+  "priceForYear" : 3960,
+  "totalPrice" : 8620,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 992",
+  "offerCode" : 3940027653944613548,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 65,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 11,
+  "maxVolumeOfTheStateOrder" : 7,
+  "priceForYear" : 6571,
+  "totalPrice" : 22684,
+  "regionalCoefficient" : 1.5,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.2,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "BIOLOGY"
+  } ]
+}, {
+  "programName" : "Program Name 139",
+  "offerCode" : -3696278075557552083,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 81,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 18,
+  "maxVolumeOfTheStateOrder" : 28,
+  "priceForYear" : 10615,
+  "totalPrice" : 35792,
+  "regionalCoefficient" : 1.4000000000000001,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 757",
+  "offerCode" : 4379482488930441994,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 80,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 78,
+  "maxVolumeOfTheStateOrder" : 15,
+  "priceForYear" : 7396,
+  "totalPrice" : 8488,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LITERATURE"
+  } ]
+}, {
+  "programName" : "Program Name 628",
+  "offerCode" : 66812204526145133,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 51,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 68,
+  "maxVolumeOfTheStateOrder" : 2,
+  "priceForYear" : 7422,
+  "totalPrice" : 19268,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 283",
+  "offerCode" : 8511371595057054569,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 7,
+  "universityId" : 1,
+  "faculty" : "Faculty 6",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 20,
+  "maxVolumeOfTheStateOrder" : 10,
+  "priceForYear" : 10907,
+  "totalPrice" : 21888,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 717",
+  "offerCode" : -8242873948461104574,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 70,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 5,
+  "maxVolumeOfTheStateOrder" : 41,
+  "priceForYear" : 10220,
+  "totalPrice" : 43600,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.2,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "UKRAINIAN_LITERATURE"
+  } ]
+}, {
+  "programName" : "Program Name 65",
+  "offerCode" : 2511445006449911994,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 78,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 33,
+  "maxVolumeOfTheStateOrder" : 4,
+  "priceForYear" : 3931,
+  "totalPrice" : 11548,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.2000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.0,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 955",
+  "offerCode" : 2954810519853744467,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 96,
+  "universityId" : 1,
+  "faculty" : "Faculty 0",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 89,
+  "maxVolumeOfTheStateOrder" : 14,
+  "priceForYear" : 4292,
+  "totalPrice" : 35608,
+  "regionalCoefficient" : 1.5,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 1.0,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 937",
+  "offerCode" : 2791376671027601801,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 84,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 10,
+  "maxVolumeOfTheStateOrder" : 29,
+  "priceForYear" : 2211,
+  "totalPrice" : 22644,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "MATHEMATICS"
+  } ]
+}, {
+  "programName" : "Program Name 258",
+  "offerCode" : -82433306441548440,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 7,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 10,
+  "maxVolumeOfTheStateOrder" : 4,
+  "priceForYear" : 5933,
+  "totalPrice" : 24412,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  } ]
+}, {
+  "programName" : "Program Name 760",
+  "offerCode" : -4830878461751010025,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 29,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 40,
+  "maxVolumeOfTheStateOrder" : 17,
+  "priceForYear" : 7577,
+  "totalPrice" : 7100,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 75",
+  "offerCode" : -48818465947695835,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 64,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 99,
+  "maxVolumeOfTheStateOrder" : 12,
+  "priceForYear" : 5960,
+  "totalPrice" : 6508,
+  "regionalCoefficient" : 1.0,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 668",
+  "offerCode" : 4496840995880320186,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 11,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 46,
+  "maxVolumeOfTheStateOrder" : 4,
+  "priceForYear" : 5876,
+  "totalPrice" : 35012,
+  "regionalCoefficient" : 2.0,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 658",
+  "offerCode" : 2104529779602930949,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 18,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 84,
+  "maxVolumeOfTheStateOrder" : 23,
+  "priceForYear" : 9448,
+  "totalPrice" : 37808,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  } ]
+}, {
+  "programName" : "Program Name 679",
+  "offerCode" : -893091320083149964,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 63,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 95,
+  "maxVolumeOfTheStateOrder" : 10,
+  "priceForYear" : 3384,
+  "totalPrice" : 13024,
+  "regionalCoefficient" : 1.5,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 158",
+  "offerCode" : -7962918105011741542,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 4,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 20,
+  "maxVolumeOfTheStateOrder" : 30,
+  "priceForYear" : 1304,
+  "totalPrice" : 35388,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "BIOLOGY"
+  } ]
+}, {
+  "programName" : "Program Name 57",
+  "offerCode" : 1774060787156971474,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 63,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 92,
+  "maxVolumeOfTheStateOrder" : 14,
+  "priceForYear" : 5997,
+  "totalPrice" : 34084,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 82",
+  "offerCode" : -5627465063948293117,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 54,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 63,
+  "maxVolumeOfTheStateOrder" : 17,
+  "priceForYear" : 6718,
+  "totalPrice" : 32432,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 90",
+  "offerCode" : -4646971069845588985,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 38,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 12,
+  "maxVolumeOfTheStateOrder" : 2,
+  "priceForYear" : 4306,
+  "totalPrice" : 18324,
+  "regionalCoefficient" : 1.4000000000000001,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 960",
+  "offerCode" : -7147128993506247252,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 94,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 63,
+  "maxVolumeOfTheStateOrder" : 25,
+  "priceForYear" : 4342,
+  "totalPrice" : 18324,
+  "regionalCoefficient" : 2.0,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LITERATURE"
+  } ]
+}, {
+  "programName" : "Program Name 110",
+  "offerCode" : 1183283084119883848,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 13,
+  "universityId" : 1,
+  "faculty" : "Faculty 4",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 58,
+  "maxVolumeOfTheStateOrder" : 48,
+  "priceForYear" : 8899,
+  "totalPrice" : 15276,
+  "regionalCoefficient" : 1.5,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 508",
+  "offerCode" : 1281360876855372,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 66,
+  "universityId" : 1,
+  "faculty" : "Faculty 4",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 63,
+  "maxVolumeOfTheStateOrder" : 28,
+  "priceForYear" : 8768,
+  "totalPrice" : 31084,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.2000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "BIOLOGY"
+  } ]
+}, {
+  "programName" : "Program Name 850",
+  "offerCode" : 318885566159053673,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 58,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 44,
+  "maxVolumeOfTheStateOrder" : 28,
+  "priceForYear" : 2083,
+  "totalPrice" : 29636,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "BIOLOGY"
+  } ]
+}, {
+  "programName" : "Program Name 39",
+  "offerCode" : 5666651385782387996,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 13,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 10,
+  "maxVolumeOfTheStateOrder" : 18,
+  "priceForYear" : 4259,
+  "totalPrice" : 43968,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 851",
+  "offerCode" : 7862835911855654328,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 16,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 68,
+  "maxVolumeOfTheStateOrder" : 19,
+  "priceForYear" : 10123,
+  "totalPrice" : 39072,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.2,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "MATHEMATICS"
+  } ]
+}, {
+  "programName" : "Program Name 538",
+  "offerCode" : 9094277270342637140,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 59,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 67,
+  "maxVolumeOfTheStateOrder" : 13,
+  "priceForYear" : 6835,
+  "totalPrice" : 31252,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 870",
+  "offerCode" : 4457781185447436825,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 18,
+  "universityId" : 1,
+  "faculty" : "Faculty 4",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 13,
+  "maxVolumeOfTheStateOrder" : 12,
+  "priceForYear" : 8618,
+  "totalPrice" : 40328,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.9,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 370",
+  "offerCode" : -5707689064034027030,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 61,
+  "universityId" : 1,
+  "faculty" : "Faculty 6",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 17,
+  "maxVolumeOfTheStateOrder" : 28,
+  "priceForYear" : 8165,
+  "totalPrice" : 43040,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 275",
+  "offerCode" : 4595453311998239074,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 20,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 40,
+  "maxVolumeOfTheStateOrder" : 11,
+  "priceForYear" : 6701,
+  "totalPrice" : 15528,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 666",
+  "offerCode" : 5435644511658523790,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 50,
+  "universityId" : 1,
+  "faculty" : "Faculty 4",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 50,
+  "maxVolumeOfTheStateOrder" : 46,
+  "priceForYear" : 6380,
+  "totalPrice" : 42116,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 852",
+  "offerCode" : -3582614513446751240,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 19,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 1,
+  "maxVolumeOfTheStateOrder" : 36,
+  "priceForYear" : 6726,
+  "totalPrice" : 43100,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.2,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "UKRAINIAN_LITERATURE"
+  } ]
+}, {
+  "programName" : "Program Name 683",
+  "offerCode" : -3881823605756600096,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 33,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 92,
+  "maxVolumeOfTheStateOrder" : 28,
+  "priceForYear" : 4403,
+  "totalPrice" : 4044,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  } ]
+}, {
+  "programName" : "Program Name 707",
+  "offerCode" : -1537118098804570710,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 23,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 66,
+  "maxVolumeOfTheStateOrder" : 10,
+  "priceForYear" : 3506,
+  "totalPrice" : 15960,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 161",
+  "offerCode" : 460728215568371443,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 97,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 19,
+  "maxVolumeOfTheStateOrder" : 25,
+  "priceForYear" : 4419,
+  "totalPrice" : 30600,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 48",
+  "offerCode" : -1689306644043077684,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 24,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 70,
+  "maxVolumeOfTheStateOrder" : 10,
+  "priceForYear" : 4155,
+  "totalPrice" : 4460,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.2000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "BIOLOGY"
+  } ]
+}, {
+  "programName" : "Program Name 536",
+  "offerCode" : -6864045245430980602,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 64,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 92,
+  "maxVolumeOfTheStateOrder" : 34,
+  "priceForYear" : 1063,
+  "totalPrice" : 37432,
+  "regionalCoefficient" : 1.4000000000000001,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 329",
+  "offerCode" : 9165308716236033431,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 56,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 96,
+  "maxVolumeOfTheStateOrder" : 35,
+  "priceForYear" : 6805,
+  "totalPrice" : 12844,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 75",
+  "offerCode" : 4662506937002672768,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 66,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 95,
+  "maxVolumeOfTheStateOrder" : 44,
+  "priceForYear" : 5282,
+  "totalPrice" : 24904,
+  "regionalCoefficient" : 1.4000000000000001,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "BIOLOGY"
+  } ]
+}, {
+  "programName" : "Program Name 139",
+  "offerCode" : 782682891943458496,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 45,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 55,
+  "maxVolumeOfTheStateOrder" : 44,
+  "priceForYear" : 4317,
+  "totalPrice" : 8772,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 2.0,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 140",
+  "offerCode" : -8623349921454394835,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 56,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 93,
+  "maxVolumeOfTheStateOrder" : 23,
+  "priceForYear" : 6426,
+  "totalPrice" : 15236,
+  "regionalCoefficient" : 2.0,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 829",
+  "offerCode" : -1591679610635672490,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 43,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 18,
+  "maxVolumeOfTheStateOrder" : 19,
+  "priceForYear" : 7765,
+  "totalPrice" : 25480,
+  "regionalCoefficient" : 1.5,
+  "domainCoefficient" : 1.0,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 264",
+  "offerCode" : -1144617109444312905,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 10,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 65,
+  "maxVolumeOfTheStateOrder" : 39,
+  "priceForYear" : 4085,
+  "totalPrice" : 28888,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "MATHEMATICS"
+  } ]
+}, {
+  "programName" : "Program Name 212",
+  "offerCode" : -2791814672897215520,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 100,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 37,
+  "maxVolumeOfTheStateOrder" : 21,
+  "priceForYear" : 5874,
+  "totalPrice" : 21980,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.2000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "BIOLOGY"
+  } ]
+}, {
+  "programName" : "Program Name 322",
+  "offerCode" : 8986546273413261926,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 51,
+  "universityId" : 1,
+  "faculty" : "Faculty 0",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 55,
+  "maxVolumeOfTheStateOrder" : 46,
+  "priceForYear" : 1321,
+  "totalPrice" : 26748,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.2,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 353",
+  "offerCode" : 554550998573661366,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 15,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 94,
+  "maxVolumeOfTheStateOrder" : 45,
+  "priceForYear" : 5007,
+  "totalPrice" : 13556,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 111",
+  "offerCode" : 89806197131604763,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 53,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 87,
+  "maxVolumeOfTheStateOrder" : 31,
+  "priceForYear" : 3114,
+  "totalPrice" : 27000,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.9,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "MATHEMATICS"
+  } ]
+}, {
+  "programName" : "Program Name 448",
+  "offerCode" : -3056821202880148577,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 35,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 33,
+  "maxVolumeOfTheStateOrder" : 38,
+  "priceForYear" : 5331,
+  "totalPrice" : 31184,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "BIOLOGY"
+  } ]
+}, {
+  "programName" : "Program Name 209",
+  "offerCode" : -5356712366900656246,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 45,
+  "universityId" : 1,
+  "faculty" : "Faculty 0",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 20,
+  "maxVolumeOfTheStateOrder" : 30,
+  "priceForYear" : 4757,
+  "totalPrice" : 9296,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 547",
+  "offerCode" : 4195255523781777579,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 37,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 67,
+  "maxVolumeOfTheStateOrder" : 29,
+  "priceForYear" : 9494,
+  "totalPrice" : 5864,
+  "regionalCoefficient" : 2.0,
+  "domainCoefficient" : 1.2000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 357",
+  "offerCode" : -8599066191904809290,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 92,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 66,
+  "maxVolumeOfTheStateOrder" : 38,
+  "priceForYear" : 7905,
+  "totalPrice" : 32712,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 548",
+  "offerCode" : -468772005098499246,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 69,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 94,
+  "maxVolumeOfTheStateOrder" : 2,
+  "priceForYear" : 1755,
+  "totalPrice" : 25704,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.2000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 111",
+  "offerCode" : 2761668584341542834,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 92,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 75,
+  "maxVolumeOfTheStateOrder" : 9,
+  "priceForYear" : 5933,
+  "totalPrice" : 43412,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "BIOLOGY"
+  } ]
+}, {
+  "programName" : "Program Name 464",
+  "offerCode" : -1930560125925400371,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 46,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 12,
+  "maxVolumeOfTheStateOrder" : 15,
+  "priceForYear" : 7454,
+  "totalPrice" : 22516,
+  "regionalCoefficient" : 1.4000000000000001,
+  "domainCoefficient" : 1.0,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "MATHEMATICS"
+  } ]
+}, {
+  "programName" : "Program Name 357",
+  "offerCode" : 20508420503359381,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 18,
+  "universityId" : 1,
+  "faculty" : "Faculty 6",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 41,
+  "maxVolumeOfTheStateOrder" : 16,
+  "priceForYear" : 8812,
+  "totalPrice" : 14364,
+  "regionalCoefficient" : 1.5,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 32",
+  "offerCode" : -7582746308406548300,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 81,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 75,
+  "maxVolumeOfTheStateOrder" : 37,
+  "priceForYear" : 4661,
+  "totalPrice" : 33552,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 665",
+  "offerCode" : 4039108920004078525,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 37,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 21,
+  "maxVolumeOfTheStateOrder" : 39,
+  "priceForYear" : 6036,
+  "totalPrice" : 35472,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LITERATURE"
+  } ]
+}, {
+  "programName" : "Program Name 498",
+  "offerCode" : 7578859223253634009,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 98,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 60,
+  "maxVolumeOfTheStateOrder" : 42,
+  "priceForYear" : 10747,
+  "totalPrice" : 31524,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 632",
+  "offerCode" : -8618251010509384632,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 28,
+  "universityId" : 1,
+  "faculty" : "Faculty 6",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 15,
+  "maxVolumeOfTheStateOrder" : 10,
+  "priceForYear" : 8223,
+  "totalPrice" : 23456,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 2.0,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 836",
+  "offerCode" : 1808510153876087139,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 82,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 60,
+  "maxVolumeOfTheStateOrder" : 13,
+  "priceForYear" : 2336,
+  "totalPrice" : 10276,
+  "regionalCoefficient" : 1.4000000000000001,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "UKRAINIAN_LITERATURE"
+  } ]
+}, {
+  "programName" : "Program Name 23",
+  "offerCode" : -4223429194364675376,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 53,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 46,
+  "maxVolumeOfTheStateOrder" : 29,
+  "priceForYear" : 3553,
+  "totalPrice" : 30636,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 505",
+  "offerCode" : -5501756435805891027,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 68,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 26,
+  "maxVolumeOfTheStateOrder" : 13,
+  "priceForYear" : 10501,
+  "totalPrice" : 12196,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 173",
+  "offerCode" : 4959466406132271461,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 74,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 88,
+  "maxVolumeOfTheStateOrder" : 32,
+  "priceForYear" : 7999,
+  "totalPrice" : 34552,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 797",
+  "offerCode" : 6060597928642005599,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 58,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 68,
+  "maxVolumeOfTheStateOrder" : 30,
+  "priceForYear" : 3996,
+  "totalPrice" : 16164,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 580",
+  "offerCode" : 2842594603551331791,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 89,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 27,
+  "maxVolumeOfTheStateOrder" : 3,
+  "priceForYear" : 8200,
+  "totalPrice" : 17396,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.9,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 964",
+  "offerCode" : 6340826969350506830,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 16,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 29,
+  "maxVolumeOfTheStateOrder" : 4,
+  "priceForYear" : 5269,
+  "totalPrice" : 31228,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 73",
+  "offerCode" : -6341148648816315131,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 64,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 59,
+  "maxVolumeOfTheStateOrder" : 1,
+  "priceForYear" : 1189,
+  "totalPrice" : 36260,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "MATHEMATICS"
+  } ]
+}, {
+  "programName" : "Program Name 656",
+  "offerCode" : -1201740224614467696,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 53,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 24,
+  "maxVolumeOfTheStateOrder" : 50,
+  "priceForYear" : 6557,
+  "totalPrice" : 13424,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 770",
+  "offerCode" : 942447859517016807,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 15,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 32,
+  "maxVolumeOfTheStateOrder" : 17,
+  "priceForYear" : 2420,
+  "totalPrice" : 6180,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.2,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 832",
+  "offerCode" : 6301516920558097251,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 66,
+  "universityId" : 1,
+  "faculty" : "Faculty 4",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 4,
+  "maxVolumeOfTheStateOrder" : 15,
+  "priceForYear" : 3928,
+  "totalPrice" : 7924,
+  "regionalCoefficient" : 1.4000000000000001,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "UKRAINIAN_LITERATURE"
+  } ]
+}, {
+  "programName" : "Program Name 199",
+  "offerCode" : -3534062561050578365,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 99,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 96,
+  "maxVolumeOfTheStateOrder" : 20,
+  "priceForYear" : 9947,
+  "totalPrice" : 42512,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 621",
+  "offerCode" : 4699632597795873599,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 87,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 99,
+  "maxVolumeOfTheStateOrder" : 22,
+  "priceForYear" : 3494,
+  "totalPrice" : 6424,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 2.0,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.2,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 57",
+  "offerCode" : -3429592049166870266,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 11,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 54,
+  "maxVolumeOfTheStateOrder" : 40,
+  "priceForYear" : 5808,
+  "totalPrice" : 32284,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.2,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 766",
+  "offerCode" : 5325680710325431993,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 52,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 26,
+  "maxVolumeOfTheStateOrder" : 24,
+  "priceForYear" : 1802,
+  "totalPrice" : 6948,
+  "regionalCoefficient" : 1.4000000000000001,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 694",
+  "offerCode" : -391908516867298111,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 70,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 58,
+  "maxVolumeOfTheStateOrder" : 17,
+  "priceForYear" : 6604,
+  "totalPrice" : 43096,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 580",
+  "offerCode" : -9101452263262167654,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 42,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 6,
+  "maxVolumeOfTheStateOrder" : 9,
+  "priceForYear" : 7581,
+  "totalPrice" : 13912,
+  "regionalCoefficient" : 1.4000000000000001,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 959",
+  "offerCode" : 1492333076490933088,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 35,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 48,
+  "maxVolumeOfTheStateOrder" : 41,
+  "priceForYear" : 3463,
+  "totalPrice" : 37732,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 328",
+  "offerCode" : 8975225683940596031,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 92,
+  "universityId" : 1,
+  "faculty" : "Faculty 4",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 65,
+  "maxVolumeOfTheStateOrder" : 19,
+  "priceForYear" : 2379,
+  "totalPrice" : 36444,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 297",
+  "offerCode" : -5515540703279076315,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 89,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 36,
+  "maxVolumeOfTheStateOrder" : 25,
+  "priceForYear" : 8775,
+  "totalPrice" : 34608,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 89",
+  "offerCode" : -6089239305930929101,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 58,
+  "universityId" : 1,
+  "faculty" : "Faculty 4",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 52,
+  "maxVolumeOfTheStateOrder" : 39,
+  "priceForYear" : 3485,
+  "totalPrice" : 39116,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 559",
+  "offerCode" : -6645580406406621975,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 33,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 93,
+  "maxVolumeOfTheStateOrder" : 20,
+  "priceForYear" : 8490,
+  "totalPrice" : 20652,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 875",
+  "offerCode" : -2990662648861107190,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 56,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 18,
+  "maxVolumeOfTheStateOrder" : 11,
+  "priceForYear" : 6252,
+  "totalPrice" : 8016,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 145",
+  "offerCode" : 4575986619857530774,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 82,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 63,
+  "maxVolumeOfTheStateOrder" : 41,
+  "priceForYear" : 4075,
+  "totalPrice" : 35204,
+  "regionalCoefficient" : 1.5,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.9,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 650",
+  "offerCode" : -6085899916143347329,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 87,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 58,
+  "maxVolumeOfTheStateOrder" : 15,
+  "priceForYear" : 8349,
+  "totalPrice" : 4152,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 869",
+  "offerCode" : -4102479671081425953,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 60,
+  "universityId" : 1,
+  "faculty" : "Faculty 4",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 87,
+  "maxVolumeOfTheStateOrder" : 23,
+  "priceForYear" : 6585,
+  "totalPrice" : 8080,
+  "regionalCoefficient" : 2.0,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "MATHEMATICS"
+  } ]
+}, {
+  "programName" : "Program Name 37",
+  "offerCode" : -1812976531493477679,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 81,
+  "universityId" : 1,
+  "faculty" : "Faculty 4",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 37,
+  "maxVolumeOfTheStateOrder" : 33,
+  "priceForYear" : 1744,
+  "totalPrice" : 42004,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "MATHEMATICS"
+  } ]
+}, {
+  "programName" : "Program Name 59",
+  "offerCode" : -4555947909296940734,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 8,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 85,
+  "maxVolumeOfTheStateOrder" : 24,
+  "priceForYear" : 2474,
+  "totalPrice" : 22876,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 918",
+  "offerCode" : -7198471366562646951,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 96,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 43,
+  "maxVolumeOfTheStateOrder" : 48,
+  "priceForYear" : 9676,
+  "totalPrice" : 43404,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 103",
+  "offerCode" : -5299344628919392961,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 11,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 19,
+  "maxVolumeOfTheStateOrder" : 25,
+  "priceForYear" : 8295,
+  "totalPrice" : 43536,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 646",
+  "offerCode" : 7708767738452730735,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 6,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 4,
+  "maxVolumeOfTheStateOrder" : 11,
+  "priceForYear" : 6942,
+  "totalPrice" : 32884,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.0,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 983",
+  "offerCode" : -6966662747104106023,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 6,
+  "universityId" : 1,
+  "faculty" : "Faculty 4",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 49,
+  "maxVolumeOfTheStateOrder" : 26,
+  "priceForYear" : 1017,
+  "totalPrice" : 28784,
+  "regionalCoefficient" : 2.0,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 94",
+  "offerCode" : -4520901390140129410,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 79,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 32,
+  "maxVolumeOfTheStateOrder" : 15,
+  "priceForYear" : 7512,
+  "totalPrice" : 34980,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 852",
+  "offerCode" : 3121910247650549837,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 95,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 50,
+  "maxVolumeOfTheStateOrder" : 31,
+  "priceForYear" : 4073,
+  "totalPrice" : 28240,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 545",
+  "offerCode" : -2377439743281179290,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 82,
+  "universityId" : 1,
+  "faculty" : "Faculty 4",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 39,
+  "maxVolumeOfTheStateOrder" : 13,
+  "priceForYear" : 10445,
+  "totalPrice" : 5460,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 2.0,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "UKRAINIAN_LITERATURE"
+  } ]
+}, {
+  "programName" : "Program Name 862",
+  "offerCode" : -4590975120967955439,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 71,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 20,
+  "maxVolumeOfTheStateOrder" : 44,
+  "priceForYear" : 3693,
+  "totalPrice" : 25756,
+  "regionalCoefficient" : 1.0,
+  "domainCoefficient" : 1.2000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.9,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 902",
+  "offerCode" : -3803654505451351791,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 82,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 11,
+  "maxVolumeOfTheStateOrder" : 15,
+  "priceForYear" : 9840,
+  "totalPrice" : 27256,
+  "regionalCoefficient" : 2.0,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 311",
+  "offerCode" : -5459503073475243504,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 96,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 1,
+  "maxVolumeOfTheStateOrder" : 38,
+  "priceForYear" : 5702,
+  "totalPrice" : 27496,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 579",
+  "offerCode" : 5005351777933637976,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 34,
+  "universityId" : 1,
+  "faculty" : "Faculty 0",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 20,
+  "maxVolumeOfTheStateOrder" : 3,
+  "priceForYear" : 5637,
+  "totalPrice" : 43080,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 273",
+  "offerCode" : -8781581099838328797,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 92,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 33,
+  "maxVolumeOfTheStateOrder" : 32,
+  "priceForYear" : 6911,
+  "totalPrice" : 29472,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 268",
+  "offerCode" : -8485423711495101929,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 61,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 18,
+  "maxVolumeOfTheStateOrder" : 46,
+  "priceForYear" : 3800,
+  "totalPrice" : 43760,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.2000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 980",
+  "offerCode" : 760336990444835025,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 84,
+  "universityId" : 1,
+  "faculty" : "Faculty 4",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 7,
+  "maxVolumeOfTheStateOrder" : 43,
+  "priceForYear" : 6359,
+  "totalPrice" : 32204,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 346",
+  "offerCode" : 5111083894671011981,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 1,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 71,
+  "maxVolumeOfTheStateOrder" : 13,
+  "priceForYear" : 4403,
+  "totalPrice" : 32012,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.0,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 471",
+  "offerCode" : -6418296906707585206,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 100,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 75,
+  "maxVolumeOfTheStateOrder" : 40,
+  "priceForYear" : 4727,
+  "totalPrice" : 4268,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 1.0,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 527",
+  "offerCode" : -4652394679662457351,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 78,
+  "universityId" : 1,
+  "faculty" : "Faculty 0",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 36,
+  "maxVolumeOfTheStateOrder" : 45,
+  "priceForYear" : 5364,
+  "totalPrice" : 24220,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "MATHEMATICS"
+  } ]
+}, {
+  "programName" : "Program Name 952",
+  "offerCode" : 7542895033524748193,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 17,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 50,
+  "maxVolumeOfTheStateOrder" : 18,
+  "priceForYear" : 7447,
+  "totalPrice" : 12636,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.2,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 78",
+  "offerCode" : 1521799662968644723,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 39,
+  "universityId" : 1,
+  "faculty" : "Faculty 6",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 21,
+  "maxVolumeOfTheStateOrder" : 24,
+  "priceForYear" : 10227,
+  "totalPrice" : 4612,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 590",
+  "offerCode" : -8134440421091922104,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 10,
+  "universityId" : 1,
+  "faculty" : "Faculty 0",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 81,
+  "maxVolumeOfTheStateOrder" : 13,
+  "priceForYear" : 4114,
+  "totalPrice" : 39256,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.0,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 39",
+  "offerCode" : 903027248631988743,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 44,
+  "universityId" : 1,
+  "faculty" : "Faculty 0",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 85,
+  "maxVolumeOfTheStateOrder" : 4,
+  "priceForYear" : 2251,
+  "totalPrice" : 33972,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 956",
+  "offerCode" : -5420452665651244591,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 47,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 41,
+  "maxVolumeOfTheStateOrder" : 10,
+  "priceForYear" : 4947,
+  "totalPrice" : 18724,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 2.0,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 169",
+  "offerCode" : 2338490630254034455,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 31,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 48,
+  "maxVolumeOfTheStateOrder" : 16,
+  "priceForYear" : 3030,
+  "totalPrice" : 21176,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 80",
+  "offerCode" : 5196287014873587171,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 50,
+  "universityId" : 1,
+  "faculty" : "Faculty 6",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 24,
+  "maxVolumeOfTheStateOrder" : 17,
+  "priceForYear" : 8703,
+  "totalPrice" : 35360,
+  "regionalCoefficient" : 1.0,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 1.0,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 266",
+  "offerCode" : 3777535295274958066,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 93,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 5,
+  "maxVolumeOfTheStateOrder" : 2,
+  "priceForYear" : 1140,
+  "totalPrice" : 14612,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LITERATURE"
+  } ]
+}, {
+  "programName" : "Program Name 496",
+  "offerCode" : 4694088882364653178,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 83,
+  "universityId" : 1,
+  "faculty" : "Faculty 8",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 57,
+  "maxVolumeOfTheStateOrder" : 44,
+  "priceForYear" : 1961,
+  "totalPrice" : 4628,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 113",
+  "offerCode" : -6172079789430280785,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 5,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 27,
+  "maxVolumeOfTheStateOrder" : 8,
+  "priceForYear" : 3869,
+  "totalPrice" : 35228,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 294",
+  "offerCode" : -5498286816310125470,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 20,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 93,
+  "maxVolumeOfTheStateOrder" : 28,
+  "priceForYear" : 5004,
+  "totalPrice" : 17828,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 868",
+  "offerCode" : -1931975016256823729,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 41,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 76,
+  "maxVolumeOfTheStateOrder" : 49,
+  "priceForYear" : 6618,
+  "totalPrice" : 6280,
+  "regionalCoefficient" : 1.4000000000000001,
+  "domainCoefficient" : 1.7000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  } ]
+}, {
+  "programName" : "Program Name 587",
+  "offerCode" : -1682924168078736395,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 91,
+  "universityId" : 1,
+  "faculty" : "Faculty 4",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 10,
+  "maxVolumeOfTheStateOrder" : 45,
+  "priceForYear" : 3083,
+  "totalPrice" : 41668,
+  "regionalCoefficient" : 1.9000000000000001,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.0,
+    "subject" : "UKRAINIAN_LITERATURE"
+  } ]
+}, {
+  "programName" : "Program Name 771",
+  "offerCode" : -7953029933088374254,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 57,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 13,
+  "maxVolumeOfTheStateOrder" : 50,
+  "priceForYear" : 10107,
+  "totalPrice" : 41036,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 287",
+  "offerCode" : 6774273411320726291,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 34,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 2,
+  "maxVolumeOfTheStateOrder" : 6,
+  "priceForYear" : 8908,
+  "totalPrice" : 19124,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "UKRAINIAN_LITERATURE"
+  } ]
+}, {
+  "programName" : "Program Name 644",
+  "offerCode" : 2574290490361153048,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 18,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 17,
+  "maxVolumeOfTheStateOrder" : 10,
+  "priceForYear" : 10874,
+  "totalPrice" : 14392,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 72",
+  "offerCode" : 7697892105802996578,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 45,
+  "universityId" : 1,
+  "faculty" : "Faculty 4",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 66,
+  "maxVolumeOfTheStateOrder" : 9,
+  "priceForYear" : 3179,
+  "totalPrice" : 12216,
+  "regionalCoefficient" : 1.0,
+  "domainCoefficient" : 1.2000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "HISTORY_OF_UKRAINE"
+  } ]
+}, {
+  "programName" : "Program Name 609",
+  "offerCode" : 7051501963309436988,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 47,
+  "universityId" : 1,
+  "faculty" : "Faculty 6",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 22,
+  "maxVolumeOfTheStateOrder" : 39,
+  "priceForYear" : 10726,
+  "totalPrice" : 5512,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 120",
+  "offerCode" : 3576955480278901959,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 57,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 17,
+  "maxVolumeOfTheStateOrder" : 19,
+  "priceForYear" : 7427,
+  "totalPrice" : 9796,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 868",
+  "offerCode" : 2906233882981975084,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 42,
+  "universityId" : 1,
+  "faculty" : "Faculty 6",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 97,
+  "maxVolumeOfTheStateOrder" : 29,
+  "priceForYear" : 1346,
+  "totalPrice" : 42496,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 641",
+  "offerCode" : 2352851197659282467,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 100,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 27,
+  "maxVolumeOfTheStateOrder" : 3,
+  "priceForYear" : 8367,
+  "totalPrice" : 17296,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.8,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 100",
+  "offerCode" : -5661412174934840627,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 70,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 43,
+  "maxVolumeOfTheStateOrder" : 2,
+  "priceForYear" : 8132,
+  "totalPrice" : 20668,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 83",
+  "offerCode" : -422024754787214767,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 100,
+  "universityId" : 1,
+  "faculty" : "Faculty 6",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 95,
+  "maxVolumeOfTheStateOrder" : 37,
+  "priceForYear" : 10631,
+  "totalPrice" : 37360,
+  "regionalCoefficient" : 1.1,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 792",
+  "offerCode" : 778662963049813965,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 37,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 72,
+  "maxVolumeOfTheStateOrder" : 45,
+  "priceForYear" : 5827,
+  "totalPrice" : 37528,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 822",
+  "offerCode" : 8065482044804763488,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 62,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 80,
+  "maxVolumeOfTheStateOrder" : 32,
+  "priceForYear" : 9278,
+  "totalPrice" : 19044,
+  "regionalCoefficient" : 1.7000000000000002,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "PHYSICS"
+  } ]
+}, {
+  "programName" : "Program Name 952",
+  "offerCode" : 3873424603043883400,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 30,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 77,
+  "maxVolumeOfTheStateOrder" : 30,
+  "priceForYear" : 6817,
+  "totalPrice" : 32956,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 115",
+  "offerCode" : -2672788015179719155,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 5,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 41,
+  "maxVolumeOfTheStateOrder" : 50,
+  "priceForYear" : 4783,
+  "totalPrice" : 24768,
+  "regionalCoefficient" : 1.0,
+  "domainCoefficient" : 1.2000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 1.0,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 772",
+  "offerCode" : 281818788319887135,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 65,
+  "universityId" : 1,
+  "faculty" : "Faculty 6",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 30,
+  "maxVolumeOfTheStateOrder" : 7,
+  "priceForYear" : 3150,
+  "totalPrice" : 36784,
+  "regionalCoefficient" : 1.5,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 77",
+  "offerCode" : -3966689031936003197,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 29,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 87,
+  "maxVolumeOfTheStateOrder" : 27,
+  "priceForYear" : 5791,
+  "totalPrice" : 32428,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.9000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.9,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 437",
+  "offerCode" : -6347932663455547178,
+  "enrolmentBase" : "BACHELOR",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 26,
+  "universityId" : 1,
+  "faculty" : "Faculty 6",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 69,
+  "maxVolumeOfTheStateOrder" : 20,
+  "priceForYear" : 10790,
+  "totalPrice" : 38784,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 1.2000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 1.0,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "MATHEMATICS"
+  } ]
+}, {
+  "programName" : "Program Name 429",
+  "offerCode" : -5671264988500166827,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 83,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 76,
+  "maxVolumeOfTheStateOrder" : 49,
+  "priceForYear" : 9286,
+  "totalPrice" : 30748,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "GEOGRAPHY"
+  } ]
+}, {
+  "programName" : "Program Name 801",
+  "offerCode" : 5281089478786373294,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 32,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 34,
+  "maxVolumeOfTheStateOrder" : 40,
+  "priceForYear" : 6697,
+  "totalPrice" : 12560,
+  "regionalCoefficient" : 1.6,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "BIOLOGY"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "MATHEMATICS"
+  } ]
+}, {
+  "programName" : "Program Name 699",
+  "offerCode" : 8564613151462535099,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 94,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "DISTANCE",
+  "enrolledCourse" : "COURSE_1",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 3,
+  "maxVolumeOfTheStateOrder" : 20,
+  "priceForYear" : 7024,
+  "totalPrice" : 9416,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 1.0,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 891",
+  "offerCode" : -6953129451848980157,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 7,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 39,
+  "maxVolumeOfTheStateOrder" : 8,
+  "priceForYear" : 6321,
+  "totalPrice" : 19500,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 1.5,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "FOREIGN_LANGUAGE"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "BIOLOGY"
+  } ]
+}, {
+  "programName" : "Program Name 856",
+  "offerCode" : -4440322398991026676,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 3,
+  "universityId" : 1,
+  "faculty" : "Faculty 5",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 50,
+  "maxVolumeOfTheStateOrder" : 26,
+  "priceForYear" : 7256,
+  "totalPrice" : 28892,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.1,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 639",
+  "offerCode" : -6905758273222735642,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 78,
+  "universityId" : 1,
+  "faculty" : "Faculty 7",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 89,
+  "maxVolumeOfTheStateOrder" : 12,
+  "priceForYear" : 10666,
+  "totalPrice" : 9328,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.1,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.7000000000000001,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 503",
+  "offerCode" : 2359023038846924667,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 1,
+  "universityId" : 1,
+  "faculty" : "Faculty 2",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_3",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 98,
+  "maxVolumeOfTheStateOrder" : 27,
+  "priceForYear" : 3707,
+  "totalPrice" : 32452,
+  "regionalCoefficient" : 1.8,
+  "domainCoefficient" : 1.0,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.5,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.9,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "CREATIVE_COMPETITION"
+  } ]
+}, {
+  "programName" : "Program Name 340",
+  "offerCode" : -1385584939363215619,
+  "enrolmentBase" : "COMPLETE_SECONDARY_EDUCATION",
+  "educationalLevel" : "JUNIOR_BACHELOR",
+  "specialityId" : 31,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "REMOTE",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 34,
+  "maxVolumeOfTheStateOrder" : 13,
+  "priceForYear" : 4866,
+  "totalPrice" : 11340,
+  "regionalCoefficient" : 1.5,
+  "domainCoefficient" : 1.8,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.9,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 292",
+  "offerCode" : 1569274319951674901,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "specialityId" : 72,
+  "universityId" : 1,
+  "faculty" : "Faculty 1",
+  "typeOfOffer" : "NON_BUDGETARY",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 65,
+  "maxVolumeOfTheStateOrder" : 8,
+  "priceForYear" : 6690,
+  "totalPrice" : 27968,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.2000000000000002,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 979",
+  "offerCode" : -5591766791971500645,
+  "enrolmentBase" : "PROFESSIONAL_JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 92,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_2",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 58,
+  "maxVolumeOfTheStateOrder" : 3,
+  "priceForYear" : 2137,
+  "totalPrice" : 32240,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.6,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.2,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.30000000000000004,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.4,
+    "subject" : "GEOGRAPHY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "FOREIGN_LANGUAGE"
+  } ]
+}, {
+  "programName" : "Program Name 749",
+  "offerCode" : -8752228406864626182,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 17,
+  "universityId" : 1,
+  "faculty" : "Faculty 9",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_5",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 98,
+  "maxVolumeOfTheStateOrder" : 3,
+  "priceForYear" : 8497,
+  "totalPrice" : 37000,
+  "regionalCoefficient" : 1.5,
+  "domainCoefficient" : 1.4000000000000001,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.4,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "PHYSICS"
+  }, {
+    "coefficient" : 0.8,
+    "subject" : "UKRAINIAN_LITERATURE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "MATHEMATICS"
+  } ]
+}, {
+  "programName" : "Program Name 45",
+  "offerCode" : -5337338054494895781,
+  "enrolmentBase" : "JUNIOR_BACHELOR",
+  "educationalLevel" : "BACHELOR",
+  "specialityId" : 12,
+  "universityId" : 1,
+  "faculty" : "Faculty 0",
+  "typeOfOffer" : "OPEN",
+  "formOfEducation" : "EVENING_CLASSES",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 44,
+  "maxVolumeOfTheStateOrder" : 28,
+  "priceForYear" : 2459,
+  "totalPrice" : 21652,
+  "regionalCoefficient" : 1.3,
+  "domainCoefficient" : 1.1,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.2,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.2,
+    "subject" : "HISTORY_OF_UKRAINE"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "UKRAINIAN_LANGUAGE"
+  }, {
+    "coefficient" : 1.0,
+    "subject" : "CHEMISTRY"
+  } ]
+}, {
+  "programName" : "Program Name 845",
+  "offerCode" : 8674936369647100634,
+  "enrolmentBase" : "JUNIOR_SPECIALIST",
+  "educationalLevel" : "MASTER",
+  "specialityId" : 16,
+  "universityId" : 1,
+  "faculty" : "Faculty 3",
+  "typeOfOffer" : "CLOSED",
+  "formOfEducation" : "FULL_TIME",
+  "enrolledCourse" : "COURSE_4",
+  "startOfStudies" : "2023-09-01",
+  "endOfStudies" : "2024-06-30",
+  "startOfApplication" : "2023-05-01",
+  "endOfApplication" : "2023-06-30",
+  "licenceAmount" : 74,
+  "maxVolumeOfTheStateOrder" : 25,
+  "priceForYear" : 3140,
+  "totalPrice" : 11940,
+  "regionalCoefficient" : 1.2000000000000002,
+  "domainCoefficient" : 1.3,
+  "znoSubjectOptions" : [ {
+    "coefficient" : 0.2,
+    "subject" : "CREATIVE_COMPETITION"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "CHEMISTRY"
+  }, {
+    "coefficient" : 0.5,
+    "subject" : "MATHEMATICS"
+  }, {
+    "coefficient" : 0.6000000000000001,
+    "subject" : "CHEMISTRY"
+  } ]
+} ]

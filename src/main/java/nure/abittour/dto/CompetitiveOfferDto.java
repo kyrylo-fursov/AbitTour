@@ -12,6 +12,7 @@ import java.util.Set;
 @ToString
 @Data
 public class CompetitiveOfferDto {
+    private Long id;
     private String programName;
     private Long offerCode;
     private EnrolmentBase enrolmentBase;
