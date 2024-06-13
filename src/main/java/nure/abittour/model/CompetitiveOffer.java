@@ -10,17 +10,15 @@ import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.JoinColumn;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import nure.abittour.model.enums.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.HashSet;
 import java.util.Set;
 
-
+@ToString(exclude = "znoSubjectOptions")
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
@@ -98,6 +96,6 @@ public class CompetitiveOffer extends BaseEntity {
     @Column(nullable = false)
     BigDecimal domainCoefficient;
 
-    @OneToMany(mappedBy = "competitiveOffer", cascade = CascadeType.ALL)
-    Set<ZnoSubjectOption> znoSubjectOptions;
+    @OneToMany(mappedBy = "competitiveOffer", cascade = CascadeType.ALL, orphanRemoval = true)
+    Set<ZnoSubjectOption> znoSubjectOptions = new HashSet<>();
 }

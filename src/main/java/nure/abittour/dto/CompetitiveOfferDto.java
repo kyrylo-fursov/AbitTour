@@ -1,19 +1,17 @@
 package nure.abittour.dto;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.ToString;
+import nure.abittour.model.ZnoSubjectOption;
 import nure.abittour.model.enums.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.Set;
 
+@ToString
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
-public class CompetitiveOfferDTO {
-    private Long id;
+public class CompetitiveOfferDto {
     private String programName;
     private Long offerCode;
     private EnrolmentBase enrolmentBase;
@@ -34,5 +32,5 @@ public class CompetitiveOfferDTO {
     private Integer totalPrice;
     private BigDecimal regionalCoefficient;
     private BigDecimal domainCoefficient;
-    private Set<Long> znoSubjectOptionIds;
+    private Set<ZnoSubjectOptionDTO> znoSubjectOptions;
 }
