@@ -3,7 +3,6 @@ package nure.abittour.mapper;
 import nure.abittour.dto.UniversityDTO;
 import nure.abittour.model.University;
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
 @Mapper(uses = RegionMapper.class)

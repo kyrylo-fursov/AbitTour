@@ -1,6 +1,6 @@
 package nure.abittour.controller;
 
-import nure.abittour.dto.CompetitiveOfferDto;
+import nure.abittour.dto.CompetitiveOfferRequest;
 import nure.abittour.service.CompetitiveOfferService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -14,22 +14,22 @@ public class CompetitiveOfferController {
     private CompetitiveOfferService competitiveOfferService;
 
     @GetMapping
-    public List<CompetitiveOfferDto> getAllOffers() {
+    public List<CompetitiveOfferRequest> getAllOffers() {
         return competitiveOfferService.getAllOffers();
     }
 
     @GetMapping("/{id}")
-    public CompetitiveOfferDto getOfferById(@PathVariable Long id) {
+    public CompetitiveOfferRequest getOfferById(@PathVariable Long id) {
         return competitiveOfferService.getOfferById(id);
     }
 
     @PostMapping
-    public CompetitiveOfferDto createOffer(@RequestBody CompetitiveOfferDto offerDto) {
+    public CompetitiveOfferRequest createOffer(@RequestBody CompetitiveOfferRequest offerDto) {
         return competitiveOfferService.createOffer(offerDto);
     }
 
     @PutMapping("/{id}")
-    public CompetitiveOfferDto updateOffer(@PathVariable Long id, @RequestBody CompetitiveOfferDto offerDto) {
+    public CompetitiveOfferRequest updateOffer(@PathVariable Long id, @RequestBody CompetitiveOfferRequest offerDto) {
         return competitiveOfferService.updateOffer(id, offerDto);
     }
 

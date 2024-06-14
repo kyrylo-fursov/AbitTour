@@ -1,6 +1,6 @@
 package nure.abittour.service;
 
-import nure.abittour.dto.CompetitiveOfferDto;
+import nure.abittour.dto.CompetitiveOfferRequest;
 import nure.abittour.dto.SpecialityDTO;
 import nure.abittour.dto.SubjectCoefDTO;
 import nure.abittour.dto.ZnoSubjectOptionDTO;
@@ -121,7 +121,7 @@ public class DatabaseInitializerService {
             for (Object obj : offersArray) {
                 JSONObject jsonObject = (JSONObject) obj;
 
-                CompetitiveOfferDto offerDto = new CompetitiveOfferDto();
+                CompetitiveOfferRequest offerDto = new CompetitiveOfferRequest();
                 offerDto.setProgramName((String) jsonObject.get("programName"));
                 offerDto.setOfferCode((Long) jsonObject.get("offerCode"));
                 offerDto.setEnrolmentBase(EnrolmentBase.valueOf((String) jsonObject.get("enrolmentBase")));
