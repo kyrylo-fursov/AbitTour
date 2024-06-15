@@ -1,6 +1,7 @@
 package nure.abittour.service;
 
 import nure.abittour.dto.CompetitiveOfferRequest;
+import nure.abittour.dto.RegistrationRequest;
 import nure.abittour.dto.SpecialityDTO;
 import nure.abittour.dto.SubjectCoefDTO;
 import nure.abittour.dto.ZnoSubjectOptionDTO;
@@ -14,6 +15,7 @@ import nure.abittour.model.enums.Subject;
 import nure.abittour.model.enums.TypeOfOffer;
 import nure.abittour.repository.CompetitiveOfferRepository;
 import nure.abittour.repository.UniversityRepository;
+import nure.abittour.repository.UserRepository;
 import nure.abittour.repository.ZnoSubjectOptionRepository;
 import org.springframework.stereotype.Service;
 import jakarta.annotation.PostConstruct;
@@ -39,10 +41,16 @@ public class DatabaseInitializerService {
     private SpecialityService specialityService;
 
     @Autowired
+    private AuthenticationService authenticationService;
+
+    @Autowired
     private RegionRepository regionRepository;
 
     @Autowired
     private UniversityRepository universityRepository;
+
+    @Autowired
+    private UserRepository userRepository;
 
     @Autowired
     private ZnoSubjectOptionRepository znoSubjectOptionRepository;
@@ -59,6 +67,7 @@ public class DatabaseInitializerService {
         initializeUniversities();
         initializeSpecialities();
         initializeCompetitiveOffers();
+        initializeUser();
     }
 
     private void initializeRegions() {
@@ -77,6 +86,14 @@ public class DatabaseInitializerService {
             }
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+
+    private void initializeUser() {
+        String email = "testuser@gmail.com";
+        String password = "password";
+        if (userRepository.findByEmail(email).isEmpty()) {
+            authenticationService.register(new RegistrationRequest(email, password));
         }
     }
 
