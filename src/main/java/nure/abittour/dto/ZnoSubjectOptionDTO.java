@@ -5,11 +5,14 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import nure.abittour.model.enums.Subject;
+
+import java.math.BigDecimal;
+
 @ToString
 @Getter
 @Setter
 @Data
 public class ZnoSubjectOptionDTO {
-    private Double coefficient;
+    private BigDecimal coefficient;
     private Subject subject;
 }

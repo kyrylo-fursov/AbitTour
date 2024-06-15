@@ -9,6 +9,7 @@ import jakarta.persistence.OneToMany;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 @Entity
@@ -25,7 +26,7 @@ public class Application extends BaseEntity {
     List<ChosenSubject> chosenSubjects;
 
     @Column(nullable = false)
-    Double totalScore;
+    BigDecimal totalScore;
 
     @Column(nullable = false)
     Integer priority;

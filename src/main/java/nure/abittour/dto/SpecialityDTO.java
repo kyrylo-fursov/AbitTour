@@ -10,5 +10,6 @@ public class SpecialityDTO {
     private String code;
     private String name;
     private String specialization;
+    private Boolean isInDemand;
     private List<SubjectCoefDTO> subjectCoefs;
 }

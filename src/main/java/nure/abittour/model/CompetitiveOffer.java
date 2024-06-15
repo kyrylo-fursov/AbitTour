@@ -29,7 +29,7 @@ public class CompetitiveOffer extends BaseEntity {
     String programName;
 
     @Column(nullable = false)
-    Long offerCode;
+    String offerCode;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
@@ -92,9 +92,6 @@ public class CompetitiveOffer extends BaseEntity {
 
     @Column(nullable = false)
     BigDecimal regionalCoefficient;
-
-    @Column(nullable = false)
-    BigDecimal domainCoefficient;
 
     @OneToMany(mappedBy = "competitiveOffer", cascade = CascadeType.ALL, orphanRemoval = true)
     Set<ZnoSubjectOption> znoSubjectOptions = new HashSet<>();

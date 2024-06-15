@@ -9,4 +9,5 @@ import lombok.Setter;
 @Setter
 public class RegionDTO {
     private Long id;
+    private String name;
 }

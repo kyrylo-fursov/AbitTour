@@ -23,6 +23,9 @@ public class Speciality extends BaseEntity {
     @Column
     String specialization;
 
+    @Column(nullable = false)
+    Boolean isInDemand;
+
     @OneToMany(mappedBy = "speciality", cascade = CascadeType.ALL, orphanRemoval = true)
     List<SubjectCoef> subjectCoefs = new ArrayList<>();
 }

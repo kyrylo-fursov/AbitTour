@@ -1,6 +1,7 @@
 package nure.abittour.service;
 
-import nure.abittour.dto.CompetitiveOfferDto;
+import nure.abittour.dto.CompetitiveOfferRequest;
+import nure.abittour.dto.CompetitiveOfferResponse;
 import nure.abittour.dto.ZnoSubjectOptionDTO;
 import nure.abittour.mapper.CompetitiveOfferMapper;
 import nure.abittour.mapper.ZnoSubjectOptionMapper;
@@ -17,6 +18,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 @Service
+@Transactional
 public class CompetitiveOfferService {
 
     @Autowired
@@ -28,25 +30,24 @@ public class CompetitiveOfferService {
     @Autowired
     private ZnoSubjectOptionMapper znoSubjectOptionMapper;
 
-    public List<CompetitiveOfferDto> getAllOffers() {
-        List<CompetitiveOffer> offers = competitiveOfferRepository.findAll();
-        return offers.stream()
-                .map(competitiveOfferMapper::toDto)
+    public List<CompetitiveOfferResponse> getAllOffers() {
+        return competitiveOfferRepository.findAll().stream()
+                .map(competitiveOfferMapper::toResponseDto)
                 .collect(Collectors.toList());
     }
 
-    public CompetitiveOfferDto getOfferById(Long id) {
+    public CompetitiveOfferResponse getOfferById(Long id) {
         CompetitiveOffer offer = competitiveOfferRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Offer not found"));
-        return competitiveOfferMapper.toDto(offer);
+        return competitiveOfferMapper.toResponseDto(offer);
     }
 
     @Transactional
-    public CompetitiveOfferDto createOffer(CompetitiveOfferDto offerDto) {
-        CompetitiveOffer competitiveOffer = competitiveOfferMapper.toEntity(offerDto);
+    public CompetitiveOfferResponse createOffer(CompetitiveOfferRequest offerRequest) {
+        CompetitiveOffer competitiveOffer = competitiveOfferMapper.toEntity(offerRequest);
 
         Set<ZnoSubjectOption> znoSubjectOptions = new LinkedHashSet<>();
-        for (ZnoSubjectOptionDTO znoSubjectOptionDTO : offerDto.getZnoSubjectOptions()) {
+        for (ZnoSubjectOptionDTO znoSubjectOptionDTO : offerRequest.getZnoSubjectOptions()) {
             ZnoSubjectOption znoSubjectOption = znoSubjectOptionMapper.toEntity(znoSubjectOptionDTO);
             znoSubjectOption.setCompetitiveOffer(competitiveOffer);
             znoSubjectOptions.add(znoSubjectOption);
@@ -55,16 +56,28 @@ public class CompetitiveOfferService {
         competitiveOffer.setZnoSubjectOptions(znoSubjectOptions);
 
         CompetitiveOffer savedOffer = competitiveOfferRepository.save(competitiveOffer);
-        return competitiveOfferMapper.toDto(savedOffer);
+        return competitiveOfferMapper.toResponseDto(savedOffer);
     }
 
     public void deleteOffer(Long id) {
         competitiveOfferRepository.deleteById(id);
     }
 
-    public CompetitiveOfferDto updateOffer(Long id, CompetitiveOfferDto offerDto) {
+    @Transactional
+    public CompetitiveOfferResponse updateOffer(Long id, CompetitiveOfferRequest offerRequest) {
         CompetitiveOffer existingOffer = competitiveOfferRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Offer not found"));
-        return competitiveOfferMapper.toDto(competitiveOfferRepository.save(existingOffer));
+
+        competitiveOfferMapper.updateEntityFromRequest(offerRequest, existingOffer);
+        existingOffer.getZnoSubjectOptions().clear();
+        existingOffer.getZnoSubjectOptions().addAll(
+                offerRequest.getZnoSubjectOptions().stream()
+                        .map(znoSubjectOptionMapper::toEntity)
+                        .peek(option -> option.setCompetitiveOffer(existingOffer))
+                        .collect(Collectors.toSet())
+        );
+
+        CompetitiveOffer updatedOffer = competitiveOfferRepository.save(existingOffer);
+        return competitiveOfferMapper.toResponseDto(updatedOffer);
     }
 }

@@ -8,6 +8,8 @@ import jakarta.persistence.FetchType;
 import jakarta.persistence.ManyToOne;
 import nure.abittour.model.enums.Subject;
 
+import java.math.BigDecimal;
+
 @Entity
 public class ChosenSubject extends BaseEntity {
     @ManyToOne(fetch = FetchType.LAZY)
@@ -22,5 +24,5 @@ public class ChosenSubject extends BaseEntity {
     Integer score;
 
     @Column(nullable = false)
-    Double coefficient;
+    BigDecimal coefficient;
 }
