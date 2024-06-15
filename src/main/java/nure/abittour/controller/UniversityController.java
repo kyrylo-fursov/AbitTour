@@ -1,8 +1,12 @@
 package nure.abittour.controller;
 
+import nure.abittour.dto.UniversityDTO;
+import nure.abittour.dto.UniversitySearchRequest;
 import nure.abittour.model.University;
 import nure.abittour.service.UniversityService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -37,5 +41,10 @@ public class UniversityController {
     @DeleteMapping("/{id}")
     public void delete(@PathVariable Long id) {
         universityService.delete(id);
+    }
+
+    @PostMapping("/search")
+    public List<UniversityDTO> searchUniversities(@RequestBody UniversitySearchRequest searchRequest) {
+        return universityService.searchUniversities(searchRequest);
     }
 }
