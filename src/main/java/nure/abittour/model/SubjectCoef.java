@@ -5,6 +5,8 @@ import lombok.Getter;
 import lombok.Setter;
 import nure.abittour.model.enums.Subject;
 
+import java.math.BigDecimal;
+
 @Entity
 @Getter
 @Setter
@@ -19,5 +21,5 @@ public class SubjectCoef extends BaseEntity {
     Subject subject;
 
     @Column(nullable = false)
-    Double coefficient;
+    BigDecimal coefficient;
 }

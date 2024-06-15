@@ -15,6 +15,12 @@ public class University extends BaseEntity {
     @Column(nullable = false)
     String name;
 
+    @Column(nullable = false)
+    String code;
+
+    @Column
+    String websiteUrl;
+
     @ManyToOne
     @JoinColumn(name = "region_id")
     Region region;

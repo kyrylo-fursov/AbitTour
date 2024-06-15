@@ -10,6 +10,7 @@ import jakarta.persistence.ManyToOne;
 import lombok.*;
 import nure.abittour.model.enums.Subject;
 
+import java.math.BigDecimal;
 import java.util.Objects;
 
 @ToString(exclude = "competitiveOffer")
@@ -21,7 +22,7 @@ import java.util.Objects;
 public class ZnoSubjectOption extends BaseEntity {
 
     @Column
-    Double coefficient;
+    BigDecimal coefficient;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false, length = 50)

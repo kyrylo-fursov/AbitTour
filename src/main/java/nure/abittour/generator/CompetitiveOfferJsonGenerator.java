@@ -1,4 +1,4 @@
-package nure.abittour.generators;
+package nure.abittour.generator;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
@@ -11,7 +11,6 @@ import nure.abittour.model.enums.TypeOfOffer;
 import org.springframework.stereotype.Component;
 
 import java.io.File;
-import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.Random;
 
@@ -28,15 +27,15 @@ public class CompetitiveOfferJsonGenerator {
             for (int i = 0; i < numberOfOffers; i++) {
                 ObjectNode offerNode = mapper.createObjectNode();
                 offerNode.put("programName", "Program Name " + random.nextInt(1000));
-                offerNode.put("offerCode", random.nextLong());
-                offerNode.put("enrolmentBase", EnrolmentBase.values()[random.nextInt(EnrolmentBase.values().length)].name());
-                offerNode.put("educationalLevel", EducationalLevel.values()[random.nextInt(EducationalLevel.values().length)].name());
-                offerNode.put("specialityId", random.nextInt(100) + 1);
-                offerNode.put("universityId", 1);
+                offerNode.put("offerCode", String.format("%08d", Math.abs(random.nextLong() % 100000000)));
+                offerNode.put("enrolmentBase", random.nextDouble() < 0.9 ? EnrolmentBase.COMPLETE_SECONDARY_EDUCATION.name() : EnrolmentBase.values()[random.nextInt(EnrolmentBase.values().length)].name());
+                offerNode.put("educationalLevel", random.nextDouble() < 0.9 ? EducationalLevel.BACHELOR.name() : EducationalLevel.values()[random.nextInt(EducationalLevel.values().length)].name());
+                offerNode.put("specialityId", random.nextDouble() < 0.5 ? 67 : random.nextInt(100) + 1);
+                offerNode.put("universityId", 1070);
                 offerNode.put("faculty", "Faculty " + random.nextInt(10));
-                offerNode.put("typeOfOffer", TypeOfOffer.values()[random.nextInt(TypeOfOffer.values().length)].name());
-                offerNode.put("formOfEducation", FormOfEducation.values()[random.nextInt(FormOfEducation.values().length)].name());
-                offerNode.put("enrolledCourse", EnrolledCourse.values()[random.nextInt(EnrolledCourse.values().length)].name());
+                offerNode.put("typeOfOffer", TypeOfOffer.OPEN.name());
+                offerNode.put("formOfEducation", FormOfEducation.FULL_TIME.name());
+                offerNode.put("enrolledCourse", EnrolledCourse.COURSE_1.name());
                 offerNode.put("startOfStudies", LocalDate.of(2023, 9, 1).toString());
                 offerNode.put("endOfStudies", LocalDate.of(2024, 6, 30).toString());
                 offerNode.put("startOfApplication", LocalDate.of(2023, 5, 1).toString());
@@ -45,14 +44,20 @@ public class CompetitiveOfferJsonGenerator {
                 offerNode.put("maxVolumeOfTheStateOrder", random.nextInt(50) + 1);
                 offerNode.put("priceForYear", random.nextInt(10000) + 1000);
                 offerNode.put("totalPrice", (random.nextInt(10000) + 1000) * 4);
-                offerNode.put("regionalCoefficient", roundToStep(1.0 + random.nextDouble(), 0.1));
-                offerNode.put("domainCoefficient", roundToStep(1.0 + random.nextDouble(), 0.1));
-
+                offerNode.put("regionalCoefficient", 1.0);
 
                 ArrayNode znoSubjectOptionsArray = mapper.createArrayNode();
+                double totalCoefficient = 0.0;
                 for (int j = 0; j < 4; j++) {
+                    double remainingCoefficient = 1.4 - totalCoefficient;
+                    double coefficient = roundToStep(random.nextDouble() * Math.min(remainingCoefficient, 0.4), 0.1);
+                    if (j == 3 && totalCoefficient + coefficient < 1.0) {
+                        coefficient = 1.0 - totalCoefficient;
+                    }
+                    totalCoefficient += coefficient;
+
                     ObjectNode subjectOptionNode = mapper.createObjectNode();
-                    subjectOptionNode.put("coefficient", roundToStep(random.nextDouble(), 0.1));
+                    subjectOptionNode.put("coefficient", coefficient);
                     subjectOptionNode.put("subject", Subject.values()[random.nextInt(Subject.values().length)].name());
                     znoSubjectOptionsArray.add(subjectOptionNode);
                 }

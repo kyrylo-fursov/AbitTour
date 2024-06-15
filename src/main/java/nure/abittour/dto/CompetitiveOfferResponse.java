@@ -17,7 +17,7 @@ import java.util.Set;
 public class CompetitiveOfferResponse {
     private Long id;
     private String programName;
-    private Long offerCode;
+    private String offerCode;
     private EnrolmentBase enrolmentBase;
     private EducationalLevel educationalLevel;
     private SpecialityDTO speciality;
@@ -35,6 +35,5 @@ public class CompetitiveOfferResponse {
     private Integer priceForYear;
     private Integer totalPrice;
     private BigDecimal regionalCoefficient;
-    private BigDecimal domainCoefficient;
     private Set<ZnoSubjectOptionDTO> znoSubjectOptions;
 }
