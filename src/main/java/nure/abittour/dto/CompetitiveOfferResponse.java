@@ -20,7 +20,7 @@ public class CompetitiveOfferResponse {
     private Long offerCode;
     private EnrolmentBase enrolmentBase;
     private EducationalLevel educationalLevel;
-    private Long specialityId;
+    private SpecialityDTO speciality;
     private UniversityDTO university;
     private String faculty;
     private TypeOfOffer typeOfOffer;
