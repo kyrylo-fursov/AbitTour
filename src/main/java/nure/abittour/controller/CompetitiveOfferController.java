@@ -1,9 +1,12 @@
 package nure.abittour.controller;
 
+import nure.abittour.dto.CompetitiveOfferFilterDTO;
 import nure.abittour.dto.CompetitiveOfferRequest;
 import nure.abittour.dto.CompetitiveOfferResponse;
 import nure.abittour.service.CompetitiveOfferService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,6 +26,11 @@ public class CompetitiveOfferController {
     @GetMapping("/{id}")
     public CompetitiveOfferResponse getOfferById(@PathVariable Long id) {
         return competitiveOfferService.getOfferById(id);
+    }
+
+    @PostMapping("/filter")
+    public Page<CompetitiveOfferResponse> getFilteredOffers(@RequestBody CompetitiveOfferFilterDTO filter, Pageable pageable) {
+        return competitiveOfferService.getFilteredOffers(filter, pageable);
     }
 
     @PostMapping

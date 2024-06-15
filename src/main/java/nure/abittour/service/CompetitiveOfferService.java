@@ -1,14 +1,18 @@
 package nure.abittour.service;
 
+import nure.abittour.dto.CompetitiveOfferFilterDTO;
 import nure.abittour.dto.CompetitiveOfferRequest;
 import nure.abittour.dto.CompetitiveOfferResponse;
 import nure.abittour.dto.ZnoSubjectOptionDTO;
+import nure.abittour.filter.CompetitiveOfferSpecification;
 import nure.abittour.mapper.CompetitiveOfferMapper;
 import nure.abittour.mapper.ZnoSubjectOptionMapper;
 import nure.abittour.model.ZnoSubjectOption;
 import nure.abittour.repository.CompetitiveOfferRepository;
 import nure.abittour.model.CompetitiveOffer;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -79,5 +83,11 @@ public class CompetitiveOfferService {
 
         CompetitiveOffer updatedOffer = competitiveOfferRepository.save(existingOffer);
         return competitiveOfferMapper.toResponseDto(updatedOffer);
+    }
+
+    public Page<CompetitiveOfferResponse> getFilteredOffers(CompetitiveOfferFilterDTO filter, Pageable pageable) {
+        CompetitiveOfferSpecification spec = new CompetitiveOfferSpecification(filter);
+        return competitiveOfferRepository.findAll(spec, pageable)
+                .map(competitiveOfferMapper::toResponseDto);
     }
 }
