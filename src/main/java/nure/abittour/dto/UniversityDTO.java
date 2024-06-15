@@ -7,6 +7,7 @@ import lombok.Setter;
 @Setter
 public class UniversityDTO {
     private Long id;
+    private String code;
     private String name;
     private RegionDTO region;
 }
