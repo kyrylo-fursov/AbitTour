@@ -88,6 +88,10 @@ h1 {
   cursor: pointer;
 }
 
+.a_button {
+  display: block;
+}
+
 .button_smaller {
   height: 2rem;
   padding: 0.5rem 1.5rem;
@@ -190,7 +194,7 @@ nav ul {
   margin-bottom: 0.5rem;
 }
 
-.competitive-offer_num {
+.competitive-offer_spec-code {
   background-color: var(--highlight-blue);
   border-radius: 5px;
   color: var(--white);
@@ -198,11 +202,11 @@ nav ul {
   margin-right: 0.5rem;
 }
 
-.competitive-offer_fac {
+.competitive-offer_spec-name {
   font-weight: 600;
 }
 
-.competitive-offer_special {
+.competitive-offer_program {
   font-weight: 700;
   font-size: 1.2rem;
 }

@@ -1,5 +1,5 @@
 import { Route, Router, Link, Routes, Outlet } from "react-router-dom";
-import { SearchPage } from "./Search";
+import { SearchPage } from "./SearchPage";
 import { CalculatorPage } from "./Calculator";
 import { OfferPage } from "./OfferPage";
 
@@ -22,7 +22,7 @@ export function Header() {
       <Routes>
         <Route path="/" element={<SearchPage />} />
         <Route path="/calculator" element={<CalculatorPage />} />
-        <Route path="/offer" element={<OfferPage />} />
+        <Route path="/offers/:id" element={<OfferPage />} />
       </Routes>
     </header>
   );

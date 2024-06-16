@@ -1,39 +1,200 @@
 import React, { useState, useEffect, useRef } from "react";
 import ReactDOM from "react-dom";
+import { fetchData, parseOffer, parseUni, parseJsonList } from "./utils";
+import { Link } from "react-router-dom"; // Import Link for navigation
 
 export function CompetitiveOffers() {
+  const [offers, setOffers] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchOffers = async () => {
+      try {
+        const fetchedData = await fetchData(`/competitive-offers`);
+        const parsedOffers = parseJsonList(fetchedData, parseOffer);
+        // Set only the first 10 offers
+        setOffers(parsedOffers.slice(0, 10));
+        setLoading(false);
+      } catch (error) {
+        setError(error);
+        setLoading(false);
+      }
+    };
+
+    fetchOffers();
+  }, []);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error.message}</div>;
+  }
   return (
     <div className="cometitive_offers section-wrapper">
       <h1>Знайдені пропозиції</h1>
-      <CompetitiveOfferCompact
-        num="122"
-        faculty="Комп’ютерні науки"
-        specialization="Системи і методи штучного інтелекту, Інтелектуальні сервіс-орієнтовані розподілені обчислювання"
-        institution="Національний технічний університет україни «Київський політехнічний інститут імені Ігоря Сікорського»"
-        type="Навчально-науковий інститут прикладного системного аналізу"
-        maxBudgetPlaces={120}
-        totalPlaces={200}
-      />
-      <hr></hr>
-      <CompetitiveOfferCompact
-        num="122"
-        faculty="Комп’ютерні науки"
-        specialization="Системи і методи штучного інтелекту, Інтелектуальні сервіс-орієнтовані розподілені обчислювання"
-        institution="Національний технічний університет україни «Київський політехнічний інститут імені Ігоря Сікорського»"
-        type="Навчально-науковий інститут прикладного системного аналізу"
-        maxBudgetPlaces={120}
-        totalPlaces={200}
-      />
-      <hr></hr>
-      <CompetitiveOfferCompact
-        num="122"
-        faculty="Комп’ютерні науки"
-        specialization="Системи і методи штучного інтелекту, Інтелектуальні сервіс-орієнтовані розподілені обчислювання"
-        institution="Національний технічний університет україни «Київський політехнічний інститут імені Ігоря Сікорського»"
-        type="Навчально-науковий інститут прикладного системного аналізу"
-        maxBudgetPlaces={120}
-        totalPlaces={200}
-      />
+      {offers.map((offer) => (
+        <>
+          <CompetitiveOfferCard
+            id={offer.id}
+            programName={offer.programName}
+            offerCode={offer.offerCode}
+            enrolmentBase={offer.enrolmentBase}
+            educationalLevel={offer.educationalLevel}
+            speciality={offer.speciality}
+            university={offer.university}
+            faculty={offer.faculty}
+            typeOfOffer={offer.typeOfOffer}
+            formOfEducation={offer.formOfEducation}
+            enrolledCourse={offer.enrolledCourse}
+            startOfStudies={offer.startOfStudies}
+            endOfStudies={offer.endOfStudies}
+            startOfApplication={offer.startOfApplication}
+            endOfApplication={offer.endOfApplication}
+            licenceAmount={offer.licenceAmount}
+            maxVolumeOfTheStateOrder={offer.maxVolumeOfTheStateOrder}
+            priceForYear={offer.priceForYear}
+            totalPrice={offer.totalPrice}
+            regionalCoefficient={offer.regionalCoefficient}
+          />
+          <hr></hr>
+        </>
+      ))}
+    </div>
+  );
+}
+
+export function CompetitiveOfferCard({
+  id,
+  programName,
+  offerCode,
+  enrolmentBase,
+  educationalLevel,
+  speciality,
+  university,
+  faculty,
+  typeOfOffer,
+  formOfEducation,
+  enrolledCourse,
+  startOfStudies,
+  endOfStudies,
+  startOfApplication,
+  endOfApplication,
+  licenceAmount,
+  maxVolumeOfTheStateOrder,
+  priceForYear,
+  totalPrice,
+  regionalCoefficient,
+}) {
+  return (
+    <div className="competitive-offer competitive-offer_compact">
+      <div className="competitive-offer_left">
+        <div className="competitive-offer_specs">
+          <span>{educationalLevel}</span>
+          <span>|</span>
+          <span>{formOfEducation}</span>
+          <span>|</span>
+          <span>{enrolmentBase}</span>
+          <span>|</span>
+          <span>{startOfStudies.slice(0, 4)}</span>
+        </div>
+        <div className="competitive-offer_desc">
+          <div>
+            <span className="competitive-offer_spec-code">
+              {speciality.code}
+            </span>
+            <span className="competitive-offer_spec-name">
+              {speciality.name}
+            </span>
+          </div>
+          <p className="competitive-offer_program">{programName}</p>
+          <p className="competitive-offer_inst">{university.name}</p>
+          <p className="competitive-offer_faculty">{faculty}</p>
+        </div>
+      </div>
+
+      <div className="competitive-offer_right">
+        <p>Макс. кількість бюджетних місць: {maxVolumeOfTheStateOrder}</p>
+        <p>Загальна кількість місць: {licenceAmount}</p>
+        <ToggleableSubjectList
+          buttonText={"Складові конкурсного балу"}
+        ></ToggleableSubjectList>
+        <Link to={`/offers/${id}`} className="button-default a_button">
+          Детальніше
+        </Link>
+      </div>
+    </div>
+  );
+}
+
+function FetchtestComponent() {
+  const uri = "/competitive-offers";
+
+  const [offersData, setOffersData] = useState(null);
+  const [institutionsData, setInstitutionsData] = useState(null);
+  const [loadingOffers, setLoadingOffers] = useState(true);
+  const [loadingInstitutions, setLoadingInstitutions] = useState(true);
+  const [errorOffers, setErrorOffers] = useState(null);
+  const [errorInstitutions, setErrorInstitutions] = useState(null);
+
+  useEffect(() => {
+    fetchData(`/competitive-offers`)
+      .then((fetchedData) => {
+        const parsedOffers = parseJsonList(fetchedData, parseOffer);
+        setOffersData(parsedOffers);
+        setLoadingOffers(false);
+      })
+      .catch((error) => {
+        setErrorOffers(error);
+        setLoadingOffers(false);
+      });
+  }, []);
+
+  useEffect(() => {
+    fetchData(`universities`)
+      .then((fetchedData) => {
+        const parsedInstitutions = parseJsonList(fetchedData, parseUni);
+        setInstitutionsData(parsedInstitutions);
+        setLoadingInstitutions(false);
+      })
+      .catch((error) => {
+        setErrorInstitutions(error);
+        setLoadingInstitutions(false);
+      });
+  }, []);
+
+  if (loadingOffers || loadingInstitutions) {
+    return <div>Loading...</div>;
+  }
+
+  if (errorOffers) {
+    return <div>Error fetching offers: {errorOffers.message}</div>;
+  }
+
+  if (errorInstitutions) {
+    return <div>Error fetching institutions: {errorInstitutions.message}</div>;
+  }
+
+  return (
+    <div>
+      <div>
+        <h2>Offers</h2>
+      </div>
+
+      <div>
+        <h2>Institutions</h2>
+        {institutionsData.map((institution) => (
+          <div key={institution.id}>
+            <p>ID: {institution.id}</p>
+            <p>Name: {institution.name}</p>
+            <p>Code: {institution.code}</p>
+            <p>Region: {institution.region.name}</p>
+            <hr />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
