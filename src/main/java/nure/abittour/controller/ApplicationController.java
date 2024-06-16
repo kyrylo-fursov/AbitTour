@@ -1,6 +1,7 @@
 package nure.abittour.controller;
 
-import nure.abittour.dto.ApplicationDto;
+import nure.abittour.dto.ApplicationRequest;
+import nure.abittour.dto.ApplicationResponse;
 import nure.abittour.service.ApplicationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -15,27 +16,30 @@ public class ApplicationController {
     @Autowired
     private ApplicationService applicationService;
 
-    @PostMapping
-    public ResponseEntity<ApplicationDto> createApplication(@RequestBody ApplicationDto applicationDto) {
-        ApplicationDto createdApplication = applicationService.createApplication(applicationDto);
-        return ResponseEntity.ok(createdApplication);
+    @GetMapping
+    public List<ApplicationResponse> getAllApplications() {
+        return applicationService.getAllApplications();
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<ApplicationDto> getApplicationById(@PathVariable Long id) {
-        ApplicationDto applicationDto = applicationService.getApplicationById(id);
-        return ResponseEntity.ok(applicationDto);
+    public ApplicationResponse getApplicationById(@PathVariable Long id) {
+        return applicationService.getApplicationById(id);
     }
 
-    @GetMapping
-    public ResponseEntity<List<ApplicationDto>> getAllApplications() {
-        List<ApplicationDto> applications = applicationService.getAllApplications();
-        return ResponseEntity.ok(applications);
+    @GetMapping("/offer/{competitiveOfferId}")
+    public List<ApplicationResponse> getApplicationsByCompetitiveOfferId(@PathVariable Long competitiveOfferId) {
+        return applicationService.getApplicationsByCompetitiveOfferId(competitiveOfferId);
+    }
+
+    @PostMapping
+    public ResponseEntity<ApplicationResponse> createApplication(@RequestBody ApplicationRequest applicationRequest) {
+        ApplicationResponse createdApplication = applicationService.createApplication(applicationRequest);
+        return ResponseEntity.ok(createdApplication);
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<ApplicationDto> updateApplication(@PathVariable Long id, @RequestBody ApplicationDto applicationDto) {
-        ApplicationDto updatedApplication = applicationService.updateApplication(id, applicationDto);
+    public ResponseEntity<ApplicationResponse> updateApplication(@PathVariable Long id, @RequestBody ApplicationRequest applicationRequest) {
+        ApplicationResponse updatedApplication = applicationService.updateApplication(id, applicationRequest);
         return ResponseEntity.ok(updatedApplication);
     }
 
@@ -43,11 +47,5 @@ public class ApplicationController {
     public ResponseEntity<Void> deleteApplication(@PathVariable Long id) {
         applicationService.deleteApplication(id);
         return ResponseEntity.noContent().build();
-    }
-
-    @GetMapping("/offer/{competitiveOfferId}")
-    public ResponseEntity<List<ApplicationDto>> getApplicationsByCompetitiveOfferId(@PathVariable Long competitiveOfferId) {
-        List<ApplicationDto> applications = applicationService.getApplicationsByCompetitiveOfferId(competitiveOfferId);
-        return ResponseEntity.ok(applications);
     }
 }
