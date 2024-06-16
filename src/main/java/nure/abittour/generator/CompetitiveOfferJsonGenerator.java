@@ -18,7 +18,22 @@ import java.util.Random;
 public class CompetitiveOfferJsonGenerator {
 
     private static final Random random = new Random();
+
     private static final ObjectMapper mapper = new ObjectMapper();
+
+    private static final String[] PROGRAM_NAMES = {
+            "Програмування", "Економіка", "Правознавство", "Філологія", "Інформаційні технології",
+            "Міжнародні відносини", "Журналістика", "Медицина", "Біологія", "Інженерія",
+            "Психологія", "Соціологія", "Фізика", "Математика", "Хімія"
+    };
+
+    private static final String[] FACULTY_NAMES = {
+            "Факультет Комп'ютерних Наук", "Економічний Факультет", "Юридичний Факультет",
+            "Філологічний Факультет", "Факультет Інформаційних Технологій", "Факультет Міжнародних Відносин",
+            "Факультет Журналістики", "Медичний Факультет", "Біологічний Факультет",
+            "Інженерний Факультет", "Факультет Психології", "Соціологічний Факультет",
+            "Фізичний Факультет", "Математичний Факультет", "Хімічний Факультет"
+    };
 
     public void generateJsonFile(String filePath, int numberOfOffers) {
         try {
@@ -26,13 +41,13 @@ public class CompetitiveOfferJsonGenerator {
 
             for (int i = 0; i < numberOfOffers; i++) {
                 ObjectNode offerNode = mapper.createObjectNode();
-                offerNode.put("programName", "Program Name " + random.nextInt(1000));
+                offerNode.put("programName", PROGRAM_NAMES[random.nextInt(PROGRAM_NAMES.length)]);
                 offerNode.put("offerCode", String.format("%08d", Math.abs(random.nextLong() % 100000000)));
                 offerNode.put("enrolmentBase", random.nextDouble() < 0.9 ? EnrolmentBase.COMPLETE_SECONDARY_EDUCATION.name() : EnrolmentBase.values()[random.nextInt(EnrolmentBase.values().length)].name());
                 offerNode.put("educationalLevel", random.nextDouble() < 0.9 ? EducationalLevel.BACHELOR.name() : EducationalLevel.values()[random.nextInt(EducationalLevel.values().length)].name());
                 offerNode.put("specialityId", random.nextDouble() < 0.5 ? 67 : random.nextInt(100) + 1);
-                offerNode.put("universityId", 1070);
-                offerNode.put("faculty", "Faculty " + random.nextInt(10));
+                offerNode.put("universityId", random.nextDouble() < 0.5 ? 508 : random.nextInt(499) + 1); // 50% bias towards id 500
+                offerNode.put("faculty", FACULTY_NAMES[random.nextInt(FACULTY_NAMES.length)]);
                 offerNode.put("typeOfOffer", TypeOfOffer.OPEN.name());
                 offerNode.put("formOfEducation", FormOfEducation.FULL_TIME.name());
                 offerNode.put("enrolledCourse", EnrolledCourse.COURSE_1.name());
@@ -82,3 +97,4 @@ public class CompetitiveOfferJsonGenerator {
         generator.generateJsonFile("src/main/resources/competitive_offers.json", 200);
     }
 }
+
