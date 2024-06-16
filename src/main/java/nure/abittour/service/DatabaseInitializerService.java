@@ -17,6 +17,7 @@ import nure.abittour.repository.CompetitiveOfferRepository;
 import nure.abittour.repository.UniversityRepository;
 import nure.abittour.repository.UserRepository;
 import nure.abittour.repository.ZnoSubjectOptionRepository;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 import jakarta.annotation.PostConstruct;
 import java.io.FileReader;
@@ -61,8 +62,14 @@ public class DatabaseInitializerService {
     @Autowired
     private CompetitiveOfferRepository competitiveOfferRepository;
 
+    @Autowired
+    private JdbcTemplate jdbcTemplate;
+
     @PostConstruct
     public void initDb() {
+        resetCompetitiveOffers();
+        resetUniversityTable();
+
         initializeRegions();
         initializeUniversities();
         initializeSpecialities();
@@ -121,6 +128,12 @@ public class DatabaseInitializerService {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    @Transactional
+    public void resetUniversityTable() {
+        jdbcTemplate.execute("DELETE FROM university");
+        jdbcTemplate.execute("ALTER TABLE university AUTO_INCREMENT = 1");
     }
 
     private String normalizeRegionName(String name) {
@@ -253,7 +266,6 @@ public class DatabaseInitializerService {
     }
 
     private void initializeCompetitiveOffers() {
-        clearCompetitiveOffers();
 
         JSONParser parser = new JSONParser();
         try {
@@ -302,7 +314,10 @@ public class DatabaseInitializerService {
     }
 
     @Transactional
-    public void clearCompetitiveOffers() {
+    public void resetCompetitiveOffers() {
         znoSubjectOptionRepository.deleteAll();
         competitiveOfferRepository.deleteAll();
-    }}
+        jdbcTemplate.execute("ALTER TABLE zno_subject_option AUTO_INCREMENT = 1");
+        jdbcTemplate.execute("ALTER TABLE competitive_offer AUTO_INCREMENT = 1");
+    }
+}
