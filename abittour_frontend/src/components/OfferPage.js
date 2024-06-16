@@ -1,6 +1,9 @@
-import { CompetitiveOfferFull } from "./CompetitiveOffer";
+import { CompetitiveOfferFull, CompetitiveOfferCard } from "./CompetitiveOffer";
 import React, { useState, useEffect } from "react";
 import { InlineCalculator } from "./InlineCalculator";
+import { useParams } from "react-router-dom";
+
+import { fetchData, parseOffer } from "./utils";
 
 const data = [
   {
@@ -58,19 +61,68 @@ const data = [
 ];
 
 export function OfferPage() {
+  const { id } = useParams(); // Get the id parameter from the URL
+  const [offer, setOffer] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchOffer = async () => {
+      try {
+        const fetchedData = await fetchData(`/competitive-offers/${id}`);
+        const parsedOffer = parseOffer(fetchedData);
+        setOffer(parsedOffer);
+        setLoading(false);
+      } catch (error) {
+        setError(error);
+        setLoading(false);
+      }
+    };
+
+    fetchOffer();
+  }, [id]); // Fetch offer whenever id changes
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error.message}</div>;
+  }
+
   return (
     <div className="section-wrapper">
       <h1>Конкурсна пропозиція</h1>
-      <CompetitiveOfferFull
-        num="122"
-        faculty="Комп’ютерні науки"
-        specialization="Системи і методи штучного інтелекту, Інтелектуальні сервіс-орієнтовані розподілені обчислювання"
-        institution="Національний технічний університет україни «Київський політехнічний інститут імені Ігоря Сікорського»"
-        type="Навчально-науковий інститут прикладного системного аналізу"
-        maxBudgetPlaces={120}
-        totalPlaces={200}
-      />
-      <InlineCalculator></InlineCalculator>
+
+      {offer && (
+        <>
+          <CompetitiveOfferCard
+            id={offer.id}
+            programName={offer.programName}
+            offerCode={offer.offerCode}
+            enrolmentBase={offer.enrolmentBase}
+            educationalLevel={offer.educationalLevel}
+            speciality={offer.speciality}
+            university={offer.university}
+            faculty={offer.faculty}
+            typeOfOffer={offer.typeOfOffer}
+            formOfEducation={offer.formOfEducation}
+            enrolledCourse={offer.enrolledCourse}
+            startOfStudies={offer.startOfStudies}
+            endOfStudies={offer.endOfStudies}
+            startOfApplication={offer.startOfApplication}
+            endOfApplication={offer.endOfApplication}
+            licenceAmount={offer.licenceAmount}
+            maxVolumeOfTheStateOrder={offer.maxVolumeOfTheStateOrder}
+            priceForYear={offer.priceForYear}
+            totalPrice={offer.totalPrice}
+            regionalCoefficient={offer.regionalCoefficient}
+            znoSubjectOptions={offer.znoSubjectOptions}
+          />
+          <hr />
+        </>
+      )}
+      <InlineCalculator offer={offer}></InlineCalculator>
       {/* <h1>Конкурсні заявки</h1> */}
       {/* <ApplicantsTable data={data}></ApplicantsTable> */}
       {/* <SpecialityComponent></SpecialityComponent> */}

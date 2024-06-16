@@ -8,7 +8,7 @@ import { Header } from "./components/Header";
 // TODO: fix offer right column positioning
 
 export const jwt_token =
-  "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzE4Mjg5MDcwLCJleHAiOjE3MTgzMjUwNzB9.44QIpQafoD89weWoB4_d3xitJknakEWQKKjj3GYIxlo";
+  "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dXNlckBnbWFpbC5jb20iLCJpYXQiOjE3MTg0NTQyNDcsImV4cCI6NDg3MjA1NDI0N30.sSKjAW2IJRjKJLc3-D4ISI3lx2hl-xdyo-WhV1Y4dGo";
 
 function App() {
   return (

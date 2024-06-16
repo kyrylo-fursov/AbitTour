@@ -1,18 +1,19 @@
 import React, { useState, useEffect } from "react";
 import { jwt_token } from "../App";
+import { fetchData, parseOffer } from "./utils";
 
-export function InlineCalculator() {
+export function InlineCalculator({ offer }) {
   return (
     <details className="calc_details details_inline_calc">
       <summary className="calc_details-summary inline_calc-summary">
         Розрахувати КБ для цієї пропозиції
       </summary>
-      <Calc />
+      <Calc offer={offer} />
     </details>
   );
 }
 
-const Calc = () => {
+const Calc = ({ offer }) => {
   const [formData, setFormData] = useState({
     ukr: "",
     ukr_coeff: "1",
@@ -26,8 +27,6 @@ const Calc = () => {
     efvv: "0",
     efvv_coeff: "0",
     ou: "0",
-    regional: "1",
-    industry: "1",
   });
 
   const subjectNames = {
@@ -50,55 +49,42 @@ const Calc = () => {
   ];
 
   const [subjects, setSubjects] = useState([]);
-  const [loading, setLoading] = useState(true);
+
   const [error, setError] = useState(null);
   const [result, setResult] = useState(null);
 
+  // Set initial state using the offer prop
   useEffect(() => {
-    const fetchSpecialityData = async () => {
-      try {
-        const result = await fetchSpeciality(220);
-        console.log(result);
-        if (result && result.subjectCoefs) {
-          const processedSubjects = result.subjectCoefs.map((subject) => ({
-            id: subject.id,
-            name: subjectNames[subject.subject] || subject.subject,
-            coefficient: subject.coefficient,
-            subject: subject.subject,
-          }));
-          setSubjects(processedSubjects);
+    if (offer) {
+      const processedSubjects = offer.speciality.subjectCoefs.map((coef) => ({
+        id: coef.id,
+        name: subjectNames[coef.subject] || coef.subject,
+        coefficient: coef.coefficient,
+        subject: coef.subject,
+      }));
+      setSubjects(processedSubjects);
 
-          // Find the coefficients for the specific subjects
-          const ukrCoeff = processedSubjects.find(
-            (subject) => subject.subject === "UKRAINIAN_LANGUAGE"
-          )?.coefficient;
-          const mathCoeff = processedSubjects.find(
-            (subject) => subject.subject === "MATHEMATICS"
-          )?.coefficient;
-          const historyCoeff = processedSubjects.find(
-            (subject) => subject.subject === "HISTORY_OF_UKRAINE"
-          )?.coefficient;
+      // Find the coefficients for the specific subjects
+      const ukrCoeff = processedSubjects.find(
+        (subject) => subject.subject === "UKRAINIAN_LANGUAGE"
+      )?.coefficient;
+      const mathCoeff = processedSubjects.find(
+        (subject) => subject.subject === "MATHEMATICS"
+      )?.coefficient;
+      const historyCoeff = processedSubjects.find(
+        (subject) => subject.subject === "HISTORY_OF_UKRAINE"
+      )?.coefficient;
 
-          // Set the coefficients in formData state
-          setFormData((prevFormData) => ({
-            ...prevFormData,
-            ukr_coeff: ukrCoeff || prevFormData.ukr_coeff,
-            math_coeff: mathCoeff || prevFormData.math_coeff,
-            history_coeff: historyCoeff || prevFormData.history_coeff,
-            optional_subj_coeff: prevFormData.optional_subj_coeff,
-          }));
-        } else {
-          throw new Error("Invalid response structure");
-        }
-      } catch (error) {
-        setError(error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchSpecialityData();
-  }, []);
+      // Set the coefficients in formData state
+      setFormData((prevFormData) => ({
+        ...prevFormData,
+        ukr_coeff: ukrCoeff || prevFormData.ukr_coeff,
+        math_coeff: mathCoeff || prevFormData.math_coeff,
+        history_coeff: historyCoeff || prevFormData.history_coeff,
+        optional_subj_coeff: prevFormData.optional_subj_coeff,
+      }));
+    }
+  }, [offer]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -108,10 +94,13 @@ const Calc = () => {
         (subject) => subject.subject === value
       );
 
+      // Preserve the value of optional_subj when changing optional_subj_select
+      const optionalSubjValue = formData.optional_subj || value;
+
       setFormData({
         ...formData,
-        optional_subj_select: value, // Update optional_subj_select with the selected value
-        optional_subj: value, // Also update optional_subj to keep track of the selected subject
+        optional_subj_select: value,
+        optional_subj: optionalSubjValue, // Preserve optional_subj value
         optional_subj_coeff: selectedSubject
           ? selectedSubject.coefficient
           : formData.optional_subj_coeff,
@@ -150,8 +139,6 @@ const Calc = () => {
       efvv,
       efvv_coeff,
       ou,
-      regional,
-      industry,
     } = Object.fromEntries(
       Object.entries(formData).map(([key, value]) => [
         key,
@@ -171,18 +158,25 @@ const Calc = () => {
           parseFloat(optional_subj_coeff) +
           parseFloat(efvv_coeff)) +
         parseFloat(ou)) *
-      parseFloat(regional) *
-      parseFloat(industry);
+      1.0 *
+      1.0;
 
     const result = Math.min(total, 200).toFixed(2);
     setResult(result);
   };
 
-  if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error.message}</div>;
 
   return (
     <div>
+      <p>Коефіцієнти предметів:</p>
+      <ul>
+        {offer.speciality.subjectCoefs.map((coef) => (
+          <li key={coef.id}>
+            {coef.subject}: {coef.coefficient}
+          </li>
+        ))}
+      </ul>
       <form onSubmit={handleSubmit} className="calc-form inline-calc-form">
         <div className="form_line">
           <label htmlFor="ukr">Українська мова</label>
@@ -267,6 +261,7 @@ const Calc = () => {
             className="select_optional_subj"
             name="optional_subj_select"
             id="optional_subj_select"
+            required
             value={formData.optional_subj_select}
             onChange={handleChange}
           >
@@ -349,39 +344,6 @@ const Calc = () => {
               value={formData.ou}
               onChange={handleChange}
             />
-          </div>
-        </div>
-        <div className="form_line">
-          <label htmlFor="regional">Регіональний коефіцієнт</label>
-          <div className="form_line_inputs">
-            <input
-              className="calc_num-input"
-              type="number"
-              id="regional"
-              name="regional"
-              step="0.1"
-              min="0"
-              max="1"
-              required
-              value={formData.regional}
-              onChange={handleChange}
-            />
-          </div>
-        </div>
-        <div className="form_line">
-          <label htmlFor="industry">Галузевий коефіцієнт</label>
-          <div className="form_line_inputs">
-            <select
-              className="calc_num-input"
-              id="industry"
-              name="industry"
-              required
-              value={formData.industry}
-              onChange={handleChange}
-            >
-              <option value="1">1</option>
-              <option value="1.02">1.02</option>
-            </select>
           </div>
         </div>
         <div>
