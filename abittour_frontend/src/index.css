@@ -17,9 +17,13 @@
   font-size: 1rem;
 }
 
+html {
+  overflow-y: scroll; /* Always show vertical scrollbar */
+}
+
 body {
   font-family: "Inter", sans-serif;
-  padding: 0.5rem 0;
+  padding: 0.5rem 1rem;
   color: var(--text-black);
   background-color: var(--background-white);
 }
@@ -345,4 +349,17 @@ td {
 
 .calc-result {
   text-align: center;
+}
+
+.loading-screen {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.subject-coeffs-main {
+  background-color: red;
+}
+
+.subject-coeffs-optional {
+  /* background-color: green; */
 }

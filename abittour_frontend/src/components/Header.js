@@ -22,7 +22,7 @@ export function Header() {
       <Routes>
         <Route path="/" element={<SearchPage />} />
         <Route path="/calculator" element={<CalculatorPage />} />
-        <Route path="/offers/:id" element={<OfferPage />} />
+        <Route path="/:id" element={<OfferPage />} />
       </Routes>
     </header>
   );

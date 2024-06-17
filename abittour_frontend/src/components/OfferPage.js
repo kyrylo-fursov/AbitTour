@@ -1,9 +1,17 @@
-import { CompetitiveOfferFull, CompetitiveOfferCard } from "./CompetitiveOffer";
 import React, { useState, useEffect } from "react";
-import { InlineCalculator } from "./InlineCalculator";
 import { useParams } from "react-router-dom";
 
-import { fetchData, parseOffer } from "./utils";
+import { CompetitiveOfferCardFull } from "./CompetitiveOffer";
+import { InlineCalculator } from "./InlineCalculator";
+
+import { fetchData, parseOffer, parseUni, parseJsonList } from "../utils/utils";
+import {
+  eduLvlNames,
+  subjectNames,
+  enrollmentBaseNames,
+  eduFormNames,
+  mapToNiceNames,
+} from "../utils/mappings";
 
 const data = [
   {
@@ -83,11 +91,11 @@ export function OfferPage() {
   }, [id]); // Fetch offer whenever id changes
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div className="loading-screen">Loading...</div>;
   }
 
   if (error) {
-    return <div>Error: {error.message}</div>;
+    return <div className="loading-screen">Error: {error.message}</div>;
   }
 
   return (
@@ -96,29 +104,7 @@ export function OfferPage() {
 
       {offer && (
         <>
-          <CompetitiveOfferCard
-            id={offer.id}
-            programName={offer.programName}
-            offerCode={offer.offerCode}
-            enrolmentBase={offer.enrolmentBase}
-            educationalLevel={offer.educationalLevel}
-            speciality={offer.speciality}
-            university={offer.university}
-            faculty={offer.faculty}
-            typeOfOffer={offer.typeOfOffer}
-            formOfEducation={offer.formOfEducation}
-            enrolledCourse={offer.enrolledCourse}
-            startOfStudies={offer.startOfStudies}
-            endOfStudies={offer.endOfStudies}
-            startOfApplication={offer.startOfApplication}
-            endOfApplication={offer.endOfApplication}
-            licenceAmount={offer.licenceAmount}
-            maxVolumeOfTheStateOrder={offer.maxVolumeOfTheStateOrder}
-            priceForYear={offer.priceForYear}
-            totalPrice={offer.totalPrice}
-            regionalCoefficient={offer.regionalCoefficient}
-            znoSubjectOptions={offer.znoSubjectOptions}
-          />
+          <CompetitiveOfferCardFull offerToDisplay={offer} />
           <hr />
         </>
       )}

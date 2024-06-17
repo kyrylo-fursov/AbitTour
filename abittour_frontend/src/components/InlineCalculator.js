@@ -1,8 +1,19 @@
 import React, { useState, useEffect } from "react";
-import { jwt_token } from "../App";
-import { fetchData, parseOffer } from "./utils";
+import {
+  subjectNames,
+  eduLvlNames,
+  enrollmentBaseNamesm,
+  eduFormNames,
+  mapToNiceNames,
+  mainSubjects,
+} from "../utils/mappings";
 
-export function InlineCalculator({ offer }) {
+export const InlineCalculator = ({ offer }) => {
+  if (!offer) return null;
+
+  // Map offer to nice names
+  offer = mapToNiceNames(offer);
+
   return (
     <details className="calc_details details_inline_calc">
       <summary className="calc_details-summary inline_calc-summary">
@@ -11,7 +22,7 @@ export function InlineCalculator({ offer }) {
       <Calc offer={offer} />
     </details>
   );
-}
+};
 
 const Calc = ({ offer }) => {
   const [formData, setFormData] = useState({
@@ -23,30 +34,11 @@ const Calc = ({ offer }) => {
     history_coeff: "1",
     optional_subj_select: "",
     optional_subj: "",
-    optional_subj_coeff: "1",
+    optional_subj_coeff: "0",
     efvv: "0",
     efvv_coeff: "0",
     ou: "0",
   });
-
-  const subjectNames = {
-    FOREIGN_LANGUAGE: "Іноземна мова",
-    UKRAINIAN_LITERATURE: "Українська література",
-    GEOGRAPHY: "Географія",
-    HISTORY_OF_UKRAINE: "Історія України",
-    CHEMISTRY: "Хімія",
-    CREATIVE_COMPETITION: "Творчий конкурс",
-    PHYSICS: "Фізика",
-    MATHEMATICS: "Математика",
-    BIOLOGY: "Біологія",
-    UKRAINIAN_LANGUAGE: "Українська мова",
-  };
-
-  const excludedSubjects = [
-    "HISTORY_OF_UKRAINE",
-    "UKRAINIAN_LANGUAGE",
-    "MATHEMATICS",
-  ];
 
   const [subjects, setSubjects] = useState([]);
 
@@ -58,7 +50,7 @@ const Calc = ({ offer }) => {
     if (offer) {
       const processedSubjects = offer.speciality.subjectCoefs.map((coef) => ({
         id: coef.id,
-        name: subjectNames[coef.subject] || coef.subject,
+        name: coef.subject,
         coefficient: coef.coefficient,
         subject: coef.subject,
       }));
@@ -269,7 +261,10 @@ const Calc = ({ offer }) => {
               Оберіть додатковий предмет
             </option>
             {subjects
-              .filter((subject) => !excludedSubjects.includes(subject.subject))
+              .filter(
+                (subject) =>
+                  !Object.keys(mainSubjects).includes(subject.subject)
+              )
               .map((subject) => (
                 <option key={subject.id} value={subject.subject}>
                   {subject.name}
@@ -360,33 +355,4 @@ const Calc = ({ offer }) => {
       )}
     </div>
   );
-};
-
-export const fetchSpeciality = async (id) => {
-  if (!jwt_token) {
-    throw new Error("No JWT token found");
-  }
-
-  try {
-    const response = await fetch(`/specialities/${id}`, {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${jwt_token}`,
-      },
-    });
-
-    if (!response.ok) {
-      const errorDetails = await response.text();
-      throw new Error(
-        `Network response was not ok: ${response.status} ${response.statusText} - ${errorDetails}`
-      );
-    }
-
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error("Fetch operation failed:", error);
-    throw error;
-  }
 };
