@@ -161,14 +161,14 @@ const Calc = ({ offer }) => {
 
   return (
     <div>
-      <p>Коефіцієнти предметів:</p>
+      {/* <p>Коефіцієнти предметів:</p>
       <ul>
         {offer.speciality.subjectCoefs.map((coef) => (
           <li key={coef.id}>
             {coef.subject}: {coef.coefficient}
           </li>
         ))}
-      </ul>
+      </ul> */}
       <form onSubmit={handleSubmit} className="calc-form inline-calc-form">
         <div className="form_line">
           <label htmlFor="ukr">Українська мова</label>
@@ -267,7 +267,7 @@ const Calc = ({ offer }) => {
               )
               .map((subject) => (
                 <option key={subject.id} value={subject.subject}>
-                  {subject.name}
+                  {subjectNames[subject.subject] || subject.subject}
                 </option>
               ))}
           </select>

@@ -5,13 +5,6 @@ import { CompetitiveOfferCardFull } from "./CompetitiveOffer";
 import { InlineCalculator } from "./InlineCalculator";
 
 import { fetchData, parseOffer, parseUni, parseJsonList } from "../utils/utils";
-import {
-  eduLvlNames,
-  subjectNames,
-  enrollmentBaseNames,
-  eduFormNames,
-  mapToNiceNames,
-} from "../utils/mappings";
 
 const data = [
   {
@@ -105,88 +98,14 @@ export function OfferPage() {
       {offer && (
         <>
           <CompetitiveOfferCardFull offerToDisplay={offer} />
-          <hr />
         </>
       )}
       <InlineCalculator offer={offer}></InlineCalculator>
       {/* <h1>Конкурсні заявки</h1> */}
       {/* <ApplicantsTable data={data}></ApplicantsTable> */}
-      {/* <SpecialityComponent></SpecialityComponent> */}
     </div>
   );
 }
-
-const SpecialityComponent = () => {
-  const [specialityData, setSpecialityData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const result = await fetchSpeciality(220); // Fetch speciality data for ID 1
-        const processedData = processSpecialityData(result); // Process the fetched data
-        setSpecialityData(processedData);
-      } catch (error) {
-        setError(error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchData();
-  }, []);
-
-  const processSpecialityData = (data) => {
-    if (!data) return null;
-
-    // Extract subject coefficients into an array of objects
-    const subjectCoefficients = data.subjectCoefs.map((item) => ({
-      id: item.id,
-      subject: item.subject,
-      coefficient: item.coefficient,
-    }));
-
-    // Construct the processed object
-    const processedData = {
-      id: data.id,
-      code: data.code,
-      name: data.name,
-      specialization: data.specialization,
-      subjectCoefficients: subjectCoefficients,
-    };
-
-    return processedData;
-  };
-
-  if (loading) return <div>Loading...</div>;
-  if (error) return <div>Error: {error.message}</div>;
-
-  return (
-    <div>
-      <h1>Speciality Data</h1>
-      {specialityData && (
-        <div>
-          <h2>{specialityData.name}</h2>
-          <p>
-            <strong>Code:</strong> {specialityData.code}
-          </p>
-          <p>
-            <strong>Specialization:</strong> {specialityData.specialization}
-          </p>
-          <h3>Subject Coefficients:</h3>
-          <ul>
-            {specialityData.subjectCoefficients.map((subject) => (
-              <li key={subject.id}>
-                {subject.subject}: {subject.coefficient}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-    </div>
-  );
-};
 
 const ApplicantsTable = ({ data }) => (
   <table className="applicants-table">

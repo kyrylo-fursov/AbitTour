@@ -129,8 +129,6 @@ export function CompetitiveOfferCardFull({ offerToDisplay }) {
           <p className="competitive-offer_program">{offer.programName}</p>
           <p className="competitive-offer_inst">{offer.university.name}</p>
           <p className="competitive-offer_faculty">{offer.faculty}</p>
-          <br></br>
-          <hr></hr>
           <p>
             Термін навчання: {formatDate(offer.startOfStudies)} -{" "}
             {formatDate(offer.endOfStudies)}
@@ -139,10 +137,8 @@ export function CompetitiveOfferCardFull({ offerToDisplay }) {
             Термін подачі заяв: {formatDate(offer.startOfApplication)} -{" "}
             {formatDate(offer.endOfApplication)}
           </p>
-          <br></br>
           <p>Вартість навчання за рік: {offer.priceForYear}</p>
           <p>Загальна вартість навчання: {offer.totalPrice}</p>
-          <br></br>
           <p>Курс зарахування: {offer.enrolledCourse}</p>
           <p>
             Макс. кількість бюджетних місць: {offer.maxVolumeOfTheStateOrder}
@@ -153,7 +149,7 @@ export function CompetitiveOfferCardFull({ offerToDisplay }) {
       </div>
 
       <div className="competitive-offer_right">
-        <p>Складові КБ</p>
+        <p className="subj-coeff_title">Складові КБ</p>
         <SubjectCoefs offer={offer}></SubjectCoefs>
       </div>
     </div>
@@ -187,7 +183,7 @@ const SubjectCoefs = ({ offer }) => {
   });
 
   return (
-    <div>
+    <div className="subject-coeffs-container">
       <div className="subject-coeffs-main">
         {mainCoefs.map((coef, index) => (
           <p key={index}>
