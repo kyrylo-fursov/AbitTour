@@ -6,4 +6,6 @@ import nure.abittour.model.Speciality;
 public interface SpecialityRepository extends JpaRepository<Speciality, Long> {
     Speciality findByCode(String code);
     Speciality findAllByCode(String code);
+    boolean existsByCode(String code);
+
 }

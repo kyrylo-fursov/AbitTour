@@ -1,42 +1,28 @@
 package nure.abittour.mapper;
 
-import nure.abittour.dto.ApplicationDto;
+import nure.abittour.dto.ApplicationRequest;
+import nure.abittour.dto.ApplicationResponse;
 import nure.abittour.model.Application;
-import nure.abittour.model.Student;
-import nure.abittour.model.CompetitiveOffer;
-import nure.abittour.repository.StudentRepository;
-import nure.abittour.repository.CompetitiveOfferRepository;
-import org.mapstruct.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
+import org.mapstruct.MappingTarget;
 
-@Component
-@Mapper(componentModel = "spring", uses = {StudentMapper.class, CompetitiveOfferMapper.class})
-public abstract class ApplicationMapper {
+@Mapper(componentModel = "spring")
+public interface ApplicationMapper {
 
-    @Autowired
-    private StudentRepository studentRepository;
-
-    @Autowired
-    private CompetitiveOfferRepository competitiveOfferRepository;
+    @Mapping(source = "studentId", target = "student.id")
+    @Mapping(source = "competitiveOfferId", target = "competitiveOffer.id")
+    Application toEntity(ApplicationRequest applicationRequest);
 
     @Mapping(source = "student.id", target = "studentId")
     @Mapping(source = "competitiveOffer.id", target = "competitiveOfferId")
-    public abstract ApplicationDto toDto(Application application);
+    ApplicationRequest toRequestDto(Application application);
 
-    @Mapping(target = "student", expression = "java(getStudent(applicationDto.getStudentId()))")
-    @Mapping(target = "competitiveOffer", expression = "java(getCompetitiveOffer(applicationDto.getCompetitiveOfferId()))")
-    public abstract Application toEntity(ApplicationDto applicationDto);
+    @Mapping(source = "student.id", target = "student.id")
+    @Mapping(source = "competitiveOffer.id", target = "competitiveOffer.id")
+    ApplicationResponse toResponseDto(Application application);
 
-    @Mapping(target = "student", expression = "java(getStudent(applicationDto.getStudentId()))")
-    @Mapping(target = "competitiveOffer", expression = "java(getCompetitiveOffer(applicationDto.getCompetitiveOfferId()))")
-    public abstract void updateEntity(ApplicationDto applicationDto, @MappingTarget Application application);
-
-    protected Student getStudent(Long id) {
-        return studentRepository.findById(id).orElseThrow(() -> new RuntimeException("Student not found"));
-    }
-
-    protected CompetitiveOffer getCompetitiveOffer(Long id) {
-        return competitiveOfferRepository.findById(id).orElseThrow(() -> new RuntimeException("Competitive Offer not found"));
-    }
+    @Mapping(source = "studentId", target = "student.id")
+    @Mapping(source = "competitiveOfferId", target = "competitiveOffer.id")
+    void updateEntityFromRequest(ApplicationRequest dto, @MappingTarget Application entity);
 }

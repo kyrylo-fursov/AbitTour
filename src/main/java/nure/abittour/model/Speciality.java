@@ -14,7 +14,7 @@ import java.util.Map;
 @Getter
 @Setter
 public class Speciality extends BaseEntity {
-    @Column(nullable = false)
+    @Column(nullable = false, unique = true)
     String code;
 
     @Column(nullable = false)

@@ -2059,4 +2059,1129 @@
   "code" : "015",
   "name" : "Професійна освіта",
   "specialization" : ""
-} ]
+},{
+  "id": 229,
+  "competitionIdentifier": "",
+  "degreeOfHigherEducation": "",
+  "basisOfAdmission": [      ""    ],
+  "formOfEducation": "",
+  "code": "011",
+  "name": "Освітні, педагогічні науки",
+  "specialization": ""
+},
+  {
+    "id": 230,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "017",
+    "name": "Фізична культура і спорт",
+    "specialization": ""
+  },
+  {
+    "id": 231,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "021",
+    "name": "Аудіовізуальне мистецтво та виробництво",
+    "specialization": ""
+  },
+  {
+    "id": 232,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "022.05",
+    "name": "Дизайн",
+    "specialization": "Перукарське мистецтво та декоративна косметика"
+  },
+  {
+    "id": 233,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "022.01",
+    "name": "Дизайн",
+    "specialization": "Графічний дизайн і реклама"
+  },
+  {
+    "id": 234,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "022.02",
+    "name": "Дизайн",
+    "specialization": "Дизайн одягу (взуття)"
+  },
+  {
+    "id": 235,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "022.03",
+    "name": "Дизайн",
+    "specialization": "Дизайн середовища"
+  },
+  {
+    "id": 236,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "022.04",
+    "name": "Дизайн",
+    "specialization": "Промисловий дизайн"
+  },
+  {
+    "id": 237,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "023",
+    "name": "Образотворче мистецтво, декоративне мистецтво, реставрація",
+    "specialization": ""
+  },
+  {
+    "id": 238,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "024",
+    "name": "Хореографія",
+    "specialization": ""
+  },
+  {
+    "id": 239,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "025",
+    "name": "Музичне мистецтво",
+    "specialization": ""
+  },
+  {
+    "id": 240,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "026",
+    "name": "Сценічне мистецтво",
+    "specialization": ""
+  },
+  {
+    "id": 241,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "029",
+    "name": "Інформаційна, бібліотечна та архівна справа",
+    "specialization": ""
+  },
+  {
+    "id": 242,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.030",
+    "name": "Філологія",
+    "specialization": "слов’янські мови та літератури (переклад включно), перша - македонська"
+  },
+  {
+    "id": 243,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.032",
+    "name": "Філологія",
+    "specialization": "слов’янські мови та літератури (переклад включно), перша - болгарська"
+  },
+  {
+    "id": 244,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.035",
+    "name": "Філологія",
+    "specialization": "слов’янські мови та літератури (переклад включно), перша - сербська"
+  },
+  {
+    "id": 245,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.037",
+    "name": "Філологія",
+    "specialization": "слов’янські мови та літератури (переклад включно), перша - хорватська"
+  },
+  {
+    "id": 246,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.039",
+    "name": "Філологія",
+    "specialization": "слов’янські мови та літератури (переклад включно), перша - словенська"
+  },
+  {
+    "id": 247,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.042",
+    "name": "Філологія",
+    "specialization": "германські мови та літератури (переклад включно), перша - нідерландська"
+  },
+  {
+    "id": 248,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.045",
+    "name": "Філологія",
+    "specialization": "германські мови та літератури (переклад включно), перша - данська"
+  },
+  {
+    "id": 249,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.046",
+    "name": "Філологія",
+    "specialization": "германські мови та літератури (переклад включно), перша - ісландська"
+  },
+  {
+    "id": 250,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.047",
+    "name": "Філологія",
+    "specialization": "германські мови та літератури (переклад включно), перша - норвезька"
+  },
+  {
+    "id": 251,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.054",
+    "name": "Філологія",
+    "specialization": "романські мови та літератури (переклад включно), перша - румунська"
+  },
+  {
+    "id": 252,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.060",
+    "name": "Філологія",
+    "specialization": "східні мови та літератури (переклад включно), перша - арабська"
+  },
+  {
+    "id": 253,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.061",
+    "name": "Філологія",
+    "specialization": "східні мови та літератури (переклад включно), перша - в’єтнамська"
+  },
+  {
+    "id": 254,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.062",
+    "name": "Філологія",
+    "specialization": "східні мови та літератури (переклад включно), перша - ґінді"
+  },
+  {
+    "id": 255,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.063",
+    "name": "Філологія",
+    "specialization": "східні мови та літератури (переклад включно), перша - іврит"
+  },
+  {
+    "id": 256,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.064",
+    "name": "Філологія",
+    "specialization": "східні мови та літератури (переклад включно), перша - індонезійська"
+  },
+  {
+    "id": 257,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.067",
+    "name": "Філологія",
+    "specialization": "східні мови та літератури (переклад включно), перша - перська"
+  },
+  {
+    "id": 258,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.070",
+    "name": "Філологія",
+    "specialization": "угро-фінські мови та літератури (переклад включно), перша - естонська"
+  },
+  {
+    "id": 259,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.071",
+    "name": "Філологія",
+    "specialization": "угро-фінські мови та літератури (переклад включно), перша - угорська"
+  },
+  {
+    "id": 260,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.072",
+    "name": "Філологія",
+    "specialization": "угро-фінські мови та літератури (переклад включно), перша - фінська"
+  },
+  {
+    "id": 261,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.111",
+    "name": "Філологія",
+    "specialization": "східні мови та літератури (переклад включно), перша - азербайджанська"
+  },
+  {
+    "id": 262,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.112",
+    "name": "Філологія",
+    "specialization": "східні мови та літератури (переклад включно), перша - фарсі"
+  },
+  {
+    "id": 263,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.113",
+    "name": "Філологія",
+    "specialization": "албанська мова і література (переклад включно)"
+  },
+  {
+    "id": 264,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.114",
+    "name": "Філологія",
+    "specialization": "вірменська мова і література (переклад включно)"
+  },
+  {
+    "id": 265,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.115",
+    "name": "Філологія",
+    "specialization": "балтійські мови і література (переклад включно), перша - литовська"
+  },
+  {
+    "id": 266,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.116",
+    "name": "Філологія",
+    "specialization": "балтійські мови і література (переклад включно), перша - латвійська"
+  },
+  {
+    "id": 267,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.117",
+    "name": "Філологія",
+    "specialization": "картвельські мови і література (переклад включно), перша - грузинська"
+  },
+  {
+    "id": 268,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.118",
+    "name": "Філологія",
+    "specialization": "кельтські мови і література (переклад включно), перша - ірландська"
+  },
+  {
+    "id": 269,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "035.119",
+    "name": "Філологія",
+    "specialization": "кельтські мови і література (переклад включно), перша - шотландська"
+  },
+  {
+    "id": 270,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "041",
+    "name": "Богослов\u0027я",
+    "specialization": ""
+  },
+  {
+    "id": 271,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "061",
+    "name": "Журналістика",
+    "specialization": ""
+  },
+  {
+    "id": 272,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "071",
+    "name": "Облік і оподаткування",
+    "specialization": ""
+  },
+  {
+    "id": 273,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "072",
+    "name": "Фінанси, банківська справа, страхування та фондовий ринок",
+    "specialization": ""
+  },
+  {
+    "id": 274,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "073",
+    "name": "Менеджмент",
+    "specialization": ""
+  },
+  {
+    "id": 275,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "075",
+    "name": "Маркетинг",
+    "specialization": ""
+  },
+  {
+    "id": 276,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "076",
+    "name": "Підприємництво та торгівля",
+    "specialization": ""
+  },
+  {
+    "id": 277,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "081",
+    "name": "Право",
+    "specialization": ""
+  },
+  {
+    "id": 278,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "091",
+    "name": "Біологія та біохімія",
+    "specialization": ""
+  },
+  {
+    "id": 279,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "121",
+    "name": "Інженерія програмного забезпечення",
+    "specialization": ""
+  },
+  {
+    "id": 280,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "122",
+    "name": "Комп\u0027ютерні науки",
+    "specialization": ""
+  },
+  {
+    "id": 281,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "123",
+    "name": "Комп\u0027ютерна інженерія",
+    "specialization": ""
+  },
+  {
+    "id": 282,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "124",
+    "name": "Системний аналіз",
+    "specialization": ""
+  },
+  {
+    "id": 283,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "125",
+    "name": "Кібербезпека та захист інформації",
+    "specialization": ""
+  },
+  {
+    "id": 284,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "126",
+    "name": "Інформаційні системи та технології",
+    "specialization": ""
+  },
+  {
+    "id": 285,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "131",
+    "name": "Прикладна механіка",
+    "specialization": ""
+  },
+  {
+    "id": 286,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "132",
+    "name": "Матеріалознавство",
+    "specialization": ""
+  },
+  {
+    "id": 287,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "133",
+    "name": "Галузеве машинобудування",
+    "specialization": ""
+  },
+  {
+    "id": 288,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "134",
+    "name": "Авіаційна та ракетно-космічна техніка",
+    "specialization": ""
+  },
+  {
+    "id": 289,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "135",
+    "name": "Суднобудування",
+    "specialization": ""
+  },
+  {
+    "id": 290,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "136",
+    "name": "Металургія",
+    "specialization": ""
+  },
+  {
+    "id": 291,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "141",
+    "name": "Електроенергетика, електротехніка та електромеханіка",
+    "specialization": ""
+  },
+  {
+    "id": 292,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "142",
+    "name": "Енергетичне машинобудування",
+    "specialization": ""
+  },
+  {
+    "id": 293,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "143",
+    "name": "Атомна енергетика",
+    "specialization": ""
+  },
+  {
+    "id": 294,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "144",
+    "name": "Теплоенергетика",
+    "specialization": ""
+  },
+  {
+    "id": 295,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "145",
+    "name": "Відновлювальні джерела енергії та гідроенергетика",
+    "specialization": ""
+  },
+  {
+    "id": 296,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "171",
+    "name": "Електроніка",
+    "specialization": ""
+  },
+  {
+    "id": 297,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "172",
+    "name": "Електронні комунікації та радіотехніка",
+    "specialization": ""
+  },
+  {
+    "id": 298,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "173",
+    "name": "Авіоніка",
+    "specialization": ""
+  },
+  {
+    "id": 299,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "174",
+    "name": "Автоматизація, комп\u0027ютерно-інтегровані технології та робототехніка",
+    "specialization": ""
+  },
+  {
+    "id": 300,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "175",
+    "name": "Інформаційно-вимірювальні технології",
+    "specialization": ""
+  },
+  {
+    "id": 301,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "176",
+    "name": "Мікро- та наносистемна техніка",
+    "specialization": ""
+  },
+  {
+    "id": 302,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "191",
+    "name": "Архітектура та містобудування",
+    "specialization": ""
+  },
+  {
+    "id": 303,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "201",
+    "name": "Агрономія",
+    "specialization": ""
+  },
+  {
+    "id": 304,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "202",
+    "name": "Захист і карантин рослин",
+    "specialization": ""
+  },
+  {
+    "id": 305,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "203",
+    "name": "Садівництво, плодоовочівництво та виноградарство",
+    "specialization": ""
+  },
+  {
+    "id": 306,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "204",
+    "name": "Технологія виробництва і переробки продукції тваринництва",
+    "specialization": ""
+  },
+  {
+    "id": 307,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "205",
+    "name": "Лісове господарство",
+    "specialization": ""
+  },
+  {
+    "id": 308,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "206",
+    "name": "Садово-паркове господарство",
+    "specialization": ""
+  },
+  {
+    "id": 309,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "207",
+    "name": "Водні біоресурси та аквакультура",
+    "specialization": ""
+  },
+  {
+    "id": 310,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "208",
+    "name": "Агроінженерія",
+    "specialization": ""
+  },
+  {
+    "id": 311,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "211",
+    "name": "Ветеринарна медицина",
+    "specialization": ""
+  },
+  {
+    "id": 312,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "231",
+    "name": "Соціальна робота",
+    "specialization": ""
+  },
+  {
+    "id": 313,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "232",
+    "name": "Соціальне забезпечення",
+    "specialization": ""
+  },
+  {
+    "id": 314,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "241",
+    "name": "Готельно-ресторанна справа",
+    "specialization": ""
+  },
+  {
+    "id": 315,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "242",
+    "name": "Туризм і рекреація",
+    "specialization": ""
+  },
+  {
+    "id": 316,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "256",
+    "name": "Національна безпека (за окремими сферами забезпечення і видами діяльності)",
+    "specialization": ""
+  },
+  {
+    "id": 317,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "257",
+    "name": "Управління інформаційною безпекою",
+    "specialization": ""
+  },
+  {
+    "id": 318,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "262",
+    "name": "Правоохоронна діяльність",
+    "specialization": ""
+  },
+  {
+    "id": 319,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "281",
+    "name": "Публічне управління та адміністрування",
+    "specialization": ""
+  },
+  {
+    "id": 320,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "291",
+    "name": "Міжнародні відносини, суспільні комунікації та регіональні студії",
+    "specialization": ""
+  },
+  {
+    "id": 321,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "292",
+    "name": "Міжнародні економічні відносини",
+    "specialization": ""
+  },
+  {
+    "id": 322,
+    "competitionIdentifier": "",
+    "degreeOfHigherEducation": "",
+    "basisOfAdmission": [
+      ""
+    ],
+    "formOfEducation": "",
+    "code": "293",
+    "name": "Міжнародне право",
+    "specialization": ""
+  } ]
