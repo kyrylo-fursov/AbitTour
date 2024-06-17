@@ -1,11 +1,8 @@
 package nure.abittour.service;
 
-import nure.abittour.dto.CompetitiveOfferRequest;
-import nure.abittour.dto.RegistrationRequest;
-import nure.abittour.dto.SpecialityDTO;
-import nure.abittour.dto.SubjectCoefDTO;
-import nure.abittour.dto.ZnoSubjectOptionDTO;
+import nure.abittour.dto.*;
 import nure.abittour.model.Region;
+import nure.abittour.model.Student;
 import nure.abittour.model.University;
 import nure.abittour.model.enums.EducationalLevel;
 import nure.abittour.model.enums.EnrolledCourse;
@@ -17,6 +14,8 @@ import nure.abittour.repository.CompetitiveOfferRepository;
 import nure.abittour.repository.UniversityRepository;
 import nure.abittour.repository.UserRepository;
 import nure.abittour.repository.ZnoSubjectOptionRepository;
+import nure.abittour.repository.StudentRepository;
+import nure.abittour.repository.ApplicationRepository;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 import jakarta.annotation.PostConstruct;
@@ -63,18 +62,31 @@ public class DatabaseInitializerService {
     private CompetitiveOfferRepository competitiveOfferRepository;
 
     @Autowired
+    private StudentRepository studentRepository;
+
+    @Autowired
+    private ApplicationRepository applicationRepository;
+    @Autowired
+    private ApplicationService applicationService;
+
+    @Autowired
     private JdbcTemplate jdbcTemplate;
 
     @PostConstruct
     public void initDb() {
+        resetApplicationTable();
         resetCompetitiveOffers();
         resetUniversityTable();
+        resetStudentTable();
 
         initializeRegions();
         initializeUniversities();
         initializeSpecialities();
         initializeCompetitiveOffers();
         initializeUser();
+
+        initializeStudents(); // Add this line to initialize students
+        initializeApplications(); // Add this line to initialize applications
     }
 
     private void initializeRegions() {
@@ -329,5 +341,63 @@ public class DatabaseInitializerService {
         competitiveOfferRepository.deleteAll();
         jdbcTemplate.execute("ALTER TABLE zno_subject_option AUTO_INCREMENT = 1");
         jdbcTemplate.execute("ALTER TABLE competitive_offer AUTO_INCREMENT = 1");
+    }
+
+    private void initializeStudents() {
+        JSONParser parser = new JSONParser();
+        try {
+            JSONArray jsonArray = (JSONArray) parser.parse(new FileReader("src/main/resources/students.json"));
+            for (Object obj : jsonArray) {
+                JSONObject jsonObject = (JSONObject) obj;
+                String name = (String) jsonObject.get("name");
+
+                Student student = new Student();
+                student.setName(name);
+
+                studentRepository.save(student);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void initializeApplications() {
+        JSONParser parser = new JSONParser();
+        try {
+            JSONArray jsonArray = (JSONArray) parser.parse(new FileReader("src/main/resources/applications.json"));
+            for (Object obj : jsonArray) {
+                JSONObject jsonObject = (JSONObject) obj;
+
+                Long studentId = (Long) jsonObject.get("studentId");
+                Long competitiveOfferId = (Long) jsonObject.get("competitiveOfferId");
+                BigDecimal totalScore = new BigDecimal((Double) jsonObject.get("totalScore"));
+                Integer priority = ((Long) jsonObject.get("priority")).intValue();
+
+                ApplicationRequest applicationRequest = new ApplicationRequest();
+                applicationRequest.setStudentId(studentId);
+                applicationRequest.setCompetitiveOfferId(competitiveOfferId);
+                applicationRequest.setTotalScore(totalScore);
+                applicationRequest.setPriority(priority);
+
+                // You may need to retrieve Student and CompetitiveOffer entities using their IDs
+                // and set them to Application entity before saving
+                // For brevity, assuming you have methods to do so
+
+                applicationService.createApplication(applicationRequest);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Transactional
+    public void resetStudentTable() {
+        jdbcTemplate.execute("DELETE FROM student");
+        jdbcTemplate.execute("ALTER TABLE student AUTO_INCREMENT = 1");
+    }
+    @Transactional
+    public void resetApplicationTable() {
+        jdbcTemplate.execute("DELETE FROM application");
+        jdbcTemplate.execute("ALTER TABLE application AUTO_INCREMENT = 1");
     }
 }
