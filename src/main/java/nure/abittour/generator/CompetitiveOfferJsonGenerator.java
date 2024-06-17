@@ -13,12 +13,10 @@ import org.springframework.stereotype.Component;
 import java.io.File;
 import java.time.LocalDate;
 import java.util.Random;
-
 @Component
 public class CompetitiveOfferJsonGenerator {
 
     private static final Random random = new Random();
-
     private static final ObjectMapper mapper = new ObjectMapper();
 
     private static final String[] PROGRAM_NAMES = {
@@ -41,6 +39,7 @@ public class CompetitiveOfferJsonGenerator {
 
             for (int i = 0; i < numberOfOffers; i++) {
                 ObjectNode offerNode = mapper.createObjectNode();
+                offerNode.put("id", i + 1);
                 offerNode.put("programName", PROGRAM_NAMES[random.nextInt(PROGRAM_NAMES.length)]);
                 offerNode.put("offerCode", String.format("%08d", Math.abs(random.nextLong() % 100000000)));
                 offerNode.put("enrolmentBase", random.nextDouble() < 0.9 ? EnrolmentBase.COMPLETE_SECONDARY_EDUCATION.name() : EnrolmentBase.values()[random.nextInt(EnrolmentBase.values().length)].name());
@@ -97,4 +96,3 @@ public class CompetitiveOfferJsonGenerator {
         generator.generateJsonFile("src/main/resources/competitive_offers.json", 200);
     }
 }
-
