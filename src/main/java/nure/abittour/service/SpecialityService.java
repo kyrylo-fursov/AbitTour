@@ -22,6 +22,10 @@ public class SpecialityService {
     @Autowired
     private SpecialityRepository specialityRepository;
 
+    public boolean existsByCode(String code) {
+        return specialityRepository.existsByCode(code);
+    }
+
     public SpecialityDTO getSpecialityWithCoefs(Long id) {
         Speciality speciality = specialityRepository.findById(id)
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Speciality not found"));

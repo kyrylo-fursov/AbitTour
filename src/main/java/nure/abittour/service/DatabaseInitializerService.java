@@ -213,22 +213,32 @@ public class DatabaseInitializerService {
         JSONParser parser = new JSONParser();
         try {
             JSONArray specialitiesArray = (JSONArray) parser.parse(new FileReader("src/main/resources/specialties.json"));
+
+            JSONArray subjectsArray = (JSONArray) parser.parse(new FileReader("src/main/resources/subject_coefs.json"));
+
             for (Object obj : specialitiesArray) {
                 JSONObject jsonObject = (JSONObject) obj;
 
+                String code = (String) jsonObject.get("code");
+
+                if (specialityService.existsByCode(code)) {
+                    System.out.println("Speciality with code " + code + " already exists. Skipping.");
+                    continue;
+                }
+
                 SpecialityDTO specialityDTO = new SpecialityDTO();
                 specialityDTO.setId((Long) jsonObject.get("id"));
-                specialityDTO.setCode((String) jsonObject.get("code"));
+                specialityDTO.setCode(code);
                 specialityDTO.setName((String) jsonObject.get("name"));
                 specialityDTO.setSpecialization((String) jsonObject.get("specialization"));
                 specialityDTO.setIsInDemand(false);
 
                 List<SubjectCoefDTO> subjectCoefs = new ArrayList<>();
-                JSONArray subjectsArray = (JSONArray) parser.parse(new FileReader("src/main/resources/subject_coefs.json"));
+
                 for (Object subjObj : subjectsArray) {
                     JSONObject subjJson = (JSONObject) subjObj;
 
-                    if (specialityDTO.getCode().equals(subjJson.get("code"))) {
+                    if (code.equals(subjJson.get("code"))) {
                         JSONObject subjects = (JSONObject) subjJson.get("subjects");
                         for (Object key : subjects.keySet()) {
                             String subjectName = (String) key;
