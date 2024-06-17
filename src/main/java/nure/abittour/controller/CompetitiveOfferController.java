@@ -24,7 +24,7 @@ public class CompetitiveOfferController {
     }
 
     @GetMapping("/{id}")
-    public CompetitiveOfferResponse getOfferById(@PathVariable Long id) {
+    public CompetitiveOfferResponse getOfferById(@PathVariable("id") Long id) {
         return competitiveOfferService.getOfferById(id);
     }
 

@@ -1,9 +1,10 @@
-import { CompetitiveOfferFull, CompetitiveOfferCard } from "./CompetitiveOffer";
 import React, { useState, useEffect } from "react";
-import { InlineCalculator } from "./InlineCalculator";
 import { useParams } from "react-router-dom";
 
-import { fetchData, parseOffer } from "./utils";
+import { CompetitiveOfferCardFull } from "./CompetitiveOffer";
+import { InlineCalculator } from "./InlineCalculator";
+
+import { fetchData, parseOffer, parseUni, parseJsonList } from "../utils/utils";
 
 const data = [
   {
@@ -83,11 +84,11 @@ export function OfferPage() {
   }, [id]); // Fetch offer whenever id changes
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div className="loading-screen">Loading...</div>;
   }
 
   if (error) {
-    return <div>Error: {error.message}</div>;
+    return <div className="loading-screen">Error: {error.message}</div>;
   }
 
   return (
@@ -96,111 +97,15 @@ export function OfferPage() {
 
       {offer && (
         <>
-          <CompetitiveOfferCard
-            id={offer.id}
-            programName={offer.programName}
-            offerCode={offer.offerCode}
-            enrolmentBase={offer.enrolmentBase}
-            educationalLevel={offer.educationalLevel}
-            speciality={offer.speciality}
-            university={offer.university}
-            faculty={offer.faculty}
-            typeOfOffer={offer.typeOfOffer}
-            formOfEducation={offer.formOfEducation}
-            enrolledCourse={offer.enrolledCourse}
-            startOfStudies={offer.startOfStudies}
-            endOfStudies={offer.endOfStudies}
-            startOfApplication={offer.startOfApplication}
-            endOfApplication={offer.endOfApplication}
-            licenceAmount={offer.licenceAmount}
-            maxVolumeOfTheStateOrder={offer.maxVolumeOfTheStateOrder}
-            priceForYear={offer.priceForYear}
-            totalPrice={offer.totalPrice}
-            regionalCoefficient={offer.regionalCoefficient}
-            znoSubjectOptions={offer.znoSubjectOptions}
-          />
-          <hr />
+          <CompetitiveOfferCardFull offerToDisplay={offer} />
         </>
       )}
       <InlineCalculator offer={offer}></InlineCalculator>
       {/* <h1>Конкурсні заявки</h1> */}
       {/* <ApplicantsTable data={data}></ApplicantsTable> */}
-      {/* <SpecialityComponent></SpecialityComponent> */}
     </div>
   );
 }
-
-const SpecialityComponent = () => {
-  const [specialityData, setSpecialityData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const result = await fetchSpeciality(220); // Fetch speciality data for ID 1
-        const processedData = processSpecialityData(result); // Process the fetched data
-        setSpecialityData(processedData);
-      } catch (error) {
-        setError(error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchData();
-  }, []);
-
-  const processSpecialityData = (data) => {
-    if (!data) return null;
-
-    // Extract subject coefficients into an array of objects
-    const subjectCoefficients = data.subjectCoefs.map((item) => ({
-      id: item.id,
-      subject: item.subject,
-      coefficient: item.coefficient,
-    }));
-
-    // Construct the processed object
-    const processedData = {
-      id: data.id,
-      code: data.code,
-      name: data.name,
-      specialization: data.specialization,
-      subjectCoefficients: subjectCoefficients,
-    };
-
-    return processedData;
-  };
-
-  if (loading) return <div>Loading...</div>;
-  if (error) return <div>Error: {error.message}</div>;
-
-  return (
-    <div>
-      <h1>Speciality Data</h1>
-      {specialityData && (
-        <div>
-          <h2>{specialityData.name}</h2>
-          <p>
-            <strong>Code:</strong> {specialityData.code}
-          </p>
-          <p>
-            <strong>Specialization:</strong> {specialityData.specialization}
-          </p>
-          <h3>Subject Coefficients:</h3>
-          <ul>
-            {specialityData.subjectCoefficients.map((subject) => (
-              <li key={subject.id}>
-                {subject.subject}: {subject.coefficient}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-    </div>
-  );
-};
 
 const ApplicantsTable = ({ data }) => (
   <table className="applicants-table">

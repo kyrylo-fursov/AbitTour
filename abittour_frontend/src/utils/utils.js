@@ -29,6 +29,15 @@ export async function fetchData(path) {
   }
 }
 
+export function formatDate(inputDate) {
+  // Split the input date into year, month, and day
+  const parts = inputDate.split("-");
+
+  // Rearrange the parts into DD.MM.YYYY format
+  const formattedDate = `${parts[2]}.${parts[1]}.${parts[0]}`;
+
+  return formattedDate;
+}
 function mapJsonToObject(json, mappingFunction) {
   return mappingFunction(json);
 }
