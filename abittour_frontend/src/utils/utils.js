@@ -29,11 +29,10 @@ export async function fetchData(path) {
   }
 }
 
+// Rearrange the parts into from YYYY-MM-DD to DD.MM.YYYY format
 export function formatDate(inputDate) {
-  // Split the input date into year, month, and day
   const parts = inputDate.split("-");
 
-  // Rearrange the parts into DD.MM.YYYY format
   const formattedDate = `${parts[2]}.${parts[1]}.${parts[0]}`;
 
   return formattedDate;
@@ -104,5 +103,17 @@ export function parseUni(json) {
       id: json.region.id,
       name: json.region.name,
     },
+  };
+}
+
+export function parseApplicant(json) {
+  return {
+    id: json.id,
+    student: {
+      id: json.student.id,
+      name: json.student.name,
+    },
+    totalScore: json.totalScore,
+    priority: json.priority,
   };
 }

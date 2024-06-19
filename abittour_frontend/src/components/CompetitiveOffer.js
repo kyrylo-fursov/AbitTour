@@ -22,13 +22,17 @@ export function CompetitiveOffers() {
   const [offers, setOffers] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(5); // Default items per page
+  const [inputValue, setInputValue] = useState(5); // State to handle input value
+  const sectionRef = useRef(null);
 
   useEffect(() => {
     const fetchOffers = async () => {
       try {
         const fetchedData = await fetchData(`/competitive-offers`);
         const parsedOffers = parseJsonList(fetchedData, parseOffer);
-        setOffers(parsedOffers.slice(0, 10));
+        setOffers(parsedOffers);
         setLoading(false);
       } catch (error) {
         setError(error);
@@ -39,6 +43,36 @@ export function CompetitiveOffers() {
     fetchOffers();
   }, []);
 
+  const handleNextPage = () => {
+    setCurrentPage((prevPage) => prevPage + 1);
+    if (sectionRef.current) {
+      sectionRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const handlePreviousPage = () => {
+    setCurrentPage((prevPage) => Math.max(prevPage - 1, 1));
+    if (sectionRef.current) {
+      sectionRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const handleInputChange = (event) => {
+    setInputValue(event.target.value);
+  };
+
+  const handleInputKeyPress = (event) => {
+    if (event.key === "Enter") {
+      const value = Math.min(Math.max(Number(inputValue), 5), 100);
+      setItemsPerPage(value);
+      setCurrentPage(1);
+    }
+  };
+
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const paginatedOffers = offers.slice(startIndex, startIndex + itemsPerPage);
+  const totalPages = Math.ceil(offers.length / itemsPerPage);
+
   if (loading) {
     return <div className="loading-screen">Loading...</div>;
   }
@@ -46,21 +80,52 @@ export function CompetitiveOffers() {
   if (error) {
     return <div className="loading-screen">Error: {error.message}</div>;
   }
+
   return (
-    <div className="cometitive_offers section-wrapper dynamic-section">
+    <div
+      className="competitive_offers section-wrapper dynamic-section"
+      ref={sectionRef}
+    >
       <h1>Знайдені пропозиції</h1>
-      {offers.map((offer) => {
-        return (
-          <>
+      <div className="offers-list">
+        {paginatedOffers.map((offer) => (
+          <React.Fragment key={offer.id}>
             <CompetitiveOfferCard offerToDisplay={offer} />
-            <hr></hr>
-          </>
-        );
-      })}
+            <hr />
+          </React.Fragment>
+        ))}
+      </div>
+      <div className="pagination-controls">
+        <button
+          className="pagination-button prev-button"
+          onClick={handlePreviousPage}
+          disabled={currentPage === 1}
+        >
+          Попередня
+        </button>
+        <span className="pagination-info">
+          Сторінка {currentPage} з {totalPages}
+        </span>
+        <button
+          className="pagination-button next-button"
+          onClick={handleNextPage}
+          disabled={currentPage === totalPages}
+        >
+          Наступна
+        </button>
+        <input
+          type="number"
+          className="items-per-page-input"
+          value={inputValue}
+          onChange={handleInputChange}
+          onKeyPress={handleInputKeyPress}
+          min="5"
+          max="100"
+        />
+      </div>
     </div>
   );
 }
-
 export function CompetitiveOfferCard({ offerToDisplay }) {
   const offer = mapToNiceNames(offerToDisplay);
 
@@ -74,7 +139,7 @@ export function CompetitiveOfferCard({ offerToDisplay }) {
           <span>|</span>
           <span>{offer.enrolmentBase}</span>
           <span>|</span>
-          <span>{offer.startOfStudies.slice(0, 4)}</span>
+          <span>2024</span>
         </div>
         <div className="competitive-offer_desc">
           <div>
@@ -90,7 +155,6 @@ export function CompetitiveOfferCard({ offerToDisplay }) {
           <p className="competitive-offer_faculty">{offer.faculty}</p>
         </div>
       </div>
-
       <div className="competitive-offer_right">
         <p>Макс. кількість бюджетних місць: {offer.maxVolumeOfTheStateOrder}</p>
         <p>Загальна кількість місць: {offer.licenceAmount}</p>
@@ -115,7 +179,7 @@ export function CompetitiveOfferCardFull({ offerToDisplay }) {
           <span>|</span>
           <span>{offer.enrolmentBase}</span>
           <span>|</span>
-          <span>{offer.startOfStudies.slice(0, 4)}</span>
+          <span>2024</span>
         </div>
         <div className="competitive-offer_desc">
           <div>

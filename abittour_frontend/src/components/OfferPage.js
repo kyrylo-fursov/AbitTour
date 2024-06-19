@@ -4,7 +4,13 @@ import { useParams } from "react-router-dom";
 import { CompetitiveOfferCardFull } from "./CompetitiveOffer";
 import { InlineCalculator } from "./InlineCalculator";
 
-import { fetchData, parseOffer, parseUni, parseJsonList } from "../utils/utils";
+import {
+  fetchData,
+  parseOffer,
+  parseUni,
+  parseJsonList,
+  parseApplicant,
+} from "../utils/utils";
 
 const data = [
   {
@@ -62,7 +68,7 @@ const data = [
 ];
 
 export function OfferPage() {
-  const { id } = useParams(); // Get the id parameter from the URL
+  const { id } = useParams();
   const [offer, setOffer] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -81,7 +87,7 @@ export function OfferPage() {
     };
 
     fetchOffer();
-  }, [id]); // Fetch offer whenever id changes
+  }, [id]);
 
   if (loading) {
     return <div className="loading-screen">Loading...</div>;
@@ -94,51 +100,78 @@ export function OfferPage() {
   return (
     <div className="section-wrapper">
       <h1>Конкурсна пропозиція</h1>
-
-      {offer && (
-        <>
-          <CompetitiveOfferCardFull offerToDisplay={offer} />
-        </>
-      )}
+      {offer && <CompetitiveOfferCardFull offerToDisplay={offer} />}
       <InlineCalculator offer={offer}></InlineCalculator>
-      {/* <h1>Конкурсні заявки</h1> */}
-      {/* <ApplicantsTable data={data}></ApplicantsTable> */}
+      <h1>Конкурсні заявки</h1>
+      <ApplicantsTable data={data}></ApplicantsTable>
     </div>
   );
 }
+const ApplicantsTable = () => {
+  const { id } = useParams();
+  const [offer, setOffer] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-const ApplicantsTable = ({ data }) => (
-  <table className="applicants-table">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>ПІБ</th>
-        <th>Статус</th>
-        <th>ПР</th>
-        <th>КБ</th>
-        <th>Складові КБ</th>
-      </tr>
-    </thead>
-    <tbody>
-      {data.map((item) => (
-        <ApplicantRow key={item.id} item={item} />
-      ))}
-    </tbody>
-  </table>
-);
+  useEffect(() => {
+    const fetchOffer = async () => {
+      try {
+        const response = await fetch(`/applications/offer/123`);
+        if (!response.ok) {
+          throw new Error("Failed to fetch data");
+        }
+        const data = await response.json();
+        console.log(data);
+        const parsedOffer = parseJsonList(data, parseApplicant);
+        setOffer(parsedOffer);
+        setLoading(false);
+      } catch (error) {
+        setError(error);
+        setLoading(false);
+      }
+    };
 
-const ApplicantRow = ({ item }) => (
-  <tr style={{ backgroundColor: item.color }}>
-    <td>{item.id}</td>
-    <td>{item.name}</td>
-    <td>{item.status}</td>
-    <td>{item.pr}</td>
-    <td>{item.kb}</td>
-    <td>
-      {item.details.map((detail, index) => (
-        <div key={index}>{detail}</div>
-      ))}
-    </td>
+    fetchOffer();
+  }, [id]);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error.message}</div>;
+  }
+
+  if (!offer) {
+    return <div>No offer found.</div>;
+  }
+
+  return (
+    <div>
+      <h2>Competitive Offer Details</h2>
+      <table className="applicants-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Ім'я студента</th>
+            <th>Загальний бал</th>
+            <th>Пріоритет</th>
+          </tr>
+        </thead>
+        <tbody>
+          <CompetitiveOfferRow offer={offer} />
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+const CompetitiveOfferRow = ({ offer }) => (
+  <tr>
+    <td>{offer.id}</td>
+    <td>{offer.student.name}</td>
+    <td>{offer.totalScore}</td>
+    <td>{offer.priority}</td>
   </tr>
 );
 
