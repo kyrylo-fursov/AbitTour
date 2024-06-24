@@ -1,4 +1,5 @@
 import { jwt_token } from "../App";
+import applicationsData from "./applications.json";
 
 export async function fetchData(path) {
   if (!jwt_token) {
@@ -95,6 +96,95 @@ export function parseOffer(json) {
   };
 }
 
+export function parseApplication(json) {
+  return {
+    id: json.id,
+    student: {
+      id: json.student.id,
+      name: json.student.name,
+    },
+    competitiveOffer: {
+      id: json.competitiveOffer.id,
+      programName: json.competitiveOffer.programName,
+      offerCode: json.competitiveOffer.offerCode,
+      enrolmentBase: json.competitiveOffer.enrolmentBase,
+      educationalLevel: json.competitiveOffer.educationalLevel,
+      speciality: {
+        id: json.competitiveOffer.speciality.id,
+        code: json.competitiveOffer.speciality.code,
+        name: json.competitiveOffer.speciality.name,
+        specialization: json.competitiveOffer.speciality.specialization,
+        isInDemand: json.competitiveOffer.speciality.isInDemand,
+        subjectCoefs: json.competitiveOffer.speciality.subjectCoefs.map(
+          (coef) => ({
+            id: coef.id,
+            subject: coef.subject,
+            coefficient: coef.coefficient,
+          })
+        ),
+      },
+      university: {
+        id: json.competitiveOffer.university.id,
+        code: json.competitiveOffer.university.code,
+        name: json.competitiveOffer.university.name,
+        region: {
+          id: json.competitiveOffer.university.region.id,
+          name: json.competitiveOffer.university.region.name,
+        },
+      },
+      faculty: json.competitiveOffer.faculty,
+      typeOfOffer: json.competitiveOffer.typeOfOffer,
+      formOfEducation: json.competitiveOffer.formOfEducation,
+      enrolledCourse: json.competitiveOffer.enrolledCourse,
+      startOfStudies: json.competitiveOffer.startOfStudies,
+      endOfStudies: json.competitiveOffer.endOfStudies,
+      startOfApplication: json.competitiveOffer.startOfApplication,
+      endOfApplication: json.competitiveOffer.endOfApplication,
+      licenceAmount: json.competitiveOffer.licenceAmount,
+      maxVolumeOfTheStateOrder: json.competitiveOffer.maxVolumeOfTheStateOrder,
+      priceForYear: json.competitiveOffer.priceForYear,
+      totalPrice: json.competitiveOffer.totalPrice,
+      regionalCoefficient: json.competitiveOffer.regionalCoefficient,
+      znoSubjectOptions: json.competitiveOffer.znoSubjectOptions.map(
+        (option) => ({
+          coefficient: option.coefficient,
+          subject: option.subject,
+        })
+      ),
+    },
+    totalScore: json.totalScore,
+    priority: json.priority,
+  };
+}
+
+export function getApplicationsByOfferId(offer_id) {
+  try {
+    const matchingApplications = applicationsData
+      .filter((app) => app.competitiveOffer.id === offer_id)
+      .map((app) => parseApplication(app));
+
+    return matchingApplications;
+  } catch (error) {
+    throw new Error(`Error parsing applications data: ${error.message}`);
+  }
+}
+
+// Example usage:
+// (async () => {
+//   try {
+//     const offerId = 1;
+//     const applications = await getApplicationsByOfferId(offerId);
+
+//     if (applications.length > 0) {
+//       console.log('Applications found:', applications);
+//     } else {
+//       console.log('No applications found for the offer_id.');
+//     }
+//   } catch (error) {
+//     console.error('Error:', error.message);
+//   }
+// })();
+
 export function filterOffers(offers, filters) {
   let filteredOffers = [...offers];
 
@@ -118,6 +208,13 @@ export function filterOffers(offers, filters) {
       (offer) => offer.speciality.name.toString() === filters.specialty
     );
   }
+
+  if (filters.base) {
+    filteredOffers = filteredOffers.filter(
+      (offer) => offer.enrolmentBase === filters.base
+    );
+  }
+
   console.log("Filtered offers:", filteredOffers);
   return filteredOffers;
 }
@@ -132,18 +229,6 @@ export function parseUni(json) {
       id: json.region.id,
       name: json.region.name,
     },
-  };
-}
-
-export function parseApplicant(json) {
-  return {
-    id: json.id,
-    student: {
-      id: json.student.id,
-      name: json.student.name,
-    },
-    totalScore: json.totalScore,
-    priority: json.priority,
   };
 }
 

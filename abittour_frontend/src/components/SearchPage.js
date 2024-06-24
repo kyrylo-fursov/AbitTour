@@ -3,7 +3,11 @@ import { CompetitiveOffers } from "./CompetitiveOffer";
 
 import { fetchData, parseUni, parseSpecialty } from "../utils/utils";
 
-import { regionsDict, specialityDict } from "../utils/mappings";
+import {
+  regionsDict,
+  specialityDict,
+  enrollmentBaseNames,
+} from "../utils/mappings";
 
 export function SearchPage() {
   const [filterParams, setFilterParams] = useState({});
@@ -24,9 +28,11 @@ export function SearchForm({ onSubmit }) {
   const [universities, setUniversities] = useState([]);
   const [specialties, setSpecialties] = useState([]);
   const [regions, setRegions] = useState([]);
+  const [bases, setBases] = useState([]);
   const [selectedUniversity, setSelectedUniversity] = useState("");
   const [selectedSpecialty, setSelectedSpecialty] = useState("");
   const [selectedRegion, setSelectedRegion] = useState(""); // State for selected region
+  const [selectedBase, setSelectedBase] = useState(""); // State for selected region
 
   useEffect(() => {
     const fetchUniversities = async () => {
@@ -59,6 +65,19 @@ export function SearchForm({ onSubmit }) {
         console.error("Error fetching specialties:", error);
       }
     };
+    const fetchBases = async () => {
+      try {
+        // const fetchedData = await fetchData("/specialities");
+        setBases(
+          Object.entries(enrollmentBaseNames).map(([id, name]) => ({
+            value: id,
+            label: name,
+          }))
+        );
+      } catch (error) {
+        console.error("Error fetching enrollment bases:", error);
+      }
+    };
 
     const fetchRegions = async () => {
       try {
@@ -74,6 +93,7 @@ export function SearchForm({ onSubmit }) {
     };
 
     fetchUniversities();
+    fetchBases();
     fetchSpecialties();
     fetchRegions();
   }, []);
@@ -85,6 +105,7 @@ export function SearchForm({ onSubmit }) {
       university: selectedUniversity,
       specialty: selectedSpecialty,
       region: selectedRegion, // Include selected region in onSubmit callback
+      base: selectedBase,
     });
   };
 
@@ -94,9 +115,16 @@ export function SearchForm({ onSubmit }) {
       <form className="search-form" onSubmit={handleSubmit}>
         <label>
           <p>Основа для вступу</p>
-          <select>
+          <select
+            value={selectedBase}
+            onChange={(e) => setSelectedBase(e.target.value)}
+          >
             <option value="">Оберіть основу для вступу</option>
-            {/* Add options for basis of admission */}
+            {bases.map((base) => (
+              <option key={base.value} value={base.value}>
+                {base.label}
+              </option>
+            ))}
           </select>
         </label>
         <label>
@@ -141,22 +169,20 @@ export function SearchForm({ onSubmit }) {
             ))}
           </select>
         </label>
-        <div className="search-form_twocolumns_wrapper">
+        {/* <div className="search-form_twocolumns_wrapper">
           <label>
             <p>Форма навчання</p>
             <select>
               <option value="">Оберіть форму навчання</option>
-              {/* Add options for form of study */}
             </select>
           </label>
           <label>
             <p>Курс</p>
             <select>
               <option value="">Оберіть курс</option>
-              {/* Add options for course */}
             </select>
           </label>
-        </div>
+        </div> */}
         <button className="button-default" type="submit">
           Знайти
         </button>

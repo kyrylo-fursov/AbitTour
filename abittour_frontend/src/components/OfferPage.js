@@ -7,9 +7,7 @@ import { InlineCalculator } from "./InlineCalculator";
 import {
   fetchData,
   parseOffer,
-  parseUni,
-  parseJsonList,
-  parseApplicant,
+  getApplicationsByOfferId,
 } from "../utils/utils";
 
 const data = [
@@ -107,31 +105,30 @@ export function OfferPage() {
     </div>
   );
 }
+
 const ApplicantsTable = () => {
-  const { id } = useParams();
+  const { id } = useParams(); // Get the id parameter from the URL
   const [offer, setOffer] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const fetchOffer = async () => {
-      try {
-        const response = await fetchData(`/applications/offer/123`);
-        if (!response.ok) {
-          throw new Error("Failed to fetch data");
-        }
-        const data = await response.json();
-        console.log(data);
-        const parsedOffer = parseJsonList(data, parseApplicant);
-        setOffer(parsedOffer);
-        setLoading(false);
-      } catch (error) {
-        setError(error);
-        setLoading(false);
+    try {
+      const applications = getApplicationsByOfferId(parseInt(id));
+      console.log(applications);
+      if (applications.length === 0) {
+        throw new Error("No offer found for the specified id");
       }
-    };
 
-    fetchOffer();
+      // Sort applications by totalScore in descending order
+      applications.sort((a, b) => b.totalScore - a.totalScore);
+
+      setOffer(applications); // Set the array of matching applications sorted by totalScore
+      setLoading(false);
+    } catch (error) {
+      setError(error);
+      setLoading(false);
+    }
   }, [id]);
 
   if (loading) {
@@ -148,7 +145,6 @@ const ApplicantsTable = () => {
 
   return (
     <div>
-      <h2>Competitive Offer Details</h2>
       <table className="applicants-table">
         <thead>
           <tr>
@@ -159,49 +155,51 @@ const ApplicantsTable = () => {
           </tr>
         </thead>
         <tbody>
-          <CompetitiveOfferRow offer={offer} />
+          {offer.map((applicant, index) => (
+            <ApplicantRow key={index} applicant={applicant} index={index + 1} />
+          ))}
         </tbody>
       </table>
     </div>
   );
 };
 
-const CompetitiveOfferRow = ({ offer }) => (
+const ApplicantRow = ({ applicant, index }) => (
   <tr>
-    <td>{offer.id}</td>
-    <td>{offer.student.name}</td>
-    <td>{offer.totalScore}</td>
-    <td>{offer.priority}</td>
+    <td>{index}</td>
+    <td>{applicant.student.name}</td>
+    <td>{applicant.totalScore}</td>
+    <td>{applicant.priority}</td>
   </tr>
 );
 
-export const fetchSpeciality = async (id) => {
-  const token =
-    "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzE4Mjg5MDcwLCJleHAiOjE3MTgzMjUwNzB9.44QIpQafoD89weWoB4_d3xitJknakEWQKKjj3GYIxlo";
-  if (!token) {
-    throw new Error("No JWT token found");
-  }
+// export const fetchSpeciality = async (id) => {
+//   const token =
+//     "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzE4Mjg5MDcwLCJleHAiOjE3MTgzMjUwNzB9.44QIpQafoD89weWoB4_d3xitJknakEWQKKjj3GYIxlo";
+//   if (!token) {
+//     throw new Error("No JWT token found");
+//   }
 
-  try {
-    const response = await fetch(`/specialities/${id}`, {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${token}`,
-      },
-    });
+//   try {
+//     const response = await fetch(`/specialities/${id}`, {
+//       method: "GET",
+//       headers: {
+//         "Content-Type": "application/json",
+//         Authorization: `Bearer ${token}`,
+//       },
+//     });
 
-    if (!response.ok) {
-      const errorDetails = await response.text();
-      throw new Error(
-        `Network response was not ok: ${response.status} ${response.statusText} - ${errorDetails}`
-      );
-    }
+//     if (!response.ok) {
+//       const errorDetails = await response.text();
+//       throw new Error(
+//         `Network response was not ok: ${response.status} ${response.statusText} - ${errorDetails}`
+//       );
+//     }
 
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error("Fetch operation failed:", error);
-    throw error;
-  }
-};
+//     const data = await response.json();
+//     return data;
+//   } catch (error) {
+//     console.error("Fetch operation failed:", error);
+//     throw error;
+//   }
+// };

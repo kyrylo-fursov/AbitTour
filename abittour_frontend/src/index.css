@@ -401,3 +401,20 @@ td {
 .items-per-page-input {
   width: 5rem;
 }
+
+.search-form select {
+  margin-bottom: 1rem;
+}
+
+.button_nofill {
+  background-color: white;
+  color: var(--text-black);
+  font-weight: 500;
+  border: 0.1rem solid var(--highlight-blue);
+  transition: ease-in-out 0.3s;
+}
+
+.button_nofill:hover {
+  background-color: var(--highlight-blue);
+  color: white;
+}

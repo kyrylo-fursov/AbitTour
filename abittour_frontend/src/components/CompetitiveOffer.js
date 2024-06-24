@@ -94,7 +94,7 @@ export function CompetitiveOffers({ filterParams }) {
           className="competitive_offers section-wrapper dynamic-section"
           ref={sectionRef}
         >
-          <h1>Знайдені пропозиції</h1>
+          <h1>Конкурсні пропозиції</h1>
           <div className="offers-list">
             {paginatedOffers.map((offer) => (
               <React.Fragment key={offer.id}>
@@ -173,6 +173,7 @@ export function CompetitiveOfferCard({ offerToDisplay }) {
         <Link to={`/${offer.id}`} className="button-default a_button">
           Детальніше
         </Link>
+        <button className="button-default button_nofill">Зберегти</button>
       </div>
     </div>
   );
