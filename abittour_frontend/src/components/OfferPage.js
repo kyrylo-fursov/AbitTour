@@ -116,7 +116,7 @@ const ApplicantsTable = () => {
   useEffect(() => {
     const fetchOffer = async () => {
       try {
-        const response = await fetch(`/applications/offer/123`);
+        const response = await fetchData(`/applications/offer/123`);
         if (!response.ok) {
           throw new Error("Failed to fetch data");
         }

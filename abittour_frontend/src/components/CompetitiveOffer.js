@@ -1,30 +1,23 @@
 import React, { useState, useEffect, useRef } from "react";
-import ReactDOM from "react-dom";
 import { Link } from "react-router-dom";
 
 import {
   fetchData,
   parseOffer,
-  parseUni,
   parseJsonList,
   formatDate,
+  filterOffers,
+  parseSpecialty,
 } from "../utils/utils";
-import {
-  eduLvlNames,
-  subjectNames,
-  enrollmentBaseNames,
-  eduFormNames,
-  mapToNiceNames,
-  mainSubjects,
-} from "../utils/mappings";
+import { subjectNames, mapToNiceNames, mainSubjects } from "../utils/mappings";
 
-export function CompetitiveOffers() {
+export function CompetitiveOffers({ filterParams }) {
   const [offers, setOffers] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(5); // Default items per page
-  const [inputValue, setInputValue] = useState(5); // State to handle input value
+  const [itemsPerPage, setItemsPerPage] = useState(5);
+  const [inputValue, setInputValue] = useState(5);
   const sectionRef = useRef(null);
 
   useEffect(() => {
@@ -32,7 +25,12 @@ export function CompetitiveOffers() {
       try {
         const fetchedData = await fetchData(`/competitive-offers`);
         const parsedOffers = parseJsonList(fetchedData, parseOffer);
-        setOffers(parsedOffers);
+
+        const filteredOffers = filterOffers(parsedOffers, filterParams);
+
+        setOffers(filteredOffers);
+        console.log("filtered offers set");
+        console.log(filteredOffers);
         setLoading(false);
       } catch (error) {
         setError(error);
@@ -41,7 +39,7 @@ export function CompetitiveOffers() {
     };
 
     fetchOffers();
-  }, []);
+  }, [filterParams]);
 
   const handleNextPage = () => {
     setCurrentPage((prevPage) => prevPage + 1);
@@ -65,6 +63,7 @@ export function CompetitiveOffers() {
     if (event.key === "Enter") {
       const value = Math.min(Math.max(Number(inputValue), 5), 100);
       setItemsPerPage(value);
+      setInputValue(value);
       setCurrentPage(1);
     }
   };
@@ -82,50 +81,62 @@ export function CompetitiveOffers() {
   }
 
   return (
-    <div
-      className="competitive_offers section-wrapper dynamic-section"
-      ref={sectionRef}
-    >
-      <h1>Знайдені пропозиції</h1>
-      <div className="offers-list">
-        {paginatedOffers.map((offer) => (
-          <React.Fragment key={offer.id}>
-            <CompetitiveOfferCard offerToDisplay={offer} />
-            <hr />
-          </React.Fragment>
-        ))}
-      </div>
-      <div className="pagination-controls">
-        <button
-          className="pagination-button prev-button"
-          onClick={handlePreviousPage}
-          disabled={currentPage === 1}
+    <>
+      {offers.length === 0 ? (
+        <div
+          className="competitive_offers section-wrapper dynamic-section"
+          ref={sectionRef}
         >
-          Попередня
-        </button>
-        <span className="pagination-info">
-          Сторінка {currentPage} з {totalPages}
-        </span>
-        <button
-          className="pagination-button next-button"
-          onClick={handleNextPage}
-          disabled={currentPage === totalPages}
+          <h1>Пропозицій не знайдено</h1>
+        </div>
+      ) : (
+        <div
+          className="competitive_offers section-wrapper dynamic-section"
+          ref={sectionRef}
         >
-          Наступна
-        </button>
-        <input
-          type="number"
-          className="items-per-page-input"
-          value={inputValue}
-          onChange={handleInputChange}
-          onKeyPress={handleInputKeyPress}
-          min="5"
-          max="100"
-        />
-      </div>
-    </div>
+          <h1>Знайдені пропозиції</h1>
+          <div className="offers-list">
+            {paginatedOffers.map((offer) => (
+              <React.Fragment key={offer.id}>
+                <CompetitiveOfferCard offerToDisplay={offer} />
+                <hr />
+              </React.Fragment>
+            ))}
+          </div>
+          <div className="pagination-controls">
+            <button
+              className="pagination-button prev-button"
+              onClick={handlePreviousPage}
+              disabled={currentPage === 1}
+            >
+              Попередня
+            </button>
+            <span className="pagination-info">
+              Сторінка {currentPage} з {totalPages}
+            </span>
+            <button
+              className="pagination-button next-button"
+              onClick={handleNextPage}
+              disabled={currentPage === totalPages}
+            >
+              Наступна
+            </button>
+            <input
+              type="number"
+              className="items-per-page-input"
+              value={inputValue}
+              onChange={handleInputChange}
+              onKeyPress={handleInputKeyPress}
+              min="5"
+              max="100"
+            />
+          </div>
+        </div>
+      )}
+    </>
   );
 }
+
 export function CompetitiveOfferCard({ offerToDisplay }) {
   const offer = mapToNiceNames(offerToDisplay);
 

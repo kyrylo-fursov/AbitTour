@@ -6,6 +6,7 @@ export async function fetchData(path) {
   }
 
   try {
+    console.log(path);
     const response = await fetch(`${path}`, {
       method: "GET",
       headers: {
@@ -17,7 +18,7 @@ export async function fetchData(path) {
     if (!response.ok) {
       const errorDetails = await response.text();
       throw new Error(
-        `Network response was not ok: ${response.status} ${response.statusText} - ${errorDetails}`
+        `(fetchData)Network response was not ok: ${response.status} ${response.statusText} - ${errorDetails}`
       );
     }
 
@@ -37,6 +38,7 @@ export function formatDate(inputDate) {
 
   return formattedDate;
 }
+
 function mapJsonToObject(json, mappingFunction) {
   return mappingFunction(json);
 }
@@ -93,6 +95,33 @@ export function parseOffer(json) {
   };
 }
 
+export function filterOffers(offers, filters) {
+  let filteredOffers = [...offers];
+
+  console.log("Original offers:", filteredOffers);
+  console.log("Filters:", filters);
+
+  if (filters.university) {
+    filteredOffers = filteredOffers.filter(
+      (offer) => offer.university.id.toString() === filters.university
+    );
+  }
+
+  if (filters.region) {
+    filteredOffers = filteredOffers.filter(
+      (offer) => offer.university.region.id.toString() === filters.region
+    );
+  }
+
+  if (filters.specialty) {
+    filteredOffers = filteredOffers.filter(
+      (offer) => offer.speciality.name.toString() === filters.specialty
+    );
+  }
+  console.log("Filtered offers:", filteredOffers);
+  return filteredOffers;
+}
+
 export function parseUni(json) {
   return {
     id: json.id,
@@ -115,5 +144,15 @@ export function parseApplicant(json) {
     },
     totalScore: json.totalScore,
     priority: json.priority,
+  };
+}
+
+export function parseSpecialty(json) {
+  return {
+    id: json.id,
+    code: json.code,
+    name: json.name,
+    specialization: json.specialization,
+    isInDemand: json.isInDemand,
   };
 }

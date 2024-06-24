@@ -1,44 +1,160 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { CompetitiveOffers } from "./CompetitiveOffer";
 
+import { fetchData, parseUni, parseSpecialty } from "../utils/utils";
+
+import { regionsDict, specialityDict } from "../utils/mappings";
+
 export function SearchPage() {
+  const [filterParams, setFilterParams] = useState({});
+
+  const handleFormSubmit = (formData) => {
+    // Update filterParams with formData
+    setFilterParams(formData);
+  };
   return (
     <div className="search-page">
-      <SearchForm></SearchForm>
-      <CompetitiveOffers></CompetitiveOffers>
+      <SearchForm onSubmit={handleFormSubmit} />
+      <CompetitiveOffers filterParams={filterParams} />
     </div>
   );
 }
 
-function SearchForm() {
+export function SearchForm({ onSubmit }) {
+  const [universities, setUniversities] = useState([]);
+  const [specialties, setSpecialties] = useState([]);
+  const [regions, setRegions] = useState([]);
+  const [selectedUniversity, setSelectedUniversity] = useState("");
+  const [selectedSpecialty, setSelectedSpecialty] = useState("");
+  const [selectedRegion, setSelectedRegion] = useState(""); // State for selected region
+
+  useEffect(() => {
+    const fetchUniversities = async () => {
+      try {
+        const fetchedData = await fetchData("/universities");
+        const parsedUniversities = fetchedData.map(parseUni);
+        setUniversities(
+          parsedUniversities.map((uni) => ({
+            value: uni.id,
+            label: uni.name,
+          }))
+        );
+      } catch (error) {
+        console.error("Error fetching universities:", error);
+      }
+    };
+
+    const fetchSpecialties = async () => {
+      try {
+        // const fetchedData = await fetchData("/specialities");
+        const parsedSpecialties = specialityDict;
+        console.log(parsedSpecialties);
+        setSpecialties(
+          Object.entries(specialityDict).map(([id, name]) => ({
+            value: id,
+            label: name,
+          }))
+        );
+      } catch (error) {
+        console.error("Error fetching specialties:", error);
+      }
+    };
+
+    const fetchRegions = async () => {
+      try {
+        setRegions(
+          Object.entries(regionsDict).map(([id, name]) => ({
+            value: id,
+            label: name,
+          }))
+        );
+      } catch (error) {
+        console.error("Error fetching regions:", error);
+      }
+    };
+
+    fetchUniversities();
+    fetchSpecialties();
+    fetchRegions();
+  }, []);
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    onSubmit({
+      university: selectedUniversity,
+      specialty: selectedSpecialty,
+      region: selectedRegion, // Include selected region in onSubmit callback
+    });
+  };
+
   return (
     <div className="section-wrapper search-form-wrapper">
       <h1>Пошук конкурсної пропозиції</h1>
-      <form className="search-form">
+      <form className="search-form" onSubmit={handleSubmit}>
         <label>
           <p>Основа для вступу</p>
-          <Dropdown placeholder="Оберіть основу для вступу" />
+          <select>
+            <option value="">Оберіть основу для вступу</option>
+            {/* Add options for basis of admission */}
+          </select>
         </label>
         <label>
           <p>Спеціальність</p>
-          <Dropdown placeholder="Оберіть спеціальність" />
+          <select
+            value={selectedSpecialty}
+            onChange={(e) => setSelectedSpecialty(e.target.value)}
+          >
+            <option value="">Оберіть спеціальність</option>
+            {specialties.map((specialty) => (
+              <option key={specialty.value} value={specialty.label}>
+                {specialty.label}
+              </option>
+            ))}
+          </select>
         </label>
         <label>
           <p>Регіон</p>
-          <Dropdown placeholder="Оберіть регіон" />
+          <select
+            value={selectedRegion}
+            onChange={(e) => setSelectedRegion(e.target.value)}
+          >
+            <option value="">Оберіть регіон</option>
+            {regions.map((region) => (
+              <option key={region.value} value={region.value}>
+                {region.label}
+              </option>
+            ))}
+          </select>
         </label>
         <label>
-          <p>Назва закладу або код ЄДЕБО</p>
-          <Dropdown placeholder="Оберіть заклад або введіть код ЄДЕБО" />
+          <p>Заклад</p>
+          <select
+            value={selectedUniversity}
+            onChange={(e) => setSelectedUniversity(e.target.value)}
+          >
+            <option value="">Оберіть заклад</option>
+            {universities.map((uni) => (
+              <option key={uni.value} value={uni.value}>
+                {uni.value}- {uni.label}
+              </option>
+            ))}
+          </select>
         </label>
         <div className="search-form_twocolumns_wrapper">
           <label>
             <p>Форма навчання</p>
-            <Dropdown placeholder="Оберіть форму навчання" />
+            <select>
+              <option value="">Оберіть форму навчання</option>
+              {/* Add options for form of study */}
+            </select>
           </label>
           <label>
             <p>Курс</p>
-            <Dropdown placeholder="Оберіть курс" />
+            <select>
+              <option value="">Оберіть курс</option>
+              {/* Add options for course */}
+            </select>
           </label>
         </div>
         <button className="button-default" type="submit">
@@ -46,32 +162,5 @@ function SearchForm() {
         </button>
       </form>
     </div>
-  );
-}
-
-function Dropdown({ placeholder }) {
-  const [value, setValue] = useState("");
-
-  const handleChange = (e) => {
-    setValue(e.target.value);
-  };
-
-  const options = [
-    { value: "option1", label: "Option 1" },
-    { value: "option2", label: "Option 2" },
-    { value: "option3", label: "Option 3" },
-    { value: "option4", label: "Option 4" },
-    // Add more options as needed
-  ];
-
-  return (
-    <select value={value} onChange={handleChange}>
-      <option value="">{placeholder}</option>
-      {options.map((option, index) => (
-        <option key={index} value={option.value}>
-          {option.label}
-        </option>
-      ))}
-    </select>
   );
 }
