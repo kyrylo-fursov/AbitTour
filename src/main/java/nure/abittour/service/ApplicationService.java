@@ -35,7 +35,7 @@ public class ApplicationService {
     }
 
     public List<ApplicationResponse> getApplicationsByCompetitiveOfferId(Long competitiveOfferId) {
-        return applicationRepository.findByCompetitiveOfferId(competitiveOfferId).stream()
+        return applicationRepository.findByCompetitiveOfferIdOrderByTotalScoreDesc(competitiveOfferId).stream()
                 .map(applicationMapper::toResponseDto)
                 .collect(Collectors.toList());
     }
