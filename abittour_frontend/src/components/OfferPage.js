@@ -4,84 +4,73 @@ import { useParams } from "react-router-dom";
 import { CompetitiveOfferCardFull } from "./CompetitiveOffer";
 import { InlineCalculator } from "./InlineCalculator";
 
-import { fetchData, parseOffer, parseUni, parseJsonList } from "../utils/utils";
+import {
+  fetchData,
+  parseOffer,
+  getApplicationsByOfferId,
+} from "../utils/utils";
 
-const data = [
-  {
-    id: 1,
-    name: "Петренко П. О.",
-    status: "До наказу (бюджет)",
-    pr: 1,
-    kb: 192,
-    details: [
-      "54=180*0.3 Українська мова",
-      "54=180*0.2 Англійська мова",
-      "54=180*0.5 Математика",
-    ],
-    color: "#d4edda",
-  },
-  {
-    id: 2,
-    name: "Петренко П. О.",
-    status: "До наказу (бюджет)",
-    pr: 1,
-    kb: 192,
-    details: [
-      "54=180*0.3 Українська мова",
-      "54=180*0.2 Англійська мова",
-      "54=180*0.5 Математика",
-    ],
-    color: "#d4edda",
-  },
-  {
-    id: 3,
-    name: "Петренко П. О.",
-    status: "До наказу (контракт)",
-    pr: 1,
-    kb: 192,
-    details: [
-      "54=180*0.3 Українська мова",
-      "54=180*0.2 Англійська мова",
-      "54=180*0.5 Математика",
-    ],
-    color: "#cce5ff",
-  },
-  {
-    id: 4,
-    name: "Петренко П. О.",
-    status: "Відхилено (контракт)",
-    pr: 1,
-    kb: 192,
-    details: [
-      "54=180*0.3 Українська мова",
-      "54=180*0.2 Англійська мова",
-      "54=180*0.5 Математика",
-    ],
-    color: "#f8d7da",
-  },
-];
-
-export function OfferPage() {
-  const { id } = useParams(); // Get the id parameter from the URL
+export const OfferPage = () => {
+  const { id } = useParams();
   const [offer, setOffer] = useState(null);
+  const [applications, setApplications] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  // Fetch offer details on component mount
   useEffect(() => {
     const fetchOffer = async () => {
       try {
         const fetchedData = await fetchData(`/competitive-offers/${id}`);
-        const parsedOffer = parseOffer(fetchedData);
+        const parsedOffer = parseOffer(fetchedData); // Ensure you have parseOffer function defined
         setOffer(parsedOffer);
-        setLoading(false);
       } catch (error) {
         setError(error);
+      } finally {
         setLoading(false);
       }
     };
 
     fetchOffer();
-  }, [id]); // Fetch offer whenever id changes
+  }, [id]);
+
+  // Fetch applications associated with the offer on component mount
+  useEffect(() => {
+    const fetchApplications = async () => {
+      try {
+        const fetchedApplications = getApplicationsByOfferId(parseInt(id));
+
+        const savedOffers =
+          JSON.parse(localStorage.getItem("savedOffers")) || [];
+        const savedOffer = savedOffers.find(
+          (savedOffer) => savedOffer.id === parseInt(id)
+        );
+
+        if (savedOffer) {
+          const userApplication = {
+            student: { name: "Ви" }, // Adjust as necessary
+            totalScore: savedOffer.totalScore,
+            place: savedOffer.place,
+          };
+          fetchedApplications.push(userApplication);
+          fetchedApplications.sort((a, b) => b.totalScore - a.totalScore);
+        }
+
+        setApplications(fetchedApplications);
+      } catch (error) {
+        setError(error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchApplications();
+  }, [id]);
+
+  // Function to handle setting applications
+  const handleSetApplications = (newApplications) => {
+    setApplications(newApplications);
+  };
 
   if (loading) {
     return <div className="loading-screen">Loading...</div>;
@@ -94,81 +83,50 @@ export function OfferPage() {
   return (
     <div className="section-wrapper">
       <h1>Конкурсна пропозиція</h1>
-
-      {offer && (
-        <>
-          <CompetitiveOfferCardFull offerToDisplay={offer} />
-        </>
-      )}
-      <InlineCalculator offer={offer}></InlineCalculator>
-      {/* <h1>Конкурсні заявки</h1> */}
-      {/* <ApplicantsTable data={data}></ApplicantsTable> */}
+      {offer && <CompetitiveOfferCardFull offerToDisplay={offer} />}
+      Integrate the Calc component with necessary props
+      <InlineCalculator offer={offer} setApplications={setApplications} />
+      <h1>Конкурсні заявки</h1>
+      <ApplicantsTable applications={applications} />
     </div>
   );
-}
-
-const ApplicantsTable = ({ data }) => (
-  <table className="applicants-table">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>ПІБ</th>
-        <th>Статус</th>
-        <th>ПР</th>
-        <th>КБ</th>
-        <th>Складові КБ</th>
-      </tr>
-    </thead>
-    <tbody>
-      {data.map((item) => (
-        <ApplicantRow key={item.id} item={item} />
-      ))}
-    </tbody>
-  </table>
-);
-
-const ApplicantRow = ({ item }) => (
-  <tr style={{ backgroundColor: item.color }}>
-    <td>{item.id}</td>
-    <td>{item.name}</td>
-    <td>{item.status}</td>
-    <td>{item.pr}</td>
-    <td>{item.kb}</td>
-    <td>
-      {item.details.map((detail, index) => (
-        <div key={index}>{detail}</div>
-      ))}
-    </td>
-  </tr>
-);
-
-export const fetchSpeciality = async (id) => {
-  const token =
-    "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzE4Mjg5MDcwLCJleHAiOjE3MTgzMjUwNzB9.44QIpQafoD89weWoB4_d3xitJknakEWQKKjj3GYIxlo";
-  if (!token) {
-    throw new Error("No JWT token found");
-  }
-
-  try {
-    const response = await fetch(`/specialities/${id}`, {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${token}`,
-      },
-    });
-
-    if (!response.ok) {
-      const errorDetails = await response.text();
-      throw new Error(
-        `Network response was not ok: ${response.status} ${response.statusText} - ${errorDetails}`
-      );
-    }
-
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error("Fetch operation failed:", error);
-    throw error;
-  }
 };
+
+export const ApplicantsTable = ({ applications }) => {
+  if (!applications || applications.length === 0) {
+    return <div>No applications found.</div>;
+  }
+
+  return (
+    <div>
+      <table className="applicants-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Ім'я студента</th>
+            <th>Загальний бал</th>
+            <th>Пріоритет</th>
+          </tr>
+        </thead>
+        <tbody>
+          {applications.map((applicant, index) => (
+            <ApplicantRow key={index} applicant={applicant} index={index + 1} />
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+const ApplicantRow = ({ applicant, index }) =>
+  applicant.totalScore && (
+    <tr
+      className={applicant.student.name === "Ви" ? "applications-user-row" : ""}
+    >
+      <td>{index}</td>
+      <td>{applicant.student.name}</td>
+      <td>{applicant.totalScore}</td>
+      {/* Display priority as blank if name is "В" */}
+      <td>{applicant.student.name !== "Ви" ? applicant.priority : ""}</td>
+    </tr>
+  );

@@ -1,5 +1,6 @@
 package nure.abittour.controller;
 
+
 import nure.abittour.dto.ApplicationRequest;
 import nure.abittour.dto.ApplicationResponse;
 import nure.abittour.service.ApplicationService;
@@ -22,10 +23,9 @@ public class ApplicationController {
     }
 
     @GetMapping("/{id}")
-    public ApplicationResponse getApplicationById(@PathVariable Long id) {
+    public ApplicationResponse getApplicationById(@PathVariable("id") Long id) {
         return applicationService.getApplicationById(id);
     }
-
     @GetMapping("/offer/{competitiveOfferId}")
     public List<ApplicationResponse> getApplicationsByCompetitiveOfferId(@PathVariable Long competitiveOfferId) {
         return applicationService.getApplicationsByCompetitiveOfferId(competitiveOfferId);

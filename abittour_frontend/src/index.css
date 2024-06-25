@@ -172,18 +172,25 @@ nav ul {
 }
 
 .competitive-offer {
-  position: relative;
   display: flex;
   background-color: var(--white);
   flex-direction: row;
   justify-content: space-between;
   border-radius: 18px;
-  padding: 0.5rem;
+  padding: 1rem 0;
   transition: background-color 0.3s ease;
 }
 
-.cometitive_offers hr {
-  margin: 1.5rem 0;
+.a_button {
+  margin: 0.5rem 0;
+}
+
+.button_saveoffer {
+  margin-top: 0;
+}
+
+hr {
+  margin: 0.5rem 0;
 }
 
 .competitive-offer_left {
@@ -325,14 +332,44 @@ nav ul {
 .applicants-table {
   width: 100%;
   border-collapse: collapse;
-}
-
-tr {
-  border-bottom: 0.5rem solid white;
+  /* border: 1px solid #ccc; */
 }
 
 td {
   padding: 0.5rem;
+}
+
+th {
+  padding: 0.5rem;
+}
+
+.applicants-table th {
+  text-align: left;
+}
+
+.applications-user-row {
+  font-weight: 500;
+  color: var(--highlight-blue);
+}
+
+.applicants-table td {
+  /* padding: 8px; */
+  text-align: left;
+  /* border: 1px solid #ddd; */
+}
+
+.applicants-table td:first-child {
+  text-align: right;
+}
+
+.applicants-table tr {
+  /* border-bottom: 0.5rem solid white; */
+  /* border-radius: 18px; */
+  margin-bottom: 10rem;
+}
+
+.applicants-table th:first-child {
+  text-align: right;
 }
 
 .details_inline_calc {
@@ -360,10 +397,6 @@ td {
   background-color: red;
 }
 
-.subject-coeffs-optional {
-  /* background-color: green; */
-}
-
 .subject-coeffs-container {
   margin-top: 0.5rem;
 }
@@ -374,4 +407,71 @@ td {
 
 .subj-coeff_title {
   color: var(--highlight-blue);
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination-button:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}
+
+.pagination-info {
+  font-size: 16px;
+}
+
+.items-per-page-input {
+  width: 5rem;
+}
+
+.search-form select {
+  margin-bottom: 1rem;
+}
+
+.button_nofill {
+  display: block;
+  width: 100%;
+  background-color: white;
+  color: var(--text-black);
+  font-weight: 500;
+  border: 0.1rem solid var(--highlight-blue);
+  transition: ease-in-out 0.3s;
+}
+
+.button_nofill:hover,
+.button_nofill_active {
+  /* background-color: var(--highlight-blue); */
+  color: var(--highlight-blue);
+  text-decoration: underline;
+}
+
+.button_deleteoffer {
+  position: relative;
+}
+
+.button-hover-text {
+  display: none;
+}
+
+.button_deleteoffer:hover .button-text {
+  display: none;
+}
+
+.button_deleteoffer:hover .button-hover-text {
+  display: inline;
 }

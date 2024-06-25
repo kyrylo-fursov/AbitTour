@@ -10,6 +10,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+
 import java.util.List;
 
 @RestController
@@ -24,7 +25,7 @@ public class CompetitiveOfferController {
     }
 
     @GetMapping("/{id}")
-    public CompetitiveOfferResponse getOfferById(@PathVariable("id") Long id) {
+    public CompetitiveOfferResponse getOfferById(@PathVariable Long id) {
         return competitiveOfferService.getOfferById(id);
     }
 

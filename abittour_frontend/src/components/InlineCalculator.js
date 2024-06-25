@@ -1,17 +1,11 @@
 import React, { useState, useEffect } from "react";
-import {
-  subjectNames,
-  eduLvlNames,
-  enrollmentBaseNamesm,
-  eduFormNames,
-  mapToNiceNames,
-  mainSubjects,
-} from "../utils/mappings";
+import { subjectNames, mapToNiceNames, mainSubjects } from "../utils/mappings";
 
-export const InlineCalculator = ({ offer }) => {
+import { starOffer, getApplicationsByOfferId } from "../utils/utils";
+
+export const InlineCalculator = ({ offer, setApplications }) => {
   if (!offer) return null;
 
-  // Map offer to nice names
   offer = mapToNiceNames(offer);
 
   return (
@@ -19,12 +13,12 @@ export const InlineCalculator = ({ offer }) => {
       <summary className="calc_details-summary inline_calc-summary">
         Розрахувати КБ для цієї пропозиції
       </summary>
-      <Calc offer={offer} />
+      <Calc offer={offer} setApplications={setApplications} />
     </details>
   );
 };
 
-const Calc = ({ offer }) => {
+const Calc = ({ offer, setApplications }) => {
   const [formData, setFormData] = useState({
     ukr: "",
     ukr_coeff: "1",
@@ -41,11 +35,8 @@ const Calc = ({ offer }) => {
   });
 
   const [subjects, setSubjects] = useState([]);
-
-  const [error, setError] = useState(null);
   const [result, setResult] = useState(null);
 
-  // Set initial state using the offer prop
   useEffect(() => {
     if (offer) {
       const processedSubjects = offer.speciality.subjectCoefs.map((coef) => ({
@@ -56,63 +47,69 @@ const Calc = ({ offer }) => {
       }));
       setSubjects(processedSubjects);
 
-      // Find the coefficients for the specific subjects
-      const ukrCoeff = processedSubjects.find(
-        (subject) => subject.subject === "UKRAINIAN_LANGUAGE"
-      )?.coefficient;
-      const mathCoeff = processedSubjects.find(
-        (subject) => subject.subject === "MATHEMATICS"
-      )?.coefficient;
-      const historyCoeff = processedSubjects.find(
-        (subject) => subject.subject === "HISTORY_OF_UKRAINE"
-      )?.coefficient;
+      const savedOffers = JSON.parse(localStorage.getItem("savedOffers")) || [];
+      const savedOffer = savedOffers.find((saved) => saved.id === offer.id);
 
-      // Set the coefficients in formData state
-      setFormData((prevFormData) => ({
-        ...prevFormData,
-        ukr_coeff: ukrCoeff || prevFormData.ukr_coeff,
-        math_coeff: mathCoeff || prevFormData.math_coeff,
-        history_coeff: historyCoeff || prevFormData.history_coeff,
-        optional_subj_coeff: prevFormData.optional_subj_coeff,
-      }));
+      if (savedOffer?.subjects) {
+        setFormData((prevFormData) => ({
+          ...prevFormData,
+          ukr: savedOffer.subjects.ukr || "",
+          ukr_coeff: savedOffer.subjects.ukr_coeff || "1",
+          math: savedOffer.subjects.math || "",
+          math_coeff: savedOffer.subjects.math_coeff || "1",
+          history: savedOffer.subjects.history || "",
+          history_coeff: savedOffer.subjects.history_coeff || "1",
+          optional_subj_select: savedOffer.subjects.optional_subj_select || "",
+          optional_subj: savedOffer.subjects.optional_subj || "",
+          optional_subj_coeff: savedOffer.subjects.optional_subj_coeff || "0",
+          efvv: savedOffer.subjects.efvv || "0",
+          efvv_coeff: savedOffer.subjects.efvv_coeff || "0",
+          ou: savedOffer.subjects.ou || "0",
+        }));
+      } else {
+        setFormData((prevFormData) => ({
+          ...prevFormData,
+          ukr_coeff:
+            processedSubjects.find(
+              (subject) => subject.subject === "UKRAINIAN_LANGUAGE"
+            )?.coefficient || prevFormData.ukr_coeff,
+          math_coeff:
+            processedSubjects.find(
+              (subject) => subject.subject === "MATHEMATICS"
+            )?.coefficient || prevFormData.math_coeff,
+          history_coeff:
+            processedSubjects.find(
+              (subject) => subject.subject === "HISTORY_OF_UKRAINE"
+            )?.coefficient || prevFormData.history_coeff,
+        }));
+      }
     }
   }, [offer]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-
     if (name === "optional_subj_select") {
       const selectedSubject = subjects.find(
         (subject) => subject.subject === value
       );
-
-      // Preserve the value of optional_subj when changing optional_subj_select
-      const optionalSubjValue = formData.optional_subj || value;
-
-      setFormData({
-        ...formData,
+      setFormData((prevFormData) => ({
+        ...prevFormData,
         optional_subj_select: value,
-        optional_subj: optionalSubjValue, // Preserve optional_subj value
         optional_subj_coeff: selectedSubject
-          ? selectedSubject.coefficient
-          : formData.optional_subj_coeff,
-      });
-    } else if (name === "optional_subj_coeff") {
-      setFormData({
-        ...formData,
-        optional_subj_coeff: value,
-      });
+          ? selectedSubject.coefficient.toString()
+          : prevFormData.optional_subj_coeff,
+      }));
     } else if (name === "efvv") {
-      setFormData({
-        ...formData,
+      setFormData((prevFormData) => ({
+        ...prevFormData,
         efvv: value,
         efvv_coeff: value !== "" && parseFloat(value) !== 0 ? "1" : "0",
-      });
+      }));
     } else {
-      setFormData({
-        ...formData,
+      setFormData((prevFormData) => ({
+        ...prevFormData,
         [name]: value,
-      });
+      }));
     }
   };
 
@@ -155,20 +152,45 @@ const Calc = ({ offer }) => {
 
     const result = Math.min(total, 200).toFixed(2);
     setResult(result);
-  };
 
-  if (error) return <div>Error: {error.message}</div>;
+    let apps = getApplicationsByOfferId(offer.id);
+    if (Array.isArray(apps)) {
+      // Create user's application object
+      const userApplication = {
+        student: { name: "Ви" }, // Adjust as necessary
+        totalScore: parseFloat(result),
+      };
+      apps.push(userApplication);
+      apps.sort((a, b) => b.totalScore - a.totalScore);
+      const place = apps.findIndex((app) => app.student.name === "Ви") + 1;
+
+      starOffer({
+        id: offer.id,
+        subjects: {
+          ukr: parseFloat(ukr),
+          math: parseFloat(math),
+          history: parseFloat(history),
+          optional_subj: parseFloat(optional_subj),
+          efvv: parseFloat(efvv),
+          ou: parseFloat(ou),
+          ukr_coeff: parseFloat(ukr_coeff),
+          math_coeff: parseFloat(math_coeff),
+          history_coeff: parseFloat(history_coeff),
+          optional_subj_coeff: parseFloat(optional_subj_coeff),
+          efvv_coeff: parseFloat(efvv_coeff),
+          optional_subj_select: formData.optional_subj_select,
+        },
+        totalScore: result,
+        place: place,
+      });
+      setApplications([...apps]); // Update applications in the parent component
+    } else {
+      console.error("applications is not defined or not iterable");
+    }
+  };
 
   return (
     <div>
-      {/* <p>Коефіцієнти предметів:</p>
-      <ul>
-        {offer.speciality.subjectCoefs.map((coef) => (
-          <li key={coef.id}>
-            {coef.subject}: {coef.coefficient}
-          </li>
-        ))}
-      </ul> */}
       <form onSubmit={handleSubmit} className="calc-form inline-calc-form">
         <div className="form_line">
           <label htmlFor="ukr">Українська мова</label>

@@ -1,4 +1,5 @@
 import { jwt_token } from "../App";
+import applicationsData from "./applications.json";
 
 export async function fetchData(path) {
   if (!jwt_token) {
@@ -6,6 +7,7 @@ export async function fetchData(path) {
   }
 
   try {
+    console.log(path);
     const response = await fetch(`${path}`, {
       method: "GET",
       headers: {
@@ -17,7 +19,7 @@ export async function fetchData(path) {
     if (!response.ok) {
       const errorDetails = await response.text();
       throw new Error(
-        `Network response was not ok: ${response.status} ${response.statusText} - ${errorDetails}`
+        `(fetchData)Network response was not ok: ${response.status} ${response.statusText} - ${errorDetails}`
       );
     }
 
@@ -29,15 +31,15 @@ export async function fetchData(path) {
   }
 }
 
+// Rearrange the parts into from YYYY-MM-DD to DD.MM.YYYY format
 export function formatDate(inputDate) {
-  // Split the input date into year, month, and day
   const parts = inputDate.split("-");
 
-  // Rearrange the parts into DD.MM.YYYY format
   const formattedDate = `${parts[2]}.${parts[1]}.${parts[0]}`;
 
   return formattedDate;
 }
+
 function mapJsonToObject(json, mappingFunction) {
   return mappingFunction(json);
 }
@@ -94,6 +96,162 @@ export function parseOffer(json) {
   };
 }
 
+export function parseApplication(json) {
+  return {
+    id: json.id,
+    student: {
+      id: json.student.id,
+      name: json.student.name,
+    },
+    competitiveOffer: {
+      id: json.competitiveOffer.id,
+      programName: json.competitiveOffer.programName,
+      offerCode: json.competitiveOffer.offerCode,
+      enrolmentBase: json.competitiveOffer.enrolmentBase,
+      educationalLevel: json.competitiveOffer.educationalLevel,
+      speciality: {
+        id: json.competitiveOffer.speciality.id,
+        code: json.competitiveOffer.speciality.code,
+        name: json.competitiveOffer.speciality.name,
+        specialization: json.competitiveOffer.speciality.specialization,
+        isInDemand: json.competitiveOffer.speciality.isInDemand,
+        subjectCoefs: json.competitiveOffer.speciality.subjectCoefs.map(
+          (coef) => ({
+            id: coef.id,
+            subject: coef.subject,
+            coefficient: coef.coefficient,
+          })
+        ),
+      },
+      university: {
+        id: json.competitiveOffer.university.id,
+        code: json.competitiveOffer.university.code,
+        name: json.competitiveOffer.university.name,
+        region: {
+          id: json.competitiveOffer.university.region.id,
+          name: json.competitiveOffer.university.region.name,
+        },
+      },
+      faculty: json.competitiveOffer.faculty,
+      typeOfOffer: json.competitiveOffer.typeOfOffer,
+      formOfEducation: json.competitiveOffer.formOfEducation,
+      enrolledCourse: json.competitiveOffer.enrolledCourse,
+      startOfStudies: json.competitiveOffer.startOfStudies,
+      endOfStudies: json.competitiveOffer.endOfStudies,
+      startOfApplication: json.competitiveOffer.startOfApplication,
+      endOfApplication: json.competitiveOffer.endOfApplication,
+      licenceAmount: json.competitiveOffer.licenceAmount,
+      maxVolumeOfTheStateOrder: json.competitiveOffer.maxVolumeOfTheStateOrder,
+      priceForYear: json.competitiveOffer.priceForYear,
+      totalPrice: json.competitiveOffer.totalPrice,
+      regionalCoefficient: json.competitiveOffer.regionalCoefficient,
+      znoSubjectOptions: json.competitiveOffer.znoSubjectOptions.map(
+        (option) => ({
+          coefficient: option.coefficient,
+          subject: option.subject,
+        })
+      ),
+    },
+    totalScore: json.totalScore,
+    priority: json.priority,
+  };
+}
+
+export const starOffer = (offerData) => {
+  let savedOffers = JSON.parse(localStorage.getItem("savedOffers")) || [];
+
+  const existingOfferIndex = savedOffers.findIndex(
+    (savedOffer) => savedOffer.id === offerData.id
+  );
+
+  if (existingOfferIndex !== -1) {
+    savedOffers[existingOfferIndex] = {
+      ...savedOffers[existingOfferIndex],
+      ...offerData,
+    };
+  } else {
+    savedOffers.push({
+      id: offerData.id,
+      subjects: offerData.subjects || {},
+      optionalSelect: offerData.optionalSelect || null,
+      totalScore: offerData.totalScore || null,
+      place: offerData.place || null,
+    });
+  }
+
+  localStorage.setItem("savedOffers", JSON.stringify(savedOffers));
+};
+
+export const removeStarredOffer = (offerId) => {
+  let savedOffers = JSON.parse(localStorage.getItem("savedOffers")) || [];
+
+  savedOffers = savedOffers.filter((savedOffer) => savedOffer.id !== offerId);
+
+  localStorage.setItem("savedOffers", JSON.stringify(savedOffers));
+};
+
+export function getApplicationsByOfferId(offer_id) {
+  try {
+    const matchingApplications = applicationsData
+      .filter((app) => app.competitiveOffer.id === offer_id)
+      .map((app) => parseApplication(app));
+
+    return matchingApplications;
+  } catch (error) {
+    throw new Error(`Error parsing applications data: ${error.message}`);
+  }
+}
+
+// Example usage:
+// (async () => {
+//   try {
+//     const offerId = 1;
+//     const applications = await getApplicationsByOfferId(offerId);
+
+//     if (applications.length > 0) {
+//       console.log('Applications found:', applications);
+//     } else {
+//       console.log('No applications found for the offer_id.');
+//     }
+//   } catch (error) {
+//     console.error('Error:', error.message);
+//   }
+// })();
+
+export function filterOffers(offers, filters) {
+  let filteredOffers = [...offers];
+
+  console.log("Original offers:", filteredOffers);
+  console.log("Filters:", filters);
+
+  if (filters.university) {
+    filteredOffers = filteredOffers.filter(
+      (offer) => offer.university.id.toString() === filters.university
+    );
+  }
+
+  if (filters.region) {
+    filteredOffers = filteredOffers.filter(
+      (offer) => offer.university.region.id.toString() === filters.region
+    );
+  }
+
+  if (filters.specialty) {
+    filteredOffers = filteredOffers.filter(
+      (offer) => offer.speciality.name.toString() === filters.specialty
+    );
+  }
+
+  if (filters.base) {
+    filteredOffers = filteredOffers.filter(
+      (offer) => offer.enrolmentBase === filters.base
+    );
+  }
+
+  console.log("Filtered offers:", filteredOffers);
+  return filteredOffers;
+}
+
 export function parseUni(json) {
   return {
     id: json.id,
@@ -104,5 +262,15 @@ export function parseUni(json) {
       id: json.region.id,
       name: json.region.name,
     },
+  };
+}
+
+export function parseSpecialty(json) {
+  return {
+    id: json.id,
+    code: json.code,
+    name: json.name,
+    specialization: json.specialization,
+    isInDemand: json.isInDemand,
   };
 }
