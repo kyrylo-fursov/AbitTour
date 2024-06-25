@@ -172,18 +172,25 @@ nav ul {
 }
 
 .competitive-offer {
-  position: relative;
   display: flex;
   background-color: var(--white);
   flex-direction: row;
   justify-content: space-between;
   border-radius: 18px;
-  padding: 0.5rem;
+  padding: 1rem 0;
   transition: background-color 0.3s ease;
 }
 
-.cometitive_offers hr {
-  margin: 1.5rem 0;
+.a_button {
+  margin: 0.5rem 0;
+}
+
+.button_saveoffer {
+  margin-top: 0;
+}
+
+hr {
+  margin: 0.5rem 0;
 }
 
 .competitive-offer_left {
@@ -407,6 +414,8 @@ td {
 }
 
 .button_nofill {
+  display: block;
+  width: 100%;
   background-color: white;
   color: var(--text-black);
   font-weight: 500;
@@ -414,7 +423,9 @@ td {
   transition: ease-in-out 0.3s;
 }
 
-.button_nofill:hover {
-  background-color: var(--highlight-blue);
-  color: white;
+.button_nofill:hover,
+.button_nofill_active {
+  /* background-color: var(--highlight-blue); */
+  color: var(--highlight-blue);
+  text-decoration: underline;
 }

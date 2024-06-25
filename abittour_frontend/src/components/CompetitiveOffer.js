@@ -7,7 +7,8 @@ import {
   parseJsonList,
   formatDate,
   filterOffers,
-  parseSpecialty,
+  starOffer,
+  removeStarredOffer,
 } from "../utils/utils";
 import { subjectNames, mapToNiceNames, mainSubjects } from "../utils/mappings";
 
@@ -29,8 +30,6 @@ export function CompetitiveOffers({ filterParams }) {
         const filteredOffers = filterOffers(parsedOffers, filterParams);
 
         setOffers(filteredOffers);
-        console.log("filtered offers set");
-        console.log(filteredOffers);
         setLoading(false);
       } catch (error) {
         setError(error);
@@ -139,6 +138,29 @@ export function CompetitiveOffers({ filterParams }) {
 
 export function CompetitiveOfferCard({ offerToDisplay }) {
   const offer = mapToNiceNames(offerToDisplay);
+  const [isSaved, setIsSaved] = useState(false);
+
+  useEffect(() => {
+    const savedOffers = JSON.parse(localStorage.getItem("savedOffers")) || [];
+    setIsSaved(savedOffers.some((savedOffer) => savedOffer.id === offer.id));
+  }, [offer.id]);
+
+  const toggleSaveOffer = () => {
+    let savedOffers = JSON.parse(localStorage.getItem("savedOffers")) || [];
+
+    if (isSaved) {
+      // Remove offer
+      savedOffers = savedOffers.filter(
+        (savedOffer) => savedOffer.id !== offer.id
+      );
+    } else {
+      // Save offer
+      savedOffers.push({ id: offer.id, grades: {} }); // Save with empty grades initially
+    }
+
+    localStorage.setItem("savedOffers", JSON.stringify(savedOffers));
+    setIsSaved(!isSaved);
+  };
 
   return (
     <div className="competitive-offer competitive-offer_compact dynamic-section">
@@ -167,13 +189,20 @@ export function CompetitiveOfferCard({ offerToDisplay }) {
         </div>
       </div>
       <div className="competitive-offer_right">
-        <p>Макс. кількість бюджетних місць: {offer.maxVolumeOfTheStateOrder}</p>
+        <p>Кількість бюджетних місць: {offer.maxVolumeOfTheStateOrder}</p>
         <p>Загальна кількість місць: {offer.licenceAmount}</p>
         <ToggleableSubjectList buttonText={"Складові конкурсного балу"} />
         <Link to={`/${offer.id}`} className="button-default a_button">
           Детальніше
         </Link>
-        <button className="button-default button_nofill">Зберегти</button>
+        <button
+          className={`button-default ${
+            isSaved ? "button_nofill button_nofill_active" : "button_nofill"
+          } button_saveoffer`}
+          onClick={toggleSaveOffer}
+        >
+          {isSaved ? "Збережено" : "Зберегти"}
+        </button>
       </div>
     </div>
   );
@@ -181,6 +210,30 @@ export function CompetitiveOfferCard({ offerToDisplay }) {
 
 export function CompetitiveOfferCardFull({ offerToDisplay }) {
   const offer = mapToNiceNames(offerToDisplay);
+  const [isSaved, setIsSaved] = useState(false);
+
+  useEffect(() => {
+    const savedOffers = JSON.parse(localStorage.getItem("savedOffers")) || [];
+    setIsSaved(savedOffers.some((savedOffer) => savedOffer.id === offer.id));
+  }, [offer.id]);
+
+  const toggleSaveOffer = () => {
+    if (isSaved) {
+      // Remove offer from localStorage
+      removeStarredOffer(offer.id);
+    } else {
+      // Save or update offer in localStorage
+      starOffer({
+        id: offer.id,
+        subjects: {}, // Replace with actual form values as needed
+        totalScore: 999, // Replace with actual calculation result
+        place: 999, // Replace with actual place value
+      });
+    }
+
+    setIsSaved(!isSaved); // Toggle the saved state after saving or removing
+  };
+
   return (
     <div className="competitive-offer competitive-offer_compact dynamic-section">
       <div className="competitive-offer_left">
@@ -227,6 +280,115 @@ export function CompetitiveOfferCardFull({ offerToDisplay }) {
       <div className="competitive-offer_right">
         <p className="subj-coeff_title">Складові КБ</p>
         <SubjectCoefs offer={offer}></SubjectCoefs>
+        <button
+          className={`button-default ${
+            isSaved ? "button_nofill button_nofill_active" : "button_nofill"
+          } button_saveoffer`}
+          onClick={toggleSaveOffer}
+        >
+          {isSaved ? "Збережено" : "Зберегти"}
+        </button>
+      </div>
+    </div>
+  );
+}
+export function StarredCompetitiveOfferCard({ offerToDisplay }) {
+  const offer = mapToNiceNames(offerToDisplay);
+  const [isSaved, setIsSaved] = useState(false);
+  const [savedOfferDetails, setSavedOfferDetails] = useState({
+    totalScore: null,
+    place: null,
+  });
+
+  useEffect(() => {
+    const savedOffers = JSON.parse(localStorage.getItem("savedOffers")) || [];
+    const savedOffer = savedOffers.find(
+      (savedOffer) => savedOffer.id === offer.id
+    );
+    setIsSaved(!!savedOffer);
+
+    if (savedOffer) {
+      setSavedOfferDetails({
+        totalScore: savedOffer.totalScore || null,
+        place: savedOffer.place || null,
+      });
+    }
+  }, [offer.id]);
+
+  const toggleSaveOffer = () => {
+    if (isSaved) {
+      // Remove offer from localStorage
+      removeStarredOffer(offer.id);
+      setSavedOfferDetails({
+        totalScore: null,
+        place: null,
+      });
+    } else {
+      // Save or update offer in localStorage
+      starOffer({
+        id: offer.id,
+        subjects: {}, // Replace with actual form values as needed
+        totalScore: 999, // Replace with actual calculation result
+        place: 999, // Replace with actual place value
+      });
+      setSavedOfferDetails({
+        totalScore: 999,
+        place: 999,
+      });
+    }
+
+    setIsSaved(!isSaved); // Toggle the saved state after saving or removing
+  };
+
+  return (
+    <div className="competitive-offer competitive-offer_compact dynamic-section">
+      <div className="competitive-offer_left">
+        <div className="competitive-offer_specs">
+          <span>{offer.educationalLevel}</span>
+          <span>|</span>
+          <span>{offer.formOfEducation}</span>
+          <span>|</span>
+          <span>{offer.enrolmentBase}</span>
+          <span>|</span>
+          <span>2024</span>
+        </div>
+        <div className="competitive-offer_desc">
+          <div>
+            <span className="competitive-offer_spec-code">
+              {offer.speciality.code}
+            </span>
+            <span className="competitive-offer_spec-name">
+              {offer.speciality.name}
+            </span>
+          </div>
+          <p className="competitive-offer_program">{offer.programName}</p>
+          <p className="competitive-offer_inst">{offer.university.name}</p>
+          <p className="competitive-offer_faculty">{offer.faculty}</p>
+        </div>
+      </div>
+      <div className="competitive-offer_right">
+        {savedOfferDetails.totalScore && (
+          <p>
+            <strong>Ваш КБ: {savedOfferDetails.totalScore}</strong>
+          </p>
+        )}
+        {savedOfferDetails.place && (
+          <p>
+            <strong>Місце в рейтингу: {savedOfferDetails.place}</strong>
+          </p>
+        )}
+        <ToggleableSubjectList buttonText={"Складові конкурсного балу"} />
+        <Link to={`/${offer.id}`} className="button-default a_button">
+          Детальніше
+        </Link>
+        <button
+          className={`button-default ${
+            isSaved ? "button_nofill button_nofill_active" : "button_nofill"
+          } button_saveoffer`}
+          onClick={toggleSaveOffer}
+        >
+          {isSaved ? "Збережено" : "Зберегти"}
+        </button>
       </div>
     </div>
   );

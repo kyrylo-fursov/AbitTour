@@ -1,17 +1,11 @@
 import React, { useState, useEffect } from "react";
-import {
-  subjectNames,
-  eduLvlNames,
-  enrollmentBaseNamesm,
-  eduFormNames,
-  mapToNiceNames,
-  mainSubjects,
-} from "../utils/mappings";
+import { subjectNames, mapToNiceNames, mainSubjects } from "../utils/mappings";
+
+import { starOffer, removeStarredOffer } from "../utils/utils";
 
 export const InlineCalculator = ({ offer }) => {
   if (!offer) return null;
 
-  // Map offer to nice names
   offer = mapToNiceNames(offer);
 
   return (
@@ -45,6 +39,30 @@ const Calc = ({ offer }) => {
   const [error, setError] = useState(null);
   const [result, setResult] = useState(null);
 
+  // Function to check if offer is saved and load saved data
+  const loadSavedData = () => {
+    const savedOffers = JSON.parse(localStorage.getItem("savedOffers")) || [];
+    const savedOffer = savedOffers.find(
+      (savedOffer) => savedOffer.id === offer.id
+    );
+
+    if (savedOffer) {
+      setFormData({
+        ukr: savedOffer.subjects.ukr || "",
+        math: savedOffer.subjects.math || "",
+        history: savedOffer.subjects.history || "",
+        optional_subj_select: savedOffer.subjects.optional_subj || "",
+        efvv: savedOffer.subjects.efvv || "0",
+        ou: savedOffer.subjects.ou || "0",
+        ukr_coeff: formData.ukr_coeff,
+        math_coeff: formData.math_coeff,
+        history_coeff: formData.history_coeff,
+        optional_subj_coeff: formData.optional_subj_coeff,
+        efvv_coeff: savedOffer.subjects.efvv_coeff || "0",
+      });
+    }
+  };
+
   // Set initial state using the offer prop
   useEffect(() => {
     if (offer) {
@@ -75,6 +93,9 @@ const Calc = ({ offer }) => {
         history_coeff: historyCoeff || prevFormData.history_coeff,
         optional_subj_coeff: prevFormData.optional_subj_coeff,
       }));
+
+      // Load saved data on component mount
+      loadSavedData();
     }
   }, [offer]);
 
@@ -155,20 +176,30 @@ const Calc = ({ offer }) => {
 
     const result = Math.min(total, 200).toFixed(2);
     setResult(result);
+
+    // Save the form data to localStorage
+    starOffer({
+      id: offer.id,
+      subjects: {
+        ukr,
+        math,
+        history,
+        optional_subj,
+        efvv,
+        ou,
+        ukr_coeff,
+        math_coeff,
+        history_coeff,
+        optional_subj_coeff,
+        efvv_coeff,
+      },
+    });
   };
 
   if (error) return <div>Error: {error.message}</div>;
 
   return (
     <div>
-      {/* <p>Коефіцієнти предметів:</p>
-      <ul>
-        {offer.speciality.subjectCoefs.map((coef) => (
-          <li key={coef.id}>
-            {coef.subject}: {coef.coefficient}
-          </li>
-        ))}
-      </ul> */}
       <form onSubmit={handleSubmit} className="calc-form inline-calc-form">
         <div className="form_line">
           <label htmlFor="ukr">Українська мова</label>

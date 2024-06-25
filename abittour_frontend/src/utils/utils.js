@@ -157,6 +157,47 @@ export function parseApplication(json) {
   };
 }
 
+// Function to save or update an offer in localStorage
+export const starOffer = (offerData) => {
+  // Retrieve current savedOffers or initialize empty array
+  let savedOffers = JSON.parse(localStorage.getItem("savedOffers")) || [];
+
+  // Check if the offer already exists in savedOffers
+  const existingOfferIndex = savedOffers.findIndex(
+    (savedOffer) => savedOffer.id === offerData.id
+  );
+
+  if (existingOfferIndex !== -1) {
+    // If offer exists, update its fields
+    savedOffers[existingOfferIndex] = {
+      ...savedOffers[existingOfferIndex],
+      ...offerData,
+    };
+  } else {
+    // If offer does not exist, add it to savedOffers
+    savedOffers.push({
+      id: offerData.id,
+      subjects: offerData.subjects || {},
+      totalScore: offerData.totalScore || null,
+      place: offerData.place || null,
+    });
+  }
+
+  // Save updated savedOffers back to localStorage
+  localStorage.setItem("savedOffers", JSON.stringify(savedOffers));
+};
+
+export const removeStarredOffer = (offerId) => {
+  // Retrieve current savedOffers or initialize empty array
+  let savedOffers = JSON.parse(localStorage.getItem("savedOffers")) || [];
+
+  // Filter out the offer with the provided ID
+  savedOffers = savedOffers.filter((savedOffer) => savedOffer.id !== offerId);
+
+  // Save updated savedOffers back to localStorage
+  localStorage.setItem("savedOffers", JSON.stringify(savedOffers));
+};
+
 export function getApplicationsByOfferId(offer_id) {
   try {
     const matchingApplications = applicationsData
