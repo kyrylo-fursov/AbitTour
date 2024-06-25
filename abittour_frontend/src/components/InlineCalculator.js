@@ -3,20 +3,22 @@ import { subjectNames, mapToNiceNames, mainSubjects } from "../utils/mappings";
 
 import { starOffer, getApplicationsByOfferId } from "../utils/utils";
 
-export const InlineCalculator = ({ offer, appl }) => {
+export const InlineCalculator = ({ offer, applications }) => {
   if (!offer) return null;
 
   offer = mapToNiceNames(offer);
 
+  // Adjust to use 'applications' directly
   return (
     <details className="calc_details details_inline_calc">
       <summary className="calc_details-summary inline_calc-summary">
         Розрахувати КБ для цієї пропозиції
       </summary>
-      <Calc offer={offer} applications={appl} />
+      <Calc offer={offer} applications={applications} />
     </details>
   );
 };
+
 const Calc = ({ offer, applications }) => {
   const [formData, setFormData] = useState({
     ukr: "",

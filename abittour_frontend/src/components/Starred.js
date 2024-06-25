@@ -34,10 +34,9 @@ export const StarredPage = () => {
   }, []);
 
   const handleRemoveOffer = (offerId) => {
-    let savedOffers = JSON.parse(localStorage.getItem("savedOffers")) || [];
-    savedOffers = savedOffers.filter((savedOffer) => savedOffer.id !== offerId);
-    localStorage.setItem("savedOffers", JSON.stringify(savedOffers));
-    window.location.reload(); // Reload the page
+    setOffers((prevOffers) =>
+      prevOffers.filter((offer) => offer.id !== offerId)
+    );
   };
 
   if (loading) {

@@ -9,7 +9,6 @@ import {
   parseOffer,
   getApplicationsByOfferId,
 } from "../utils/utils";
-
 export const OfferPage = () => {
   const { id } = useParams();
   const [offer, setOffer] = useState(null);
@@ -81,7 +80,7 @@ export const OfferPage = () => {
       {offer && <CompetitiveOfferCardFull offerToDisplay={offer} />}
       <InlineCalculator
         offer={offer}
-        applications={applications}
+        applications={applications} // Pass applications here
         setApplications={setApplications}
       />
       <h1>Конкурсні заявки</h1>

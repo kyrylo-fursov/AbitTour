@@ -293,7 +293,7 @@ export function CompetitiveOfferCardFull({ offerToDisplay }) {
 }
 
 // TODO: fix this
-export function StarredCompetitiveOfferCard({ offerToDisplay }) {
+export function StarredCompetitiveOfferCard({ offerToDisplay, onRemoveOffer }) {
   const offer = mapToNiceNames(offerToDisplay);
   const [isSaved, setIsSaved] = useState(false);
   const [savedOfferDetails, setSavedOfferDetails] = useState({
@@ -316,29 +316,14 @@ export function StarredCompetitiveOfferCard({ offerToDisplay }) {
     }
   }, [offer.id]);
 
-  const toggleSaveOffer = (formValues, totalScore, place) => {
-    if (isSaved) {
-      // Remove offer from localStorage
-      removeStarredOffer(offer.id);
-      setSavedOfferDetails({
-        totalScore: null,
-        place: null,
-      });
-    } else {
-      // Save or update offer in localStorage
-      starOffer({
-        id: offer.id,
-        subjects: formValues, // Replace with actual form values
-        totalScore: totalScore, // Replace with actual calculation result
-        place: place, // Replace with actual place value
-      });
-      setSavedOfferDetails({
-        totalScore: totalScore,
-        place: place,
-      });
-    }
-
-    setIsSaved(!isSaved); // Toggle the saved state after saving or removing
+  const handleDeleteOffer = () => {
+    removeStarredOffer(offer.id); // Remove offer from localStorage
+    setSavedOfferDetails({
+      totalScore: null,
+      place: null,
+    });
+    setIsSaved(false); // Update saved state to false
+    onRemoveOffer(offer.id); // Notify parent component to remove this offer from the list
   };
 
   return (
@@ -381,14 +366,14 @@ export function StarredCompetitiveOfferCard({ offerToDisplay }) {
         <Link to={`/${offer.id}`} className="button-default a_button">
           Детальніше
         </Link>
-        <button
-          className={`button-default ${
-            isSaved ? "button_nofill button_nofill_active" : "button_nofill"
-          } button_saveoffer`}
-          onClick={toggleSaveOffer}
-        >
-          {isSaved ? "Збережено" : "Зберегти"}
-        </button>
+        {isSaved && (
+          <button
+            className="button-default button_nofill button_nofill_active button_deleteoffer"
+            onClick={handleDeleteOffer}
+          >
+            Видалити
+          </button>
+        )}
       </div>
     </div>
   );
