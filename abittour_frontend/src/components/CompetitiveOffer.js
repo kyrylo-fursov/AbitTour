@@ -191,7 +191,6 @@ export function CompetitiveOfferCard({ offerToDisplay }) {
       <div className="competitive-offer_right">
         <p>Кількість бюджетних місць: {offer.maxVolumeOfTheStateOrder}</p>
         <p>Загальна кількість місць: {offer.licenceAmount}</p>
-        <ToggleableSubjectList buttonText={"Складові конкурсного балу"} />
         <Link to={`/${offer.id}`} className="button-default a_button">
           Детальніше
         </Link>
@@ -292,6 +291,8 @@ export function CompetitiveOfferCardFull({ offerToDisplay }) {
     </div>
   );
 }
+
+// TODO: fix this
 export function StarredCompetitiveOfferCard({ offerToDisplay }) {
   const offer = mapToNiceNames(offerToDisplay);
   const [isSaved, setIsSaved] = useState(false);
@@ -315,7 +316,7 @@ export function StarredCompetitiveOfferCard({ offerToDisplay }) {
     }
   }, [offer.id]);
 
-  const toggleSaveOffer = () => {
+  const toggleSaveOffer = (formValues, totalScore, place) => {
     if (isSaved) {
       // Remove offer from localStorage
       removeStarredOffer(offer.id);
@@ -327,13 +328,13 @@ export function StarredCompetitiveOfferCard({ offerToDisplay }) {
       // Save or update offer in localStorage
       starOffer({
         id: offer.id,
-        subjects: {}, // Replace with actual form values as needed
-        totalScore: 999, // Replace with actual calculation result
-        place: 999, // Replace with actual place value
+        subjects: formValues, // Replace with actual form values
+        totalScore: totalScore, // Replace with actual calculation result
+        place: place, // Replace with actual place value
       });
       setSavedOfferDetails({
-        totalScore: 999,
-        place: 999,
+        totalScore: totalScore,
+        place: place,
       });
     }
 
@@ -377,7 +378,6 @@ export function StarredCompetitiveOfferCard({ offerToDisplay }) {
             <strong>Місце в рейтингу: {savedOfferDetails.place}</strong>
           </p>
         )}
-        <ToggleableSubjectList buttonText={"Складові конкурсного балу"} />
         <Link to={`/${offer.id}`} className="button-default a_button">
           Детальніше
         </Link>
@@ -439,36 +439,3 @@ const SubjectCoefs = ({ offer }) => {
     </div>
   );
 };
-const ToggleableSubjectList = ({ buttonText }) => {
-  // const [showSubjectList, setShowSubjectList] = useState(false);
-  // const subjectRef = useClickOutside(() => setShowSubjectList(false));
-  // return (
-  //   <>
-  //     <p onClick={() => setShowSubjectList(!showSubjectList)}>{buttonText}</p>
-  //     {showSubjectList &&
-  //       ReactDOM.createPortal(
-  //         <div ref={subjectRef} className="subject-list-container">
-  //           <SubjectList />
-  //         </div>,
-  //         document.body
-  //       )}
-  //   </>
-  // );
-};
-
-// const useClickOutside = (handler) => {
-//   const ref = useRef(null);
-//   useEffect(() => {
-//     const handleClickOutside = (event) => {
-//       if (ref.current && !ref.current.contains(event.target)) {
-//         handler();
-//       }
-//     };
-//     document.addEventListener("mousedown", handleClickOutside);
-//     return () => {
-//       document.removeEventListener("mousedown", handleClickOutside);
-//     };
-//   }, [handler]);
-
-//   return ref;
-// };

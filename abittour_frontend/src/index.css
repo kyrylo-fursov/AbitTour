@@ -429,3 +429,9 @@ td {
   color: var(--highlight-blue);
   text-decoration: underline;
 }
+
+.applications-user-row {
+  background-color: var(--highlight-blue);
+  color: white;
+  border-radius: 18px;
+}
