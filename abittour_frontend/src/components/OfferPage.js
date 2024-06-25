@@ -84,10 +84,8 @@ export const OfferPage = () => {
     <div className="section-wrapper">
       <h1>Конкурсна пропозиція</h1>
       {offer && <CompetitiveOfferCardFull offerToDisplay={offer} />}
-
-      {/* Integrate the Calc component with necessary props */}
-      <InlineCalculator offer={offer} setApplications={handleSetApplications} />
-
+      Integrate the Calc component with necessary props
+      <InlineCalculator offer={offer} setApplications={setApplications} />
       <h1>Конкурсні заявки</h1>
       <ApplicantsTable applications={applications} />
     </div>

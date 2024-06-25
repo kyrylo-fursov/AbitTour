@@ -159,7 +159,6 @@ const Calc = ({ offer, setApplications }) => {
       const userApplication = {
         student: { name: "Ви" }, // Adjust as necessary
         totalScore: parseFloat(result),
-        priority: 0, // Adjust as necessary
       };
       apps.push(userApplication);
       apps.sort((a, b) => b.totalScore - a.totalScore);
@@ -184,6 +183,7 @@ const Calc = ({ offer, setApplications }) => {
         totalScore: result,
         place: place,
       });
+      setApplications([...apps]); // Update applications in the parent component
     } else {
       console.error("applications is not defined or not iterable");
     }

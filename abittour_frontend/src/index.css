@@ -332,15 +332,44 @@ hr {
 .applicants-table {
   width: 100%;
   border-collapse: collapse;
-}
-
-tr {
-  border-bottom: 0.5rem solid white;
-  border-radius: 18px;
+  /* border: 1px solid #ccc; */
 }
 
 td {
   padding: 0.5rem;
+}
+
+th {
+  padding: 0.5rem;
+}
+
+.applicants-table th {
+  text-align: left;
+}
+
+.applications-user-row {
+  font-weight: 500;
+  color: var(--highlight-blue);
+}
+
+.applicants-table td {
+  /* padding: 8px; */
+  text-align: left;
+  /* border: 1px solid #ddd; */
+}
+
+.applicants-table td:first-child {
+  text-align: right;
+}
+
+.applicants-table tr {
+  /* border-bottom: 0.5rem solid white; */
+  /* border-radius: 18px; */
+  margin-bottom: 10rem;
+}
+
+.applicants-table th:first-child {
+  text-align: right;
 }
 
 .details_inline_calc {
@@ -429,12 +458,6 @@ td {
   /* background-color: var(--highlight-blue); */
   color: var(--highlight-blue);
   text-decoration: underline;
-}
-
-.applications-user-row {
-  background-color: var(--highlight-blue);
-  color: white;
-  border-radius: 18px;
 }
 
 .button_deleteoffer {
