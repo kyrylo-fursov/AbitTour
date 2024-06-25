@@ -56,7 +56,9 @@ export const OfferPage = () => {
           fetchedApplications.sort((a, b) => b.totalScore - a.totalScore);
         }
 
-        setApplications(fetchedApplications);
+        setApplications(
+          fetchedApplications.sort((a, b) => b.totalScore - a.totalScore)
+        );
       } catch (error) {
         setError(error);
       } finally {
@@ -84,7 +86,6 @@ export const OfferPage = () => {
     <div className="section-wrapper">
       <h1>Конкурсна пропозиція</h1>
       {offer && <CompetitiveOfferCardFull offerToDisplay={offer} />}
-      Integrate the Calc component with necessary props
       <InlineCalculator offer={offer} setApplications={setApplications} />
       <h1>Конкурсні заявки</h1>
       <ApplicantsTable applications={applications} />
@@ -103,8 +104,8 @@ export const ApplicantsTable = ({ applications }) => {
         <thead>
           <tr>
             <th>#</th>
-            <th>Ім'я студента</th>
-            <th>Загальний бал</th>
+            <th>ПІБ</th>
+            <th>Конкурсний бал</th>
             <th>Пріоритет</th>
           </tr>
         </thead>
@@ -126,7 +127,6 @@ const ApplicantRow = ({ applicant, index }) =>
       <td>{index}</td>
       <td>{applicant.student.name}</td>
       <td>{applicant.totalScore}</td>
-      {/* Display priority as blank if name is "В" */}
       <td>{applicant.student.name !== "Ви" ? applicant.priority : ""}</td>
     </tr>
   );
