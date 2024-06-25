@@ -103,8 +103,8 @@ export const ApplicantsTable = ({ applications }) => {
         <thead>
           <tr>
             <th>#</th>
-            <th>Ім'я студента</th>
-            <th>Загальний бал</th>
+            <th>ПІБ</th>
+            <th>Конкурсний бал</th>
             <th>Пріоритет</th>
           </tr>
         </thead>
