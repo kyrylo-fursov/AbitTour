@@ -47,24 +47,26 @@ export const StarredPage = () => {
     return <div className="loading-screen">Error: {error.message}</div>;
   }
 
-  if (offers.length === 0) {
-    return <div className="loading-screen">No saved offers found.</div>;
-  }
-
   return (
     <div className="starred-page section-wrapper">
       <h1>Збережені пропозиції</h1>
       <div className="offers-list">
-        {offers.map((offer) => (
-          <React.Fragment key={offer.id}>
-            <StarredCompetitiveOfferCard
-              key={offer.id}
-              offerToDisplay={offer}
-              onRemoveOffer={handleRemoveOffer}
-            />
-            <hr />
-          </React.Fragment>
-        ))}
+        {offers.length === 0 ? (
+          <div className="empty-list-message loading-screen">
+            Список порожній
+          </div>
+        ) : (
+          offers.map((offer) => (
+            <React.Fragment key={offer.id}>
+              <StarredCompetitiveOfferCard
+                key={offer.id}
+                offerToDisplay={offer}
+                onRemoveOffer={handleRemoveOffer}
+              />
+              <hr />
+            </React.Fragment>
+          ))
+        )}
       </div>
     </div>
   );

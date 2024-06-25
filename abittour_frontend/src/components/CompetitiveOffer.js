@@ -155,7 +155,7 @@ export function CompetitiveOfferCard({ offerToDisplay }) {
       );
     } else {
       // Save offer
-      savedOffers.push({ id: offer.id, grades: {} }); // Save with empty grades initially
+      savedOffers.push({ id: offer.id }); // Save with empty grades initially
     }
 
     localStorage.setItem("savedOffers", JSON.stringify(savedOffers));
@@ -200,7 +200,10 @@ export function CompetitiveOfferCard({ offerToDisplay }) {
           } button_saveoffer`}
           onClick={toggleSaveOffer}
         >
-          {isSaved ? "Збережено" : "Зберегти"}
+          <span className="button-text">
+            {isSaved ? "Збережено" : "Зберегти"}
+          </span>
+          <span className="button-hover-text">Видалити</span>
         </button>
       </div>
     </div>
@@ -225,8 +228,6 @@ export function CompetitiveOfferCardFull({ offerToDisplay }) {
       starOffer({
         id: offer.id,
         subjects: {}, // Replace with actual form values as needed
-        totalScore: 999, // Replace with actual calculation result
-        place: 999, // Replace with actual place value
       });
     }
 
@@ -353,14 +354,16 @@ export function StarredCompetitiveOfferCard({ offerToDisplay, onRemoveOffer }) {
         </div>
       </div>
       <div className="competitive-offer_right">
-        {savedOfferDetails.totalScore && (
+        {savedOfferDetails && (
           <p>
-            <strong>Ваш КБ: {savedOfferDetails.totalScore}</strong>
+            <strong>Ваш КБ: {savedOfferDetails.totalScore ?? "н/д"}</strong>
           </p>
         )}
-        {savedOfferDetails.place && (
+        {savedOfferDetails && (
           <p>
-            <strong>Місце в рейтингу: {savedOfferDetails.place}</strong>
+            <strong>
+              Місце в рейтингу: {savedOfferDetails.place ?? "н/д"}
+            </strong>
           </p>
         )}
         <Link to={`/${offer.id}`} className="button-default a_button">
@@ -371,7 +374,8 @@ export function StarredCompetitiveOfferCard({ offerToDisplay, onRemoveOffer }) {
             className="button-default button_nofill button_nofill_active button_deleteoffer"
             onClick={handleDeleteOffer}
           >
-            Видалити
+            <span className="button-text">Збережено</span>
+            <span className="button-hover-text">Видалити</span>
           </button>
         )}
       </div>
@@ -384,16 +388,13 @@ const SubjectCoefs = ({ offer }) => {
     return null; // Handle case where offer or subjectCoefs is undefined/null
   }
 
-  // Map the subject coefficients and translate their names
   const mappedCoefs = offer.subjectCoefs.map((coef) => ({
     subject: subjectNames[coef.subject] || coef.subject,
     coefficient: coef.coefficient,
   }));
 
-  // Convert mainSubjects object keys into an array
   const mainSubjectsKeys = Object.keys(mainSubjects);
 
-  // Separate subjects into main and optional based on mainSubjects keys
   const mainCoefs = [];
   const optionalCoefs = [];
 

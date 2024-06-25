@@ -336,6 +336,7 @@ hr {
 
 tr {
   border-bottom: 0.5rem solid white;
+  border-radius: 18px;
 }
 
 td {
@@ -434,4 +435,20 @@ td {
   background-color: var(--highlight-blue);
   color: white;
   border-radius: 18px;
+}
+
+.button_deleteoffer {
+  position: relative;
+}
+
+.button-hover-text {
+  display: none;
+}
+
+.button_deleteoffer:hover .button-text {
+  display: none;
+}
+
+.button_deleteoffer:hover .button-hover-text {
+  display: inline;
 }

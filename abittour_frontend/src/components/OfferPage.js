@@ -9,6 +9,7 @@ import {
   parseOffer,
   getApplicationsByOfferId,
 } from "../utils/utils";
+
 export const OfferPage = () => {
   const { id } = useParams();
   const [offer, setOffer] = useState(null);
@@ -21,7 +22,7 @@ export const OfferPage = () => {
     const fetchOffer = async () => {
       try {
         const fetchedData = await fetchData(`/competitive-offers/${id}`);
-        const parsedOffer = parseOffer(fetchedData);
+        const parsedOffer = parseOffer(fetchedData); // Ensure you have parseOffer function defined
         setOffer(parsedOffer);
       } catch (error) {
         setError(error);
@@ -49,7 +50,7 @@ export const OfferPage = () => {
           const userApplication = {
             student: { name: "Ви" }, // Adjust as necessary
             totalScore: savedOffer.totalScore,
-            priority: savedOffer.place,
+            place: savedOffer.place,
           };
           fetchedApplications.push(userApplication);
           fetchedApplications.sort((a, b) => b.totalScore - a.totalScore);
@@ -66,6 +67,11 @@ export const OfferPage = () => {
     fetchApplications();
   }, [id]);
 
+  // Function to handle setting applications
+  const handleSetApplications = (newApplications) => {
+    setApplications(newApplications);
+  };
+
   if (loading) {
     return <div className="loading-screen">Loading...</div>;
   }
@@ -78,16 +84,16 @@ export const OfferPage = () => {
     <div className="section-wrapper">
       <h1>Конкурсна пропозиція</h1>
       {offer && <CompetitiveOfferCardFull offerToDisplay={offer} />}
-      <InlineCalculator
-        offer={offer}
-        applications={applications} // Pass applications here
-        setApplications={setApplications}
-      />
+
+      {/* Integrate the Calc component with necessary props */}
+      <InlineCalculator offer={offer} setApplications={handleSetApplications} />
+
       <h1>Конкурсні заявки</h1>
       <ApplicantsTable applications={applications} />
     </div>
   );
 };
+
 export const ApplicantsTable = ({ applications }) => {
   if (!applications || applications.length === 0) {
     return <div>No applications found.</div>;
@@ -114,13 +120,15 @@ export const ApplicantsTable = ({ applications }) => {
   );
 };
 
-const ApplicantRow = ({ applicant, index }) => (
-  <tr
-    className={applicant.student.name === "Ви" ? "applications-user-row" : ""}
-  >
-    <td>{index}</td>
-    <td>{applicant.student.name}</td>
-    <td>{applicant.totalScore}</td>
-    <td>{applicant.priority}</td>
-  </tr>
-);
+const ApplicantRow = ({ applicant, index }) =>
+  applicant.totalScore && (
+    <tr
+      className={applicant.student.name === "Ви" ? "applications-user-row" : ""}
+    >
+      <td>{index}</td>
+      <td>{applicant.student.name}</td>
+      <td>{applicant.totalScore}</td>
+      {/* Display priority as blank if name is "В" */}
+      <td>{applicant.student.name !== "Ви" ? applicant.priority : ""}</td>
+    </tr>
+  );

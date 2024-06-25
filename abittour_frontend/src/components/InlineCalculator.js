@@ -3,23 +3,22 @@ import { subjectNames, mapToNiceNames, mainSubjects } from "../utils/mappings";
 
 import { starOffer, getApplicationsByOfferId } from "../utils/utils";
 
-export const InlineCalculator = ({ offer, applications }) => {
+export const InlineCalculator = ({ offer, setApplications }) => {
   if (!offer) return null;
 
   offer = mapToNiceNames(offer);
 
-  // Adjust to use 'applications' directly
   return (
     <details className="calc_details details_inline_calc">
       <summary className="calc_details-summary inline_calc-summary">
         Розрахувати КБ для цієї пропозиції
       </summary>
-      <Calc offer={offer} applications={applications} />
+      <Calc offer={offer} setApplications={setApplications} />
     </details>
   );
 };
 
-const Calc = ({ offer, applications }) => {
+const Calc = ({ offer, setApplications }) => {
   const [formData, setFormData] = useState({
     ukr: "",
     ukr_coeff: "1",
@@ -27,7 +26,7 @@ const Calc = ({ offer, applications }) => {
     math_coeff: "1",
     history: "",
     history_coeff: "1",
-    optional_subj_select: "", // This will hold the selected optional subject from localStorage
+    optional_subj_select: "",
     optional_subj: "",
     optional_subj_coeff: "0",
     efvv: "0",
@@ -51,7 +50,7 @@ const Calc = ({ offer, applications }) => {
       const savedOffers = JSON.parse(localStorage.getItem("savedOffers")) || [];
       const savedOffer = savedOffers.find((saved) => saved.id === offer.id);
 
-      if (savedOffer) {
+      if (savedOffer?.subjects) {
         setFormData((prevFormData) => ({
           ...prevFormData,
           ukr: savedOffer.subjects.ukr || "",
@@ -162,13 +161,10 @@ const Calc = ({ offer, applications }) => {
         totalScore: parseFloat(result),
         priority: 0, // Adjust as necessary
       };
-
       apps.push(userApplication);
       apps.sort((a, b) => b.totalScore - a.totalScore);
-      const userPlace = apps.findIndex((app) => app.student.name === "Ви") + 1;
-      let place = userPlace; // Adjust as necessary based on your application logic
+      const place = apps.findIndex((app) => app.student.name === "Ви") + 1;
 
-      // Call starOffer to save all data including optional_subj_select
       starOffer({
         id: offer.id,
         subjects: {
