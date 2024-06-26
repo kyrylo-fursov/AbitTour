@@ -372,6 +372,10 @@ th {
   text-align: right;
 }
 
+.applicants-table th {
+  border-bottom: 1px solid var(--gray);
+}
+
 .details_inline_calc {
   border: 1px solid var(--gray);
   border-radius: 18px;

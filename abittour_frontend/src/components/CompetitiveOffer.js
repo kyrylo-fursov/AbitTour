@@ -280,14 +280,14 @@ export function CompetitiveOfferCardFull({ offerToDisplay }) {
       <div className="competitive-offer_right">
         <p className="subj-coeff_title">Складові КБ</p>
         <SubjectCoefs offer={offer}></SubjectCoefs>
-        <button
+        {/* <button
           className={`button-default ${
             isSaved ? "button_nofill button_nofill_active" : "button_nofill"
           } button_saveoffer`}
           onClick={toggleSaveOffer}
         >
           {isSaved ? "Збережено" : "Зберегти"}
-        </button>
+        </button> */}
       </div>
     </div>
   );
